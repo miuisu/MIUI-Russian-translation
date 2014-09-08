@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="performances">
+        <item>Плавность</item>
+        <item>Производительность</item>
+        <item>Энергосбережение</item>
+        <item>Сохранение приоритета</item>
+        <item>Максимальное энергосбережение</item>
+    </string-array>
+    <string-array name="ram">
+        <item>1G рекомендуемая</item>
+        <item>1G расширенная</item>
+        <item>2G рекомендуемая</item>
+        <item>2G расширенная</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Передача данных выкл. на %s мин.</item>
+        <item quantity="one">Передача данных выкл. на %s мин.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Телефон будет находиться в режиме экстренного ожидания входящего вызова еще %s мин. В этом режиме нельзя использовать приложения, задействующие передачу данных. Выключить режим?</item>
+        <item quantity="one">Телефон будет находиться в режиме экстренного ожидания входящего вызова еще %s мин. В этом режиме нельзя использовать приложения, задействующие передачу данных. Выключить режим?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Данные действия невозможно выполнить в режиме экстренного ожидания входящего вызова. Телефон будет находиться в этом режиме еще %s мин. Выключить режим?</item>
+        <item quantity="one">Данное действие невозможно выполнить в режиме экстренного ожидания входящего вызова. Телефон будет находиться в этом режиме еще %s мин. Выключить режим?</item>
+    </plurals>
+    <plurals name="numSelectedSimContacts">
+        <item quantity="other">Выбрано: %1$d</item>
+        <item quantity="zero">Выбрано: %1$d</item>
+        <item quantity="one">Выбрано: %1$d</item>
+    </plurals>
+</resources>

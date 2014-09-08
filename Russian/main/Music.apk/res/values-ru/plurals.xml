@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <plurals name="NNNtracksdeleted">
+        <item quantity="other">Треков удалено: %d</item>
+        <item quantity="one">Трек удален</item>
+     </plurals>
+     <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="other">Добавлено треков в избранное: %d</item>
+        <item quantity="one">Трек добавлен в избранное</item>
+     </plurals>
+     <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Добавлено треков в плейлист: %d</item>
+        <item quantity="one">Добавлено треков в плейлист: 1</item>
+     </plurals>
+     <plurals name="NTrackstoDownload">
+        <item quantity="other">Треков загружено: %d</item>
+        <item quantity="one">Трек загружен</item>
+     </plurals>
+     <plurals name="Nalbums">
+        <item quantity="other">" альбомов"</item>
+        <item quantity="one">" альбом"</item>
+     </plurals>
+     <plurals name="Nalbums_format">
+        <item quantity="other">Альбомов: %d</item>
+        <item quantity="one">Альбомов: 1</item>
+     </plurals>
+     <plurals name="Nartists">
+        <item quantity="other">" исполнителей"</item>
+        <item quantity="one">" исполнитель"</item>
+     </plurals>
+     <plurals name="Nfolders">
+        <item quantity="other">" папок"</item>
+        <item quantity="one">" папка"</item>
+     </plurals>
+     <plurals name="Nhot_tracks_total">
+        <item quantity="other">Популярных треков: %d</item>
+        <item quantity="one">Популярных треков: %d</item>
+     </plurals>
+     <plurals name="Nitems_batch_selection">
+        <item quantity="other">Выбрано: %d</item>
+        <item quantity="one">Выбрано: %d</item>
+     </plurals>
+     <plurals name="Nonlinecategory">
+        <item quantity="other">" категорий"</item>
+        <item quantity="one">" категория"</item>
+     </plurals>
+     <plurals name="Nplaylists">
+		<item quantity="other">" плейлисты"</item>
+        <item quantity="one">" плейлист"</item>
+     </plurals>
+	<plurals name="Nsearch_results">
+		<item quantity="other">Результатов: %d</item>
+		<item quantity="one">Результатов: %d</item>
+	</plurals>
+     <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="other">Треков: %d</item>
+        <item quantity="one">Треков: 1</item>
+     </plurals>
+     <plurals name="Ntracks">
+        <item quantity="other">" треков"</item>
+        <item quantity="one">" трек"</item>
+     </plurals>
+     <plurals name="Ntracks_format">
+        <item quantity="other">Треков: %d</item>
+        <item quantity="one">Треков: 1</item>
+     </plurals>
+     <plurals name="Ntracks_remove_from_favorite_playlist">
+        <item quantity="other">Удалено треков из избранного: %d</item>
+        <item quantity="one">Трек удален из избранного</item>
+     </plurals>
+	<plurals name="Ntracks_remove_from_playlist">
+		<item quantity="other">Удалено треков из плейлиста: %d</item>
+		<item quantity="one">Трек удален из плейлиста</item>
+	</plurals>
+     <plurals name="Ntracks_search_result_format">
+        <item quantity="other">Найдено треков: %d</item>
+        <item quantity="one">Найдено треков: %d</item>
+     </plurals>
+     <plurals name="Ntracks_string">
+        <item quantity="other">Треков: %d</item>
+        <item quantity="one">Треков: %d</item>
+     </plurals>
+     <plurals name="Ntracks_total">
+        <item quantity="other">Треков: %d</item>
+        <item quantity="one">Треков: %d</item>
+     </plurals>
+     <plurals name="album_details_format">
+        <item quantity="other">%1$s, треков: %2$d</item>
+        <item quantity="one">%1$s, треков: %2$d</item>
+     </plurals>
+	 <plurals name="Nexpired_remind">
+        <item quantity="other">Осталось дней: %d</item>
+        <item quantity="one">Осталось дней: %d</item>
+    </plurals>
+    <plurals name="Nvip_expired_remind">
+        <item quantity="other">Заканчивается срок действия доступа к музыке высокого качества (осталось дней: %d)</item>
+    </plurals>
+	<plurals name="Nexpiration_reminder">
+        <item quantity="other">Срок действия заканчивается через %d дн.</item>
+        <item quantity="one">Срок действия заканчивается через %d дн.</item>
+    </plurals>
+    <plurals name="Ntracks_search_result">
+        <item quantity="other">Найдено треков: %d</item>
+        <item quantity="one">Найдено треков: %d</item>
+    </plurals>
+    <plurals name="Ntracks_count">
+        <item quantity="other">Треков: %d</item>
+        <item quantity="one">Треков: %d</item>
+    </plurals>
+    <plurals name="Ntracks_add_to_playlist">
+        <item quantity="other">Добавлено треков в плейлист: %d</item>
+        <item quantity="one">Добавлено треков в плейлист: 1</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">Треков: %d</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">%2$d из %1$d треков</item>
+    </plurals>
+</resources>

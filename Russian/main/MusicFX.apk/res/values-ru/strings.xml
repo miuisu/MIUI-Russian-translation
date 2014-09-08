@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Эффекты недоступны</string>
+    <string name="main_toggle_effects_title">Аудио эффекты</string>
+    <string name="eq_dialog_title">Эквалайзер</string>
+    <string name="headset_plug">Подключите наушники для этих эффектов.</string>
+    <string name="bass_boost_strength">Усиление нижних частот</string>
+    <string name="virtualizer_strength">Эффект 3D</string>
+    <string name="pr_title">Реверберация:</string>
+    <string name="pr_summary">Дополнительные эффекты реверберации в помещении</string>
+    <string name="pr_dialog_title">Шаблон ревербератора</string>
+    <string name="setup">Настройка</string>
+    <string name="ci_extreme">Усилитель FX</string>
+    <string name="user">Пользователь</string>
+    <string name="picker_title">Управление звуковыми эффектами</string>
+    <string name="presetreverb_name">Предустановки</string>
+    <string name="eq_preset_normal">Стандартная</string>
+    <string name="eq_preset_classical">Классическая</string>
+    <string name="eq_preset_dance">Танцевальная</string>
+    <string name="eq_preset_flat">Легкая</string>
+    <string name="eq_preset_folk">Народная</string>
+    <string name="eq_preset_heavymetal">Хэви метал</string>
+    <string name="eq_preset_hiphop">Хип-Хоп</string>
+    <string name="eq_preset_jazz">Джаз</string>
+    <string name="eq_preset_pop">Поп</string>
+    <string name="eq_preset_rock">Рок</string>
+</resources>

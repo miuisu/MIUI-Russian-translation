@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Программа установки</string>
+    <string name="install">Установить</string>
+    <string name="done">Готово</string>
+    <string name="security_settings_desc">Разрешить этому приложению:</string>
+    <string name="cancel">Отмена</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="installing">Установка…</string>
+    <string name="install_done">Приложение установлено</string>
+    <string name="install_confirm_question">Установить это приложение?</string>
+    <string name="install_failed">Приложение не установлено</string>
+    <string name="install_failed_invalid_apk">Похоже, пакет поврежден.</string>
+    <string name="install_failed_inconsistent_certificates">Пакет с таким названием уже установлен и имеет конфликтующую подпись.</string>
+    <string name="install_failed_older_sdk">Этот пакет поддерживается только в системе Android более поздних версий.</string>
+    <string name="install_failed_cpu_abi_incompatible">Процессор телефона не поддерживает это приложение.</string>
+    <string name="install_failed_file_not_found">Указанный пакет удален до завершения установки.</string>
+    <string name="install_failed_verify_failed">Пакет не проверен и не может быть установлен.</string>
+    <string name="install_failed_verify_timeout">Не удалось проверить пакет. Попробуйте установить его позже.</string>
+    <string name="install_failed_msg">Невозможно установить \"%1$s\".</string>
+    <string name="launch">Открыть</string>
+    <string name="unknown_apps_dlg_title">Установка заблокирована</string>
+    <string name="unknown_apps_dlg_text">"Из соображений безопасности на вашем устройстве заблокирована установка приложений, полученных из непроверенных источников.
+Вы можете снять это ограничение, для установки приложений из любых источников, но ваше устройство и личные данные могут быть подвергнуты риску, и вы должны взять на себя полную ответственность за дальнейшие действия.
+Вы можете изменить это в Настройки->Безопасность->Неизвестные источники."</string>
+    <string name="ok">ОК</string>
+    <string name="settings">Настройки</string>
+    <string name="allow_source_dlg_title">Разрешить добавление нового источника для приложений?</string>
+    <string name="allow_source_dlg_text">"%1$s хочет устанавливать другие приложения.
+
+Разрешить и запомнить выбор?"</string>
+    <string name="manage_applications">Управление приложениями</string>
+    <string name="dlg_app_replacement_title">Заменить приложение</string>
+    <string name="dlg_app_replacement_statement">"Приложение, которое вы устанавливаете, заменит другое приложение.
+
+Все пользовательские данные будут сохранены."</string>
+    <string name="dlg_app_replacement_statement_with_version">"Приложение: %1$s\nУстановленная версия: %3$s\nНовая версия: %2$s\n\nВсе пользовательские данные будут сохранены.\nПродолжить установку?"</string>
+    <string name="dlg_sys_app_replacement_statement">"Это системное приложение. Заменить?
+
+Все пользовательские данные будут сохранены."</string>
+    <string name="lift_ban">Снять запрет</string>
+    <string name="uninstall_failed_retained_app_msg">Приложение, измененное администратором, не может быть удалено.</string>
+    <string name="out_of_space_dlg_title">Недостаточно места</string>
+    <string name="out_of_space_dlg_text">Установка приложения %1$s не удалось. Освободите место и повторите попытку.</string>
+    <string name="dlg_ok">ОК</string>
+    <string name="app_not_found_dlg_title">Приложение не найдено</string>
+    <string name="app_not_found_dlg_text">Приложение не найдено в списке установленных приложений.</string>
+    <string name="uninstall_application_title">Удаление приложения</string>
+    <string name="uninstall_update_title">Удаление обновления</string>
+    <string name="uninstall_activity_text">%1$s является частью следующего приложения:</string>
+    <string name="uninstall_confirm_question">Удалить приложение?</string>
+    <string name="uninstall_application_text">Приложение будет удалено.</string>
+    <string name="uninstall_update_text">Будет восстановлена исходная версия приложения.</string>
+    <string name="uninstalling">Удаление…</string>
+    <string name="uninstall_done">Удаление завершено</string>
+    <string name="uninstall_failed">Ошибка при удалении</string>
+    <string name="uninstall_failed_device_policy_manager">Не удалось удалить пакет, так как он выбран для администрирования устройства.</string>
+    <string name="manage_device_administrators">Настройки администрирования</string>
+    <string name="uninstall_failed_msg">Удаление приложения %1$s не удалось</string>
+    <string name="Parse_error_dlg_title">Синтаксическая ошибка</string>
+    <string name="Parse_error_dlg_text">При синтаксическом анализе пакета возникла неполадка.</string>
+    <string name="caller_app">Связь: %1$s</string>
+    <string name="safe_guard_support">Техническая поддержка %1$s</string>
+    <string name="safe_relative">Личная безопасность</string>
+    <string name="privacy_relative">Доступ к личным данным</string>
+    <string name="other_relative">Прочие разрешения</string>
+    <string name="perm_notice">Предупреждение</string>
+    <string name="trust_switch_dialog_msg">MIUI не будет спрашивать вашего разрешения на любые действия этого приложения.</string>
+    <string name="auto_startup_dialog_msg">MIUI позволит этому приложению запускаться автоматически.</string>
+    <string name="low_risk_perms">Мало опасные разрешения</string>
+    <string name="high_risk_perms">Опасные разрешения</string>
+    <string name="perm_privacy_app_finish">Готово</string>
+    <string name="perm_privacy_app_launch">Открыть</string>
+    <string name="perm_privacy_app_installed">Установка завершена</string>
+    <string name="perm_sysopt_boost_auto_start">Разрешения автозапуска</string>
+    <string name="perm_sysopt_boost_auto_start_summary">Разрешить приложению автозапуск</string>
+    <string name="perm_privacy_app_trust">Я доверяю этому приложению</string>
+    <string name="perm_privacy_app_trust_summary">MIUI будет контролировать это приложение</string>
+    <string name="perm_action_accept">Разрешить</string>
+    <string name="perm_action_prompt">С запросом</string>
+    <string name="perm_action_reject">Запретить</string>
+    <string name="unknown_installer">Неопознанный инструмент ПК</string>
+	<string name="install_failed_system_incompatible">Это приложение не совместимо с MIUI</string>
+    <string name="virus_scan_install">" <u>продолжить установку</u> "</string>
+    <string name="virus_scan_is_virus">Это приложение содержит вирус.</string>
+    <string name="virus_scan_is_risk">Это приложение представляет угрозу для вашего устройства.</string>
+    <string name="virus_scan_clear">Удалить</string>
+	<string name="virus_scan_caller_unknown">Неизвестно</string>
+	<string name="ad_block_button_title">Блокировать рекламу</string>
+	<string name="ad_relative">Реклама</string>
+	<string name="adware_count">Файлов рекламы: %d</string>
+	<string name="adware_hint">Эти файлы используются сторонними приложениями для отображения рекламы</string>
+	<string name="adware_title">Реклама</string>
+    <string name="all">Все разрешения</string>
+    <string name="main_title">Установка приложений</string>
+    <string name="installer_name">Источник: %1$s</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_next">Далее</string>
+    <string name="button_continue">Продолжить</string>
+    <string name="button_remove">Удалить</string>
+    <string name="button_continue_install">Продолжить установку</string>
+    <string name="button_install_lastest">Скачать и установить новую версию</string>
+    <string name="button_install_official">Скачать и установить официальную версию</string>
+    <string name="warn_title">Приложение может быть опасно</string>
+    <string name="warn_message">Приложение может представлять вред вашим личным данным, влиять на расходы на мобильный интернет и т.д.</string>
+    <string name="progress_verifying">Проверка безопасности…</string>
+    <string name="update_title">%1$s: новая версия</string>
+    <string name="update_time">%1$s %2$s дата:%3$s версия:%4$s</string>
+    <string name="update_log_default">Нет обновлений</string>
+    <string name="permission_warn_title">Установка приложений из неофициальных источников может причинить вред вашему устройству</string>
+    <string name="permission_warn_hint">Приложения получит разрешения:</string>
+</resources>

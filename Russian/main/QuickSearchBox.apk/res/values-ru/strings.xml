@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Поиск</string>
+    <string name="search_widget">Поиск</string>
+    <string name="remove_from_history">Удалить из истории поиска?</string>
+    <string name="remove_from_history_failed">Не удалось удалить объект из истории поиска.</string>
+    <string name="corpus_selection_heading">Поиск</string>
+    <string name="corpus_label_global">Все</string>
+    <string name="corpus_label_web">Интернет</string>
+    <string name="corpus_description_web">Интернет и закладки</string>
+    <string name="corpus_label_apps">Приложения</string>
+    <string name="corpus_description_apps">Названия установленных приложений</string>
+    <string name="corpus_hint_apps">Поиск приложений</string>
+    <string name="menu_settings">Настройки поиска</string>
+    <string name="search_settings">Настройки поиска</string>
+    <string name="google_settings_category_title">Поиск Google</string>
+    <string name="device_settings_category_title">Очистить ярлыки</string>
+    <string name="system_search_category_title">Телефон</string>
+    <string name="search_sources">Источники поиска</string>
+    <string name="search_sources_summary">Выберите источники, по которым будет осуществляться поиск</string>
+    <string name="clear_shortcuts">Очистить ярлыки</string>
+    <string name="clear_shortcuts_summary">Очистка ярлыков недавно выбранных результатов поиска</string>
+    <string name="clear_shortcuts_prompt">Очистить ярлыки недавно выбранных результатов поиска?\n\nЧтобы очистить историю браузера, воспользуйтесь настройками браузера.</string>
+    <string name="clear_shortcuts_agree">Очистить ярлыки</string>
+    <string name="clear_shortcuts_disagree">Не очищать ярлыки</string>
+    <string name="menu_help">Справка</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_app_label">Поиск Google</string>
+    <string name="google_search_hint">Поиск Google</string>
+    <string name="google_search_description">Поисковые подсказки Google</string>
+    <string name="voice_search_hint_title">Попробуйте сказать:</string>
+    <string name="search_in_web">Поиск в интернете</string>
+    <string name="search_in_app_store">Поиск в маркете</string> 
+</resources>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="send_item">
+        <item>SMS</item>
+        <item>Email</item>
+    </string-array>
+    <string-array name="act_weather_main_listview_key">
+        <item>Скорость ветра:</item>
+        <item>УФ индекс:</item>
+        <item>Одежда:</item>
+        <item>Комфорт:</item>
+        <item>Мойка машины:</item>
+        <item>Влажность:</item>
+        <item>Утренние упражнения:</item>
+        <item>Досуг:</item>
+    </string-array>
+    <string-array name="weather_image">
+        <item>Ясно</item>
+        <item>Облачно</item>
+        <item>Дымка</item>
+        <item>Туман</item>
+        <item>Дождевая буря</item>
+        <item>Дождевой шторм</item>
+        <item>Сильный дождь</item>
+        <item>Гроза</item>
+        <item>Ливни</item>
+        <item>Сильный дождь</item>
+        <item>Дождь</item>
+        <item>Небольшой дождь</item>
+        <item>Мокрый снег</item>
+        <item>Метель</item>
+        <item>Легкий снег</item>
+        <item>Снегопад</item>
+        <item>Снегопад</item>
+        <item>Легкий снег</item>
+        <item>Сильная песчаная буря</item>
+        <item>Песчаная буря</item>
+        <item>Легкая песчаная буря</item>
+        <item>Сильная песчаная буря</item>
+        <item>Град</item>
+        <item>Пыль</item>
+        <item>Дымка</item>
+    </string-array>
+    <string-array name="weather_details_key">
+       <item>Недоступно</item>
+       <item>Благоприятная</item>
+       <item>Хорошая</item>
+       <item>Избегайте по возможности</item>
+       <item>Не рекомендуется</item>
+       <item>Идеальная</item>
+       <item>Средняя</item>
+       <item>Слабая</item>
+       <item>Средняя</item>
+       <item>Сильная</item>
+       <item>Очень сильная</item>
+       <item>Крутая</item>
+       <item>Комфортная</item>
+       <item>Очень жаркая</item>
+       <item>Жаркая</item>
+       <item>Теплая</item>
+       <item>Прохладная</item>
+       <item>Прохладная</item>
+       <item>Холодная</item>
+       <item>Морозная</item>
+       <item>Высокая</item>
+       <item>Средняя</item>
+       <item>Низкая</item>
+       <item>Ясная</item>
+       <item>Облачная</item>
+       <item>Дождливая</item>
+       <item>Песчаная буря</item>
+       <item>Снежная</item>
+       <item>Относительно благоприятная</item>
+       <item>Благоприятная</item>
+       <item>Облачная</item>
+       <item>Почти идеальная</item>
+       <item>Идеальная</item>
+       <item>Плохая</item>
+       <item>Средняя</item>
+    </string-array>
+    <string-array name="weather_image_tips">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Будьте осторожны снаружи!</item>
+        <item>Будьте осторожны снаружи!</item>
+        <item>Будьте осторожны снаружи!</item>
+        <item>Будьте осторожны снаружи!</item>
+        <item>Будьте осторожны! Дороги скользкие.</item>
+    </string-array>
+    <string-array name="weather_sms_content">
+        <item>Не забудьте нанести солнцезащитный крем.</item>
+        <item>Сегодня будет облачно.</item>
+        <item>Постарайтесь оставаться дома.</item>
+        <item>Водите с осторожностью.</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Это на самом деле приближается!</item>
+        <item>Не забудьте надеть шапку и шарф.</item>
+        <item>Укутайтесь!</item>
+        <item>Не забудьте надеть шапку и шарф!</item>
+        <item>Не забудьте надеть шапку и шарф!</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Это на самом деле приближается!</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Постарайтесь оставаться дома.</item>
+    </string-array>
+    <string-array name="weather_sms_addons">
+        <item>"Погода сегодня в @: $."</item>
+        <item>Температура: % градусов.</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Постарайтесь оставаться сухим!</item>
+        <item>Если вы сушите белье на улице, не забудьте забрать его!</item>
+        <item>При возможности, не садитесь за руль.</item>
+        <item>Водите осторожно!</item>
+        <item>Будьте осторожны, на улице скользко.</item>
+        <item>Не торопитесь. Будьте осторожны снаружи.</item>
+        <item>Будьте осторожны на улице.</item>
+        <item>Без необходимости не выходите на улицу.</item>
+        <item>Наденьте солнцезащитные очки.</item>
+        <item>Нанесите солнцезащитный крем и наденьте солнцезащитные очки.</item>
+        <item>На улице ветренно, не забудьте надеть куртку.</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Не забудьте взять куртку.</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Не забудьте взять перчатки и шапку.</item>
+        <item>На улице жарко!</item>
+        <item>Постарайтесь не перегреваться!</item>
+        <item>Укутайтесь!</item>
+        <item>Идет похолодание…</item>
+        <item>Оставайтесь в тепле!</item>
+        <item>Надевайте зимние наушники, если они у вас есть!</item>
+        <item>Пойдем на прогулку и насладимся погодой!</item>
+        <item>Пойдем на пробежку, на улице солнечно!</item>
+        <item>Отличный день, чтобы высушить одежду!</item>
+        <item>Не забудьте надеть куртку.</item>
+    </string-array>
+    <string-array name="weather_info_uv">
+        <item>0</item>
+        <item>Недоступно</item>
+        <item>6</item>
+        <item>Нанесите солнцезащитный крем.</item>
+        <item>7</item>
+        <item>Нанесите солнцезащитный крем.</item>
+        <item>8</item>
+        <item>Нанесите солнцезащитный крем.</item>
+        <item>9</item>
+        <item>Нанесите солнцезащитный крем, если вам необходимо выйти!</item>
+        <item>10</item>
+        <item>Нанесите солнцезащитный крем, если вам необходимо выйти!</item>
+    </string-array>
+    <string-array name="weather_info_dress">
+        <item>0</item>
+        <item>Недоступно</item>
+        <item>11</item>
+        <item>Легкая куртка</item>
+        <item>12</item>
+        <item>Легкая куртка</item>
+        <item>13</item>
+        <item>Летняя одежда</item>
+        <item>14</item>
+        <item>Летняя одежда</item>
+        <item>15</item>
+        <item>Легкая куртка</item>
+        <item>16</item>
+        <item>Не забудьте одеть теплую одежду!</item>
+        <item>17</item>
+        <item>Наденьте куртку!</item>
+        <item>18</item>
+        <item>Укутайтесь!</item>
+        <item>19</item>
+        <item>Укутайтесь!</item>
+    </string-array>
+    <string-array name="weather_info_msport">
+        <item>0</item>
+        <item>Недоступно</item>
+        <item>1</item>
+        <item>Отличный день для утренней зарядки</item>
+        <item>2</item>
+        <item>Оденьтесь теплее!</item>
+        <item>3</item>
+        <item>Оденьтесь теплее!</item>
+        <item>4</item>
+        <item>Упражняйтесь в помещении!</item>
+    </string-array>
+    <string-array name="weather_info_comfort">
+        <item>0</item>
+        <item>Недоступно</item>
+        <item>20</item>
+        <item>Температура стабилизируется</item>
+        <item>21</item>
+        <item>Холодно и комфортно</item>
+        <item>22</item>
+        <item>Температура будет меняться</item>
+        <item>23</item>
+        <item>Ясное небо и некомфортная температура</item>
+        <item>24</item>
+        <item>Жарко и влажно!</item>
+    </string-array>
+    <string-array name="weather_info_wcar">
+        <item>0</item>
+        <item>Недоступно</item>
+        <item>1</item>
+        <item>Отличный день для мытья машины!</item>
+        <item>2</item>
+        <item>Отличный день для мытья машины!</item>
+        <item>3</item>
+        <item>Собирается дождь, отложите мытье машины.</item>
+        <item>25</item>
+        <item>Собирается дождь, отложите мытье машины.</item>
+        <item>26</item>
+        <item>Собирается песчаная буря, отложите мытье машины.</item>
+        <item>27</item>
+        <item>Собирается снег, отложите мытье машины.</item>
+        <item>4</item>
+        <item>Отложите мытье машины.</item>
+    </string-array>
+    <string-array name="weather_info_hung">
+        <item>0</item>
+        <item>Недоступно</item>
+        <item>28</item>
+        <item>Повесьте одежду сушиться во второй половине дня.</item>
+        <item>29</item>
+        <item>Сушите одежду в любое время.</item>
+        <item>30</item>
+        <item>Облачно, но благодаря высокой температуре воздуха, ваша одежда все равно останется сухой.</item>
+        <item>1</item>
+        <item>Погода подходит для сушки одежды.</item>
+        <item>3</item>
+        <item>Сегодня весь день будет дождь с перерывами.</item>
+        <item>5</item>
+        <item>Хорошие условия для сушки одежды.</item>
+        <item>4</item>
+        <item>Сушите одежду в помещении.</item>
+        <item>31</item>
+        <item>Сушите одежду в помещении.</item>
+    </string-array>
+    <string-array name="weather_info_travel">
+        <item>0</item>
+        <item>Недоступно</item>
+        <item>32</item>
+        <item>Ясно, солнечно и хорошая температура.</item>
+        <item>2</item>
+        <item>Умеренная и стабильная температура.</item>
+        <item>1</item>
+        <item>Умеренная и стабильная температура.</item>
+        <item>3</item>
+        <item>Сегодня погода будет нестабильной.</item>
+        <item>33</item>
+        <item>Сегодня погода будет нестабильной.</item>
+        <item>34</item>
+        <item>Ясное небо, мягкий ветер.</item>
+    </string-array>
+    <string-array name="weather_info_fl">
+        <item></item>
+        <item>Укутайтесь!</item>
+        <item>Ветренно</item>
+        <item>Комфортно</item>
+        <item>Умеренно</item>
+        <item>Некомфортно</item>
+    </string-array>
+</resources>

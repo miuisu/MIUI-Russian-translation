@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<plurals name="all_numbers_count">
+        <item quantity="one">1 запись</item>
+        <item quantity="other">Записей: %d</item>
+    </plurals>
+	<plurals name="more_coupons_count">
+        <item quantity="other">Купонов: %d</item>
+        <item quantity="one">Купонов: 1</item>
+    </plurals>
+</resources>

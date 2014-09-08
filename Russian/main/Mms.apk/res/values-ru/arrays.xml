@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Радостный</item>
+        <item>Грустный</item>
+        <item>Подмигивает</item>
+        <item>Показывает язык</item>
+        <item>Удивлен</item>
+        <item>Поцелуй</item>
+        <item>Кричит</item>
+        <item>Крутой</item>
+        <item>Не болтай попусту</item>
+        <item>В замешательстве</item>
+        <item>Смущенный</item>
+        <item>Ангел</item>
+        <item>Нерешительный</item>
+        <item>Плачет</item>
+        <item>Не скажу</item>
+        <item>Смеется</item>
+        <item>Озадаченный</item>
+        <item>Сердце</item>
+        <item>Злой</item>
+        <item>Ухмыляется</item>
+        <item>Невозмутимый</item>
+    </string-array>
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>1 раз</item>
+        <item>2 раза</item>
+        <item>3 раза</item>
+        <item>5 раз</item>
+        <item>10 раз</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Имя</item>
+        <item>Ник</item>
+        <item>Телефон</item>
+        <item>Email</item>
+        <item>Компания</item>
+        <item>IM</item>
+        <item>Интернет номер</item>
+        <item>День рождения</item>
+        <item>Сайт</item>
+        <item>Адрес</item>
+        <item>Заметка</item>
+    </string-array>
+    <string-array name="entries_date_type">
+        <item>Время получения</item>
+        <item>Время отправки</item>
+    </string-array>
+    <string-array name="resent_via_entries">
+        <item>Через сообщения</item>
+        <item>Через облачные сообщения</item>
+    </string-array>
+    <string-array name="resent_via_entries_sms">
+        <item>Через SMS</item>
+        <item>Через облачные сообщения</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
+        <item>Через MMS</item>
+        <item>Через облачные сообщения</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 секунда</item>
+        <item>2 секунды</item>
+        <item>3 секунды</item>
+        <item>4 секунды</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+        <item>8 секунд</item>
+        <item>9 секунд</item>
+        <item>10 секунд</item>
+        <item>Прочее</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Всегда</item>
+        <item>Только режиме \"Без звука\"</item>
+        <item>Никогда</item>
+    </string-array>
+</resources>

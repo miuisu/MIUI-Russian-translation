@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="powermanage_entries">
+        <item>Только вызовы</item>
+        <item>Энергосбережение</item>
+        <item>Нормальный</item>
+        <item>Производительность</item>
+        <item>Супер производительность</item>
+    </string-array>
+</resources>
