@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Время до будильника: менее минуты</item>
+        <item>Время до будильника: %1$s</item>
+        <item>Время до будильника: %2$s</item>
+        <item>Время до будильника: %1$s и %2$s</item>
+        <item>Время до будильника: %3$s</item>
+        <item>Время до будильника: %1$s и %3$s</item>
+        <item>Время до будильника: %2$s и %3$s</item>
+        <item>Время до будильника: %1$s, %2$s, и %3$s</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>25 минут</item>
+        <item>30 минут</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Никогда</item>
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>25 минут</item>
+        <item>30 минут</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Ничего</item>
+        <item>Отложить</item>
+        <item>Выключить</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Время до будильника: менее минуты</item>
+        <item>Время до будильника: %1$s</item>
+        <item>Время до будильника: %2$s</item>
+        <item>Время до будильника: %1$s %2$s</item>
+        <item>Время до будильника: %3$s</item>
+        <item>Время до будильника: %1$s %3$s</item>
+        <item>Время до будильника: %2$s %3$s</item>
+        <item>Время до будильника: %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Вчера</item>
+        <item>Сегодня</item>
+        <item>Завтра</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Один раз</item>
+        <item>Ежедневно</item>
+        <item>Рабочие дни</item>
+        <item>С ПН по ПТ</item>
+        <item>Своя установка</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Один раз</item>
+        <item>Ежедневно</item>
+        <item>С ПН по ПТ</item>
+        <item>Своя установка</item>
+    </string-array>
+	<string-array name="sw_share_strings">
+        <item>"You're quite the speed demon."</item>
+        <item>Enjoy the fruits of your labor.</item>
+        <item>Androids are known to be fast, but not as fast as you!</item>
+        <item>Phew.</item>
+        <item>L33t times.</item>
+        <item>Such prodigious velocity.</item>
+        <item>"Let's do the time warp again."</item>
+        <item>Just a jump to the left.</item>
+        <item>You have a palette for haste.</item>
+        <item>Photonic velocity.</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Аналоговые</item>
+        <item>Цифровые</item>
+    </string-array>
+</resources>

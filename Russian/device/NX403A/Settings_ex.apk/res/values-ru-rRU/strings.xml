@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile_settings">Дополнительные настройки</string>
+    <string name="powersave_title">Энергосбережение</string>
+    <string name="led_light_title">LED индикация</string>
+    <string name="led_charge_title">Зарядка</string>
+    <string name="led_charge_summary">Индикация во время зарядки</string>
+    <string name="led_battery_low_title">Низкий заряд батареи</string>
+    <string name="led_battery_low_summary">Индикация при низком заряде батареи</string>
+    <string name="led_event_miss_title">Пропущенное событие</string>
+    <string name="led_event_miss_summary">Индикация при пропущенном вызове или непрочитанном сообщении</string>
+    <string name="led_all_on">Индикация во время зарядки, низком заряде батареи и при пропущенном событии</string>
+    <string name="led_charge_battery_low_on">Индикация во время зарядки и низком заряде батареи</string>
+    <string name="led_charge_event_miss_on">Индикация во время зарядки и пропущенном событии</string>
+    <string name="led_battery_low_event_miss_on">Индикация при низком заряде батареи и пропущенном событии</string>
+    <string name="led_charge_on">Индикация во время зарядки</string>
+    <string name="led_battery_low_on">Индикация при низком заряде батареи</string>
+    <string name="led_event_miss_on">Индикация при пропущенном событии</string>
+    <string name="led_all_off">Выкл</string>
+    <string name="image_enhance_title">Улучшение изображения</string>
+    <string name="image_enhance_settings">Настройки улучшения изображения</string>
+    <string name="image_enhance_weak">Мягкий</string>
+    <string name="image_enhance_normal">Стандарт</string>
+    <string name="image_enhance_improve">Свечение</string>
+    <string name="summary_image_enhance_on">Включено</string>
+    <string name="summary_image_enhance_off">Выключено</string>
+    <string name="screen_timeout_v5">Таймаут экрана</string>
+    <string name="screen_timeout_30_sec">15 секунд</string>
+    <string name="screen_timeout_1_min">30 секунд</string>
+    <string name="screen_timeout_2_min">2 минуты</string>
+    <string name="screen_timeout_5_min">5 минут</string>
+    <string name="screen_timeout_10_min">10 минут</string>
+    <string name="screen_timeout_30_min">никогда</string>
+    <string name="sound_effect_srs_title">DTS аудио эффект</string>
+    <string name="sound_effect_enhance_summary_on">Включен</string>
+    <string name="sound_effect_enhance_summary_off">Выключен</string>
+    <string name="led_app_msg_title">Сообщения уведомлений</string>
+    <string name="led_app_msg_summary">Индикация при пепрочитанных сообщениях Mi Cloud, Mi Маркет, Weibo, WeChat, QQ и email</string>
+    <string name="status_network_type">Тип мобильной сети</string>
+</resources>

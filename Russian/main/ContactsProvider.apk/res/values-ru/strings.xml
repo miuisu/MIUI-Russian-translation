@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Основные приложения Android</string>
+    <string name="app_label">Хранилище контактов</string>
+    <string name="provider_label">Контакты</string>
+    <string name="upgrade_msg">Обновление БД контактов.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Обновления контактов требует больше памяти.</string>
+    <string name="upgrade_out_of_memory_notification_title">Обновление памяти контактов</string>
+    <string name="upgrade_out_of_memory_notification_text">Нажмите для завершения обновления</string>
+    <string name="default_directory">Контакты</string>
+    <string name="local_invisible_directory">Прочее</string>
+    <string name="read_write_all_voicemail_label">Доступ к голосовым сообщениям</string>
+    <string name="read_write_all_voicemail_description">Разрешить приложению сохранять и восстанавливать все голосовые доступные на устройстве сообщения.</string>
+    <string name="voicemail_from_column">"Голосовое сообщение от "</string>
+    <string name="debug_dump_title">Копирование базы контактов</string>
+    <string name="debug_dump_database_message">Вы собираетесь создать копию базы данных, которая содержит все данные о контактах, и отправить ее. Не забудьте удалить копию, как только вы успешно скопировали ее с устройства или электронного письма.</string>
+    <string name="debug_dump_delete_button">Удалить сейчас</string>
+    <string name="debug_dump_start_button">Начать</string>
+    <string name="debug_dump_email_sender_picker">Передать</string>
+    <string name="debug_dump_email_subject">База контактов прикреплена</string>
+    <string name="debug_dump_email_body">Прикрепление - это моя база контактов со всей информацией о контактах.</string>
+	<string name="third_party_delete_contact_info">Приложение \"%s\" удалит ваши контакты. Пожалуйста, используйте стандартное приложение \"Контакты\" для безопасности.</string>
+	<string name="pound_search_tip">Введите номер после # для поиска контактов</string>
+    <string name="create_contact">Новый контакт</string>
+    <string name="send_sms">Отправить сообщение</string>
+    <string name="edit_contact">Добавить к контакту</string>
+    <string name="call_log_provider_label">Журнал вызовов</string>
+    <string name="group_name_contacts">Контакты</string>
+    <string name="group_name_friends">Друзья</string>
+    <string name="group_name_family">Семья</string>
+    <string name="group_name_coworkers">Коллеги</string>
+    <string name="unknown">Неизвестный номер</string>
+</resources>

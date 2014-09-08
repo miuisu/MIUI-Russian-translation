@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Синхронизация Mi Cloud</string>
+    <string name="sync_item_sms_title">Синхронизация сообщений</string>
+    <string name="sync_item_sms_summary">Синхронизация сообщений между устройствами</string>
+    <string name="sub_sync_item_sms_title_wifi_only">MMS только по Wi-Fi</string>
+    <string name="sub_sync_item_sms_summary">Сокращает передачу данных по сети</string>
+    <string name="pref_title_sync_contacts_title">Синхронизация контактов</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Фото только по Wi-Fi</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Сокращает передачу данных по сети</string>
+    <string name="find_device">Поиск устройства</string>
+    <string name="find_device_stop_noise">Нажмите \"ОК\" для выключения звука</string>
+    <string name="sync_item_calllog_title">Синхронизация журнала вызовов</string>
+    <string name="sync_item_calllog_summary">Синхронизация журнала исходящих и входящих вызовов на этом телефоне</string>
+	<string name="pref_title_sync_my_profile_title">Синхронизация профиля</string>
+	<string name="find_device_noise_title">Звук поиска устройства</string>
+	<string name="error_title">Ошибка синхронизации</string>
+    <string name="error_unauthorized">Слишком много ошибок авторизации: синхронизация отключена.</string>
+    <string name="error_forbidden">Обнаружены ошибки аккаунта: синхронизация отключена.</string>
+    <string name="error_not_acceptable">Ошибка сервера: синхронизация отключена.</string>
+    <string name="check_phone_error_title">Служба синхронизации не запущена</string>
+    <string name="check_phone_io_error">Сетевая ошибка</string>
+    <string name="send_sms_for_sync_title">Служба синхронизации не запущена</string>
+    <string name="send_sms_for_sync_notice">Для активации нужно отправить SMS. За это может взиматься дополнительная плата.</string>
+    <string name="activate">Активация</string>
+    <string name="activate_fail_notification_title">Повторная активации</string>
+    <string name="sim_changed_reactivate_notice">Текущая SIM карта не активирована. Для активации нужно отправить SMS. За это может взиматься дополнительная плата.</string>
+    <string name="sim_changed_reactivate_int_notice">Текущая SIM карта не активирована. Для активации нужно отправить SMS. За это может взиматься дополнительная плата.</string>
+    <string name="no_sim">SIM карта не обнаружена.</string>
+    <string name="sim_unavailable">SIM карта недоступна.</string>
+    <string name="sim_locked">SIM карта заблокирована.</string>
+    <string name="sim_not_ready">SIM карта уже используется.</string>
+    <string name="sim_in_airplane_mode">Выключите режим \"В самолете\"</string>
+</resources>

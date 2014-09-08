@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Определение местоположения</string>
+    <string name="location_warning_title">Соглашение определения местоположения</string>
+    <string name="location_warning_message">Разрешить сервису определения местоположению AutoNavi собирать анонимную информацию. Некоторые данные могут храниться на устройстве, сбор данных может совершаться даже при не запущенном приложении. Может взыматься дополнительная плата за передачу данных по сети, согласно вашему тарифному плану.</string>
+    <string name="agree">Согласен</string>
+    <string name="disagree">Отказаться</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Дополнительно</string>
+    <string name="ZOE">Совместимость с ZOE</string>
+    <string name="stock_album">Альбом HTC</string>
+    <string name="power_saver">Режим экономии</string>
+    <string name="display">Экран</string>
+    <string name="smart_screen">Умный экран</string>
+</resources>

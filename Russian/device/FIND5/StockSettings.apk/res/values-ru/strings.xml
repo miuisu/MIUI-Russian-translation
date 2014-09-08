@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stock_settings">Другие настройки</string>
+    <string name="wifi_display">Wi-Fi дисплей</string>
+</resources>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="preferences_skip_reminders_labels">
+        <item>Если снизился</item>
+        <item>Если отказался или не ответил</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>каждое первое воскресенье</item>
+        <item>каждое второе воскресенье</item>
+        <item>каждое третье воскресенье</item>
+        <item>каждое четвертое воскресенье</item>
+        <item>каждое последнее воскресенье</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>каждый первый понедельник</item>
+        <item>каждый второй понедельник</item>
+        <item>каждый третий понедельник</item>
+        <item>каждый четвертый понедельник</item>
+        <item>каждый последний понедельник</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>каждый первый вторник</item>
+        <item>каждый второй вторник</item>
+        <item>каждый третий вторник</item>
+        <item>каждый четвертый вторник</item>
+        <item>каждый последний вторник</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>каждая первая среда</item>
+        <item>каждая вторая среда</item>
+        <item>каждая третья среда</item>
+        <item>каждая четвертая среда</item>
+        <item>каждая последняя среда</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>каждый первый четверг</item>
+        <item>каждый второй четверг</item>
+        <item>каждый третий четверг</item>
+        <item>каждый четвертый четверг</item>
+        <item>каждый последний четверг</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>каждую первую пятницу</item>
+        <item>каждую вторую пятницу</item>
+        <item>каждую третью пятницу</item>
+        <item>каждую четвертую пятницу</item>
+        <item>каждую последнюю пятницу</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>каждую первую субботу</item>
+        <item>каждую вторую субботу</item>
+        <item>каждую третью субботу</item>
+        <item>каждую четвертую субботу</item>
+        <item>каждую последнюю субботу</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>Синт-Мартен</item>
+        <item>Карибские Нидерланды</item>
+        <item>Кюрасао</item>
+        <item>Южный Судан</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Уведомление</item>
+        <item>Email</item>
+        <item>SMS</item>
+        <item>Будильник</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+		<item>Не напоминать</item>
+        <item>По факту</item>
+        <item>За 5 минут</item>
+        <item>За 10 минут</item>
+        <item>За 15 минут</item>
+        <item>За 30 минут</item>
+        <item>За час</item>
+        <item>За день</item>
+        <item>За 2 дня</item>
+        <item>За неделю</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Не напоминать</item>
+        <item>По факту</item>
+        <item>За 5 минут</item>
+        <item>За 10 минут</item>
+        <item>За 15 минут</item>
+        <item>За 30 минут</item>
+        <item>За час</item>
+        <item>За день</item>
+        <item>За 2 дня</item>
+        <item>За неделю</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Местное по умолчанию</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Маршалловы о-ва</item>
+        <item>Остров Мидуэй</item>
+        <item>Гавайи</item>
+        <item>Аляска</item>
+        <item>Тихоокеан. время</item>
+        <item>Тихуана</item>
+        <item>Аризона</item>
+        <item>Чиуауа</item>
+        <item>Горное время</item>
+        <item>Центр. Америка</item>
+        <item>Центр. время</item>
+        <item>Мехико</item>
+        <item>Саскачеван</item>
+        <item>Богота</item>
+        <item>Восточное время</item>
+        <item>Венесуэла</item>
+        <item>Атлантика (Барбадос)</item>
+        <item>Атлантика (Канада)</item>
+        <item>Манаус</item>
+        <item>Сантьяго</item>
+        <item>Ньюфаундленд</item>
+        <item>Бразилия</item>
+        <item>Буэнос-Айрес</item>
+        <item>Гренландия</item>
+        <item>Монтевидео</item>
+        <item>Центр. Атлантика</item>
+        <item>Азорские о-ва</item>
+        <item>О-ва Кабо-Верде</item>
+        <item>Касабланка</item>
+        <item>Лондон, Дублин</item>
+        <item>Амстердам, Берлин</item>
+        <item>Белград</item>
+        <item>Брюссель</item>
+        <item>Сараево</item>
+        <item>Виндхук</item>
+        <item>Зап.-афр. время</item>
+        <item>Амман, Иордания</item>
+        <item>Афины, Стамбул</item>
+        <item>Бейрут, Ливан</item>
+        <item>Каир</item>
+        <item>Хельсинки</item>
+        <item>Иерусалим</item>
+        <item>Минск</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувейт</item>
+        <item>Найроби</item>
+        <item>Тегеран</item>
+        <item>Баку</item>
+        <item>Тбилиси</item>
+        <item>Ереван</item>
+        <item>Дубай</item>
+        <item>Кабул</item>
+        <item>Исламабад, Карачи</item>
+        <item>Уральск</item>
+        <item>Екатеринбург</item>
+        <item>Калькутта</item>
+        <item>Шри-Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Янгон</item>
+        <item>Красноярск</item>
+        <item>Бангкок</item>
+        <item>Пекин</item>
+        <item>Гонконг</item>
+        <item>Иркутск</item>
+        <item>Куала-Лумпур</item>
+        <item>Перт</item>
+        <item>Тайбэй</item>
+        <item>Сеул</item>
+        <item>Токио, Осака</item>
+        <item>Якутск</item>
+        <item>Аделаида</item>
+        <item>Дарвин</item>
+        <item>Брисбен</item>
+        <item>Хобарт</item>
+        <item>Сидней, Канберра</item>
+        <item>Владивосток</item>
+        <item>Гуам</item>
+        <item>Магадан</item>
+        <item>Окленд</item>
+        <item>Фиджи</item>
+        <item>Тонга</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Занят</item>
+        <item>Доступен</item>
+        <item>Не определен</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>По умолчанию</item>
+        <item>Закрытое</item>
+        <item>Для всех</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>первую</item>
+        <item>вторую</item>
+        <item>третью</item>
+        <item>четвертую</item>
+        <item>последнюю</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Нет ответа</item>
+        <item>Да</item>
+        <item>Возможно</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Только это событие</item>
+        <item>Это и будущие события</item>
+        <item>Все события</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Это и будущие события</item>
+        <item>Все события</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Только в этот раз</item>
+        <item>Все события в серии</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>День</item>
+        <item>Неделя</item>
+        <item>Месяц</item>
+        <item>Повестка дня</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Опоздаю на несколько минут.</item>
+        <item>Буду там через 10 минут.</item>
+        <item>Начинайте без меня.</item>
+        <item>Извините, я не могу этого сделать. Нужно пересмотреть расписание.</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Всегда</item>
+        <item>Только в режиме без звука</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="widget_style_list">
+        <item>Прозрачный</item>
+        <item>Белый</item>
+    </string-array>
+</resources>

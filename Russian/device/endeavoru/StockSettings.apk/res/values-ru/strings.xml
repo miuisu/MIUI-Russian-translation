@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="stock_settings">Дополнительно</string>
+    <string name="htc_internet_pt_title">Сквозное подключение к Интернету</string>
+    <string name="htc_internet_pt_summary">Подключение к интернету через ПК. Подключите USB кабель.</string>
+    <string name="PSFail">Невозможно подключиться к ПК</string>
+    <string name="PSPass">Сквозное подключение к интернету подключено</string>
+    <string name="PSMsg">Если Вы не можете подключиться к интернету через сквозное подключени, убедитесь что файрвол на Вашем ПК разрешает данный тип подключения. Сквозное подключение поддерживает только TCP подключение если ваш ПК подключен к интернету через PPP (dial up, xDSL, или VPN).</string>
+    <string name="PSTitle">Заметки</string>
+    <string name="PSButton">OK</string>
+    <string name="do_not_show_psmsg">Больше не показывать</string>
+    <string name="htc_gestures_title">Жесты HTC</string>
+    <string name="htc_gestures_summary">Включить трехпальцевые жесты от HTC и выключить жесты с большим количеством пальцев</string>
+    <string name="htc_fastboot_title">Быстрая загрузка</string>
+    <string name="htc_fastboot_summary">Не рекомендуется для некоторых приложений из Market</string>
+</resources>

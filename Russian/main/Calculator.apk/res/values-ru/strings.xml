@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="error">Ошибка</string>
+    <string name="basic">Основная панель</string>
+    <string name="advanced">Дополнительная панель</string>
+    <string name="clear_history">Очистить историю</string>
+    <string name="text_copied_toast">Текст скопирован</string>
+    <string name="leftParenDesc">открывающая скобка</string>
+    <string name="rightParenDesc">закрывающая скобка</string>
+    <string name="factorialDesc">факториал числа</string>
+    <string name="lnDesc">натуральный логарифм</string>
+    <string name="lgDesc">логарифм</string>
+    <string name="sqrtDesc">квадратный корень</string>
+    <string name="divDesc">деление</string>
+    <string name="mulDesc">умножение</string>
+    <string name="plusDesc">плюс</string>
+    <string name="minusDesc">минус</string>
+    <string name="dotDesc">десятичный разделитель</string>
+    <string name="powerDesc">в степени</string>
+    <string name="delDesc">удаление</string>
+    <string name="clearDesc">сброс</string>
+    <string name="tanDesc">тангенс</string>
+    <string name="sinDesc">синус</string>
+    <string name="cosDesc">косинус</string>
+    <string name="eDesc">число Эйлера</string>
+    <string name="piDesc">пи</string>
+    <string name="equalDesc">равно</string>
+	<string name="switch_to_scientific_pad">научный режим</string>
+	<string name="switch_to_standard_pad">обычный режим</string>
+</resources>

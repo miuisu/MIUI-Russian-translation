@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ster_mon_entries">
+        <item>Стерео</item>
+        <item>Моно</item>
+    </string-array>
+    <string-array name="record_durations_entries">
+        <item>5 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>До остановки</item>
+    </string-array>
+    <string-array name="search_category_rbds_entries">
+        <item>Все станции</item>
+        <item>Старые хиты</item>
+        <item>Классика</item>
+        <item>Классический рок</item>
+        <item>Колледж</item>
+        <item>Страна</item>
+        <item>Чрезвычайное положение</item>
+        <item>Аварийный тест</item>
+        <item>Иностранный язык</item>
+        <item>Информация</item>
+        <item>Джаз</item>
+        <item>Новости</item>
+        <item>Ностальгия</item>
+        <item>Старая музыка</item>
+        <item>Личное</item>
+        <item>Общественное</item>
+        <item>Религиозная музыка</item>
+        <item>Религиозные разговоры</item>
+        <item>Ритм и блюз</item>
+        <item>Рок</item>
+        <item>Легкая музыка</item>
+        <item>Легкий рок</item>
+        <item>Легкий ритм и блюз</item>
+        <item>Спорт</item>
+        <item>Разговор</item>
+        <item>Топ 40</item>
+        <item>Погода</item>
+    </string-array>
+    <string-array name="search_category_rds_entries">
+        <item>Все станции</item>
+        <item>Культура</item>
+        <item>Текущие события</item>
+        <item>Детские программы</item>
+        <item>Кантри</item>
+        <item>Документалистика</item>
+        <item>Драма</item>
+        <item>Легкая музыка</item>
+        <item>Образование</item>
+        <item>Чрезвычайное положение</item>
+        <item>Экстренный тест</item>
+        <item>Финансы</item>
+        <item>Народная музыка</item>
+        <item>Информация</item>
+        <item>Джаз</item>
+        <item>Легкая классика</item>
+        <item>Досуг</item>
+        <item>Новости</item>
+        <item>Национальная музыка</item>
+        <item>Другая музыка</item>
+        <item>Старая музыка</item>
+        <item>Звонок</item>
+        <item>Поп-музыка</item>
+        <item>Религия</item>
+        <item>Рок</item>
+        <item>Наука</item>
+        <item>Серьезная классика</item>
+        <item>Социальный вопрос</item>
+        <item>Спорт</item>
+        <item>Путешествия</item>
+        <item>Разноe</item>
+        <item>Погода</item>
+    </string-array>
+    <string-array name="rbds_pty_entries">
+        <item>News</item>
+        <item>Information</item>
+        <item>Sports</item>
+        <item>Talk</item>
+        <item>Rock</item>
+        <item>Classic Rock</item>
+        <item>Adult Hits</item>
+        <item>Soft Rock</item>
+        <item>Top 40</item>
+        <item>Country</item>
+        <item>Oldies</item>
+        <item>Soft</item>
+        <item>Nostalgia</item>
+        <item>Jazz</item>
+        <item>Classical</item>
+        <item>Rhythm and Blues</item>
+        <item>Soft Rhythm and Blues</item>
+        <item>Foreign Language</item>
+        <item>Religious Music</item>
+        <item>Religious Talk</item>
+        <item>Personality</item>
+        <item>Public</item>
+        <item>College</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Weather</item>
+        <item>Emergency Test</item>
+        <item>Emergency</item>
+    </string-array>
+    <string-array name="rds_pty_entries">
+        <item>News</item>
+        <item>Current Affairs</item>
+        <item>Information</item>
+        <item>Sport</item>
+        <item>Education</item>
+        <item>Drama</item>
+        <item>Culture</item>
+        <item>Science</item>
+        <item>Varied</item>
+        <item>Pop Music</item>
+        <item>Rock Music</item>
+        <item>Easy Listening Music</item>
+        <item>Light classical</item>
+        <item>Serious classical</item>
+        <item>Other Music</item>
+        <item>Weather</item>
+        <item>Finance</item>
+        <item>Children programs</item>
+        <item>Social Affairs</item>
+        <item>Religion</item>
+        <item>Phone In</item>
+        <item>Travel</item>
+        <item>Leisure</item>
+        <item>Jazz Music</item>
+        <item>Country Music</item>
+        <item>National Music</item>
+        <item>Oldies Music</item>
+        <item>Folk Music</item>
+        <item>Documentary</item>
+        <item>Emergency Test</item>
+        <item>Emergency</item>
+    </string-array>
+    <string-array name="presetlist_edit_category">
+        <item>Переименовать</item>
+        <item>Автовыбор</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="regional_band_entries">
+        <item>North America</item>
+        <item>Europe</item>
+        <item>Japan</item>
+        <item>Japan (Wide)</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>China</item>
+        <item>Czech</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>China Hong Kong</item>
+        <item>India</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Korea</item>
+        <item>Mexico</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Norway</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Russia</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Spain</item>
+        <item>Switzerland</item>
+        <item>Sweden</item>
+        <item>China Taiwan</item>
+        <item>Turkey</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Venezuela</item>
+    </string-array>
+    <string-array name="rf_cfg">
+        <item>Получить текущие параметры станции</item>
+        <item>Получить параметры станции с повторением в 20 раз</item>
+        <item>Получить параметры поиска станций</item>
+        <item>Получить параметры развертки диапазона</item>
+        <item>Настроить поисковые параметры радио</item>
+    </string-array>
+    <string-array name="cfg_rf">
+        <item>Установить FM RSSI Delta</item>
+        <item>Установить порог сигнала</item>
+        <item>RF статистика</item>
+    </string-array>
+    <string-array name="stats_options">
+        <item>Выберите опцию</item>
+        <item>Настройка FM поиска</item>
+        <item>RF статистика</item>
+    </string-array>
+    <string-array name="auto_off_delay_summary">
+        <item>Выкл</item>
+        <item>Через 30 минут</item>
+        <item>Через 1 час</item>
+        <item>Через 2 часа</item>
+    </string-array>
+    <string-array name="auto_off_delay_entries">
+        <item>Выкл</item>
+        <item>Через 30 минут</item>
+        <item>Через 1 час</item>
+        <item>Через 2 часа</item>
+    </string-array>
+    <string-array name="auto_off_delay_message">
+        <item>Выключить автоотключение радио</item>
+        <item>Радио выключится через 30 минут</item>
+        <item>Радио выключится через 1 час</item>
+        <item>Радио выключится через 2 часа</item>
+    </string-array>
+    <string-array name="auto_sleep_msg">
+        <item></item>
+        <item>Радио выключится через 30 минут</item>
+        <item>Радио выключится через 1 минуту</item>
+        <item>Радио выключится через 2 минуты</item>
+    </string-array>
+</resources>

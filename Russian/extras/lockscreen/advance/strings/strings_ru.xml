@@ -1,0 +1,8 @@
+<strings>
+    <string name="short_date_format" value="dd.MM.yyyy" />
+    <string name="long_date_format" value="dd MMMM yyyy" />
+	<!-- Since 3.10.25 -->
+    <string name="date_format" value="E, d MMMM yyyy" />
+    <string name="emergency_call" value="Экстренный вызов" />
+	<string name="unknown_number" value="Неизвестный номер" />
+</strings>

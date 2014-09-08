@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="settings_label">Настройки</string>
+	<string name="service_manage">Настройки</string>
+	<string name="spellchecker_quick_settings">Настройки</string>
+	<string name="accessibility_menu_item_settings">Настройки</string>
+	<string name="settings_button">Настройки</string>
+	<string name="power_usage_summary_title">Батарея</string>
+	<string name="tab_general">Стоковые настройки</string>
+	<string name="header_category_generic">Системные</string>
+	<string name="oppo_security_settings_power_on_off">Таймер вкл./выкл.</string>
+	<string name="timepower_settings_title">Таймер вкл./выкл.</string>
+	<string name="timepower_edit_title">Задать время вкл./выкл.</string>
+	<string name="alert_dialog_ok">Сохранить</string>
+	<string name="alert_dialog_cancel">Отмена</string>
+	<string name="timepower_power_on">Включение</string>
+	<string name="timepower_power_off">Выключение</string>
+	<string name="timepower_power_type">Тип:</string>
+	<string name="timepower_power_time">Время:</string>
+	<string name="timepower_time_duplicate">Таймеры совпадают. Попробуйте еще раз!</string>
+	<string name="shutdown_confirm">Выключить телефон?</string>
+	<string name="display_power_percent">Отображать заряд в процентах</string>
+	<string name="battery_percentage_info">"Уровень заряда: "</string>
+	<string name="power_save_mode">Авторегулировка питания экрана</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stocks_app">Приложения ZTE</string>
+    <string name="zte_mi_pop_title">ZTE Mi Pop</string>
+    <string name="zte_mi_pop_summary">Введите Mi Pop для главного экрана приложения.</string>
+    <string name="app_name">Расширенные настройки</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_section1">Системные настройки</string>
+    <string name="title_section2">Переключение звука</string>
+    <string name="title_system">Система</string>
+    <string name="switch_title">Переключение</string>
+    <string name="title_sound">Звук</string>
+    <string name="title_about">О приложении</string>
+    <string name="quick_boot_title">Быстрая загрузка</string>
+    <string name="quick_boot_summary">Использовать быструю загрузку или обычную</string>
+    <string name="eng_mode_title">Инженерный режим</string>
+    <string name="eng_mode_summary">Параметры системы</string>
+    <string name="time_switch_machine_title">Выключение по расписанию</string>
+    <string name="time_switch_machine_summary">Включение и выключение по расписанию</string>
+    <string name="camera_sound_title">звук камеры</string>
+    <string name="camera_sound_summary">выкл. звук камеры</string>
+    <string name="camera_focus_title">звук фокусировки камеры</string>
+    <string name="camera_focus_summary">выкл. звук фокусировки камеры</string>
+    <string name="camera_shutter_title">звук затвора камеры</string>
+    <string name="camera_shutter_summary">выкл. звук затвора камеры</string>
+    <string name="video_sound_title">звук видео</string>
+    <string name="video_sound_summary">выкл. звук видео</string>
+    <string name="srs_sound_title">SRS медиа</string>
+    <string name="srs_sound_summary">панель управления SRS медиа</string>
+    <string name="aosp_camera_title">Переключение камеры и галереи</string>
+    <string name="ok">ОК</string>
+    <string name="ok2">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="sure_restart">Перезагрузить телефон без завершения процессов?</string>
+    <string name="storage_title">Место хранения по умолчанию</string>
+    <string name="ex_sdcard">внешняя SD карта</string>
+    <string name="in_sdcard">внутренняя SD карта</string>
+    <string name="reboot_confirm">Телефон будет перезагружен</string>
+    <string name="reboot_ok">Перезагрузка</string>
+    <string name="now">Сейчас:</string>
+    <string name="reboot_cancel">Отмена</string>
+</resources>
