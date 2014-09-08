@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cpu_zram_size_entries">
+        <item>Отключить</item>
+        <item>10%</item>
+        <item>18%</item>
+        <item>26%</item>
+    </string-array>
+    <string-array name="entries_animations">
+        <item>Выкл</item>
+        <item>Быстро</item>
+        <item>Нормально</item>
+        <item>Медленно</item>
+        <item>Медленнее</item>
+        <item>Очень медленно</item>
+        <item>Совсем медленно</item>
+    </string-array>
+    <string-array name="entries_overscroll_type">
+        <item>Нет</item>
+        <item>Свечение</item>
+        <item>Отскок</item>
+        <item>Отскок &amp; Свечение</item>
+    </string-array>
+    <string-array name="entries_overscroll_weight">
+        <item>Очень Сильно</item>
+        <item>Сильно</item>
+        <item>Средне</item>
+        <item>Слабо</item>
+        <item>Очень слабо</item>
+    </string-array>
+    <string-array name="entries_status_styles">
+        <item>Часы в центре</item>
+        <item>Стандартно</item>
+        <item>Зеркально</item>
+    </string-array>
+</resources>

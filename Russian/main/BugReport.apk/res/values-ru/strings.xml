@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Обратная связь</string>
+    <string name="user_feedback">Отзывы</string>
+    <string name="report_miui">Отчёт в MIUI</string>
+    <string name="menu_send">Отправить отчет</string>
+    <string name="menu_copy">Копировать</string>
+    <string name="menu_attach_screenshot">Прикрепить скришнот</string>
+    <string name="menu_discard">Сброс</string>
+    <string name="description">Описание на английском (обязательно)</string>
+    <string name="btn_send">Отправить</string>
+    <string name="err_type">Тип отчета</string>
+    <string name="err_type_reboot">Система перезагружается</string>
+    <string name="err_type_force_close">Фатальная ошибка</string>
+    <string name="err_type_network">Сетевые проблемы</string>
+    <string name="err_type_others">Прочее</string>
+    <string name="err_type_power_consuming">Потребление энергии</string>
+    <string name="err_type_call">Проблемы с вызовами</string>
+    <string name="err_type_suggestion">Предложения</string>
+    <string name="err_type_data_lost">Потеря данных</string>
+    <string name="status_msg_pending_upload">Загружается отчетов: %d…</string>
+    <string name="status_msg_collecting_log">Сохранение логов</string>
+    <string name="action_submit">Подтвердить</string>
+    <string name="section_err_type">Тип отчета</string>
+    <string name="section_description">Описание</string>
+    <string name="section_screenshot">Скриншот</string>
+    <string name="toast_report_sent_succeed">Отчет отправлен</string>
+    <string name="toast_report_sent_failed">Ошибка отправки отчета</string>
+    <string name="toast_report_copied_to_clipboard">Отчет скопирован в буфер обмена</string>
+    <string name="toast_description_required">Отзыв пользователя не может быть пустым</string>
+    <string name="toast_pending_log_collection">Сохранение логов, подождите</string>
+    <string name="toast_feedback_submitted">Ваш отчёт успешно зарегистрирован</string>
+    <string name="toast_feedback_pending_wlan">Ваш отчет будет отправлен при подключении Wi-Fi</string>
+    <string name="discard_draft_dialog_title">Отмена проекта</string>
+    <string name="discard_draft_dialog_content">Отчет был исправлен, нажмите ок для отмены проекта.</string>
+    <string name="discard_draft_dialog_button_discard">OK</string>
+    <string name="discard_draft_dialog_button_cancel">Отмена</string>
+    <string name="network_unavailable_dialog_title">Сеть недоступна</string>
+    <string name="network_unavailable_dialog_content">Ваш отчет будет отправлен при подключении к сети</string>
+    <string name="network_unavailable_dialog_button_ok">OK</string>
+    <string name="wlan_unavailable_dialog_title">Нет сетей Wi-Fi</string>
+    <string name="wlan_unavailable_dialog_content">%s доступно для 2G/3G, нажмите ОК для отправки только по Wi-Fi</string>
+    <string name="wlan_unavailable_dialog_button_sent">Отправить сейчас</string>
+    <string name="wlan_unavailable_dialog_button_ok">OK</string>
+    <string name="packaging_dialog_content">Создание отчета, подождите…</string>
+</resources>

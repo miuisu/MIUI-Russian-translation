@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_title">Внимание</string>
+    <string name="bluetooth_running">Активация USB отключит Bluetooth. Продолжить?</string>
+    <string name="alert_dialog_yes">Да</string>
+    <string name="alert_dialog_no">Нет</string>
+    <string name="animation_initializing">Инициализация…</string>
+    <string name="animation_connected">Соединено</string>
+    <string name="animation_synchronizing">Синхронизация…</string>
+    <string name="animation_downloading">Загрузка…</string>
+    <string name="animation_sending">Отправка…</string>
+    <string name="notification_mtp_connected">MTP соединено</string>
+    <string name="notification_usb_connected">USB соединено</string>
+    <string name="notification_mtp_initialization">MTP инициализация</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Отмена</string>
+    <string name="non_idle_toast">Подключение к ПК доступно только в режиме ожидания.\nЗакройте запущенные приложения.</string>
+    <string name="media_scanner_running">Поиск медиа файлов…</string>
+    <string name="media_scanner_finished">Поиск медиа файлов завершен</string>
+    <string name="kies_software_check">Проверка Kies(PC соединение S/W)</string>
+</resources>

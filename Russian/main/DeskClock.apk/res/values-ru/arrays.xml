@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Зазвонит менее чем через одну минуту</item>
+        <item>Зазвонит через %1$s</item>
+        <item>Зазвонит через %2$s</item>
+        <item>Зазвонит через %1$s и %2$s</item>
+        <item>Зазвонит через %3$s</item>
+        <item>Зазвонит через %1$s и %3$s</item>
+        <item>Зазвонит через %2$s и %3$s</item>
+        <item>Зазвонит через %1$s, %2$s, и %3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Нет</item>
+        <item>Поспать</item>
+        <item>Отключить</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Зазвонит менее чем через одну минуту</item>
+        <item>Зазвонит через %1$s</item>
+        <item>Зазвонит через %2$s</item>
+        <item>Зазвонит через %1$s %2$s</item>
+        <item>Зазвонит через %3$s</item>
+        <item>Зазвонит через %1$s %3$s</item>
+        <item>Зазвонит через %2$s %3$s</item>
+        <item>Зазвонит через %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Вчера</item>
+        <item>Сегодня</item>
+        <item>Завтра</item>
+    </string-array>
+</resources>

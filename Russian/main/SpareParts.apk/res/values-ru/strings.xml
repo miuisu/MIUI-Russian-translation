@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Spare Parts</string>
+    <string name="device_info_title">Информация об устройстве</string>
+    <string name="title_battery_history">История батареи</string>
+    <string name="summary_battery_history">Информация об использовании батареи</string>
+    <string name="title_battery_information">Информация о батарее</string>
+    <string name="summary_battery_information">Текущий статус батареи</string>
+    <string name="title_usage_statistics">Статистика использования</string>
+    <string name="summary_usage_statistics">Суммарная информация использования приложений</string>
+    <string name="general_title">Главная</string>
+    <string name="title_window_animations">Анимация окон</string>
+    <string name="summary_window_animations">Скорость анимации в отдельных окнах</string>
+    <string name="dialog_title_window_animations">Выберите скорость окон</string>
+    <string name="title_transition_animations">Переход анимации</string>
+    <string name="summary_transition_animations">Скорость анимации перемещения между экранами</string>
+    <string name="dialog_title_transition_animations">Выберите скорость перехода</string>
+    <string name="title_fancy_ime_animations">Нестандартная анимация входа</string>
+    <string name="summary_on_fancy_ime_animations">Использование любительской анимации для метода ввода окна</string>
+    <string name="summary_off_fancy_ime_animations">Использование обычной анимации для метода ввода окна</string>
+    <string name="title_haptic_feedback">Виброотклик</string>
+    <string name="summary_on_haptic_feedback">Использовать виброотклик</string>
+    <string name="summary_off_haptic_feedback">Не использовать виброотклик</string>
+    <string name="title_font_size">Размер шрифта</string>
+    <string name="summary_font_size">Общий размер шрифта</string>
+    <string name="dialog_title_font_size">Выберите размер шрифта</string>
+    <string name="title_end_button">Поведение красной кнопки</string>
+    <string name="summary_end_button">Выберите действие для красной кнопки</string>
+    <string name="dialog_title_end_button">Выберите красную кнопку</string>
+    <string name="applications_title">Приложения</string>
+    <string name="compatibility_mode_title">Режим совместимости</string>
+    <string name="compatibility_mode_summary_on">Запустить старые приложения в режиме совместимости. Требует перезагрузки</string>
+    <string name="compatibility_mode_summary_off">Не запускать старые приложения в режиме совместимости. Требует перезагрузки</string>
+</resources>

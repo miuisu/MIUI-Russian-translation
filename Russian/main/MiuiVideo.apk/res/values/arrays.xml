@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="channel_tabs">
+        <item>Топ</item>
+        <item>Рейтинг</item>
+        <item>Последнее</item>
+    </string-array>
+    <string-array name="channel_featured_tabs">
+        <item>Избранное</item>
+        <item>Рейтинг</item>
+        <item>Последнее</item>
+    </string-array>
+    <string-array name="series_detail_tabs">
+        <item>Антология</item>
+        <item>Введение</item>
+    </string-array>
+</resources>

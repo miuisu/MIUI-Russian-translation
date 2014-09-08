@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stock_settings">Другие настройки</string>
+    <string name="stock_settings_entry_title">Сквозное подключение</string>
+    <string name="stock_settings_entry_summary">Доступ в интернет через ПК.\nПодключите USB-кабель.</string>
+    <string name="PSFail">Невозможно подключиться к ПК</string>
+    <string name="PSPass">Соединение установлено</string>
+    <string name="PSMsg">Если вы не можете получить доступ к сети через сквозное подключение, убедитесь, что настройки брандмауэра разрешают такой вид подключения. Ваш компьютер должен быть подключен к сети через протокол PPP (например dial-up, xDSL, или VPN), т.к. сквозное подключение поддерживает только TCP соединения.</string>
+    <string name="PSTitle">Ошибка установки соединения</string>
+    <string name="PSButton">ОК</string>
+    <string name="do_not_show_psmsg">Не показывать больше</string>
+</resources>

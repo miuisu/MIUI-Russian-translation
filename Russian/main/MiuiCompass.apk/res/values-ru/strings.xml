@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Компас</string>
+    <string name="getting_location">Определение местоположения…</string>
+    <string name="cannot_get_location">Не удалось получить местонахождение</string>
+    <string name="location_north">%s С</string>
+    <string name="location_south">%s Ю</string>
+    <string name="location_east">%s З</string>
+    <string name="location_west">%s В</string>
+    <string name="menu_calibrate">Калибровка компаса</string>
+    <string name="menu_calibrate_altitude">Калибровать долготу через интернет</string>
+    <string name="dialog_title">Прервать калибровку</string>
+    <string name="dialog_content">Калибровка компаса не завершена и его показания могут быть неточными. Все равно прервать?</string>
+    <string name="calibrate_success">Калибровка завершена</string>
+    <string name="calibrate_failed_no_location">Ошибка калибровки. Невозможно получить широту и долготу</string>
+    <string name="calibrate_failed_timeout">Ошибка калибровки. Превышено время ожидания.</string>
+    <string name="user_guide_calibrate">Нажмите Меню для калибровки компаса</string>
+    <string name="toast_accuracy_low">Низкая точность.\nНажмите Меню для калибровки компаса.</string>
+    <string name="pressure">Давление %.1fhPa</string>
+    <string name="altitude">Долготу %.1fm</string>
+    <string name="dialog_title_no_network">Пожалуйста подключитесь к Wi-Fi или мобильному интернету.</string>
+    <string name="dialog_calibrat_altitude">Калибровка долготы через интернет.</string>
+    <string name="latitude">Широта</string>
+    <string name="longitude">Долгота</string>
+</resources>

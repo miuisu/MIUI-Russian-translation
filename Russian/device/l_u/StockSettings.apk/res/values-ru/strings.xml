@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stock_settings">Настройки изображения</string>
+    <string name="autofit_screen_title">Коррекция форматного соотношения</string>
+    <string name="autofit_screen_summary">Изменение разрешения скачиваемых приложений под размер экрана</string>
+</resources>

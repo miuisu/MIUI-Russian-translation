@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_camera_jpegquality_entryvalues">
+        <item>Наилучшее</item>
+        <item>Хорошее</item>
+        <item>Нормальное</item>
+    </string-array>
+    <string-array name="pref_camera_flashmode_entryvalues">
+        <item>Авто</item>
+        <item>вкл</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_camera_video_flashmode_entryvalues">
+        <item>фонарик</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_camera_whitebalance_entryvalues">
+        <item>Авто</item>
+        <item>Лампа накаливания</item>
+        <item>Дневной свет</item>
+        <item>Люминисцентная лампа</item>
+        <item>Облачно</item>
+    </string-array>
+    <string-array name="pref_camera_coloreffect_entryvalues">
+        <item>Не выбрано</item>
+        <item>Античный</item>
+        <item>Ломо холодный</item>
+        <item>Ломо теплый</item>
+        <item>Глубина резкости</item>
+        <item>Негатив</item>
+        <item>Передержать</item>
+        <item>Плакат</item>
+        <item>Вода</item>
+        <item>Моно</item>
+        <item>Тиснение</item>
+        <item>Оттенки серого</item>
+        <item>Сепия</item>
+    </string-array>
+    <string-array name="pref_camera_touchafaec_entryvalues">
+        <item>touch-выкл</item>
+        <item>touch-вкл</item>
+    </string-array>
+    <string-array name="pref_camera_scenemode_entryvalues">
+        <item>Выкл</item>
+        <item>Авто</item>
+        <item>Спорт</item>
+        <item>Портрет</item>
+        <item>Пейзаж</item>
+        <item>Ночная съемка</item>
+        <item>Ночной портрет</item>
+        <item>Театр</item>
+        <item>Пляж</item>
+        <item>Снег</item>
+        <item>Феерверк</item>
+        <item>При свечах</item>
+        <item>Цветы</item>
+    </string-array>
+    <string-array name="pref_camera_continuousaf_entryvalues">
+        <item>caf-выкл</item>
+        <item>caf-вкл</item>
+    </string-array>
+    <string-array name="pref_camera_facedetection_entryvalues">
+        <item>выкл</item>
+        <item>вкл</item>
+    </string-array>
+    <string-array name="pref_camera_shootmode_entryvalue">
+        <item>Одиночный снимок</item>
+        <item>Серия</item>
+        <item>hdr</item>
+        <item>Очередь</item>
+        <item>Улыбка</item>
+        <item>Режим "beauty"</item>
+        <item>Панорама</item>
+        <item>Спорт</item>
+        <item>Плохое освещение</item>
+    </string-array>
+    <string-array name="pref_camera_redeye_reduction_entryvalue">
+        <item>вкл</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_camera_redeye_reduction_entries">
+        <item>Вкл</item>
+        <item>Выкл</item>
+    </string-array>
+    <string-array name="pref_camera_steady_photo_entryvalue">
+        <item>вкл</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_camera_steady_photo_entries">
+        <item>Вкл</item>
+        <item>Выкл</item>
+    </string-array>
+    <string-array name="pref_camera_steady_video_entryvalue">
+        <item>вкл</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_camera_steady_video_entries">
+        <item>Вкл</item>
+        <item>Выкл</item>
+    </string-array>
+    <string-array name="pref_camera_grid_entryvalue">
+        <item>вкл</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_camera_grid_entries">
+        <item>Вкл</item>
+        <item>Выкл</item>
+    </string-array>
+    <string-array name="pref_camera_hdr_entryvalue">
+        <item>вкл</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_camera_save_location_entryvalue">
+        <item>Карта памяти</item>
+        <item>Телефон</item>
+    </string-array>
+    <string-array name="pref_camera_auto_focusmode_entryvalue">
+        <item>вкл</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_camera_auto_focusmode_entryentries">
+        <item>Вкл</item>
+        <item>Выкл</item>
+    </string-array>
+    <string-array name="pref_camera_distortion_entryvalues">
+        <item>Не выбрано</item>
+        <item>Большое лицо</item>
+        <item>Большой нос</item>
+        <item>Индюк</item>
+        <item>Насекомое</item>
+        <item>Профессор</item>
+        <item>Улыбка до ушей</item>
+    </string-array>
+    <string-array name="pref_camera_gps_entryenvalues">
+        <item>вкл</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_camera_shutter_sound_entryenvalues">
+        <item>вкл</item>
+        <item>выкл</item>
+    </string-array>
+    <string-array name="pref_video_quality_level_entryvalues">
+        <item>Наилучшее</item>
+        <item>Хорошее</item>
+        <item>Нормальное</item>
+    </string-array>
+</resources>

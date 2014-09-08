@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="sms_app_name">Простой приемник сообщений</string>
+    <string name="sms_message_from_format">Сообщение от \"%1$s\"</string>
+    <string name="sms_done_button">Готово</string>
+</resources>

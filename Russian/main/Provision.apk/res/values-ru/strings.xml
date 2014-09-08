@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">Далее</string>
+    <string name="continues">Продолжить</string>
+    <string name="shutdown">Выключить</string>
+    <string name="other_service_label">Прочие сервисы</string>
+    <string name="other_service_location">Определение местоположения</string>
+    <string name="other_service_location_summary">Сервис определения местоположения позоляет карте и другим приложениям получать данные о вашем местоположении по GPS</string>
+    <string name="other_service_user_experience">Программа улучшения качества</string>
+    <string name="other_service_user_experience_summary0">"При использовании нашего продукта мы надеемся, что вы поможете, обеспеча обратную связь. Ваши отзывы будут отправлены согласно с "</string>
+    <string name="other_service_user_experience_summary1">Политика конфиденциальности</string>
+    <string name="sim_card_detection_dialog_message">Обнаружение SIM-карты. Пожалуйста, подождите.</string>
+    <string name="sim_card_detection_label">SIM карта обнаружена</string>
+    <string name="sim_card_detection_info">Мы не можем настроить аккаунт Xiaomi без SIM карты. Вам необходима SIM карта для использования сервисов, как например синхронизация контактов, поиск телефона и т.д.</string>
+    <string name="sim_card_detection_status_absent">SIM карта не обнаружена!</string>
+    <string name="setup_complete_label">Спасибо</string>
+    <string name="setup_complete_info">После продажи услуга будет активирована один раз и вы используете ваш телефон</string>
+    <string name="setup_complete_start">Начинайте использовать ваш телефон!</string>
+    <string name="setup_complete_summary">Настройка завершена! Наслаждайтесь MIUI!</string>
+    <string name="traffic_protection_label">Регулировка трафика</string>
+    <string name="traffic_protection_summary">Регулировка трафика напомнит вам когда закончится трафик на вашем тарифном плане во избежание превышения расходов.</string>
+    <string name="traffic_protection_unknown">Я не знаю… Введу позже.</string>
+    <string name="traffic_protection_text_hint">Пожалуйста, введите лимит трафика.</string>
+    <string name="data_usage_summary">Если вы еще не выбрали тарифный план, рекомендуется выключить передачу данных. В противном случае оператор может взымать плату.</string>
+    <string name="use_data">Передача данных включена</string>
+</resources>

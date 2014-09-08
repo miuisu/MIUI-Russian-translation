@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Хранилище телефонов и сообщений</string>
+    <string name="mms_sms_provider_label">Обмен сообщениями</string>
+</resources>

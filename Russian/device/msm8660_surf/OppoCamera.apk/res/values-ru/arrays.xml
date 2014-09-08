@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="camera_settings">
+        <item>Камера</item>
+        <item>Звук затвора</item>
+        <item>Место хранения</item>
+        <item>Плохое освещение</item>
+        <item>Натуральная вспышка</item>
+        <item>HDR</item>
+        <item>Режим вспышки</item>
+    </string-array>
+    <string-array name="video_settings">
+        <item>Видео</item>
+        <item>Форматы файлов</item>
+        <item>Место хранения</item>
+        <item>Экспозиция</item>
+        <item>Рекордер</item>
+    </string-array>
+    <string-array name="items_name">
+        <item>Смешной</item>
+        <item>Назад</item>
+        <item>Искажённый</item>
+        <item>Мягкие цвета</item>
+        <item>Насыщенный</item>
+    </string-array>
+    <string-array name="item_interest">
+        <item>Рыбий глаз</item>
+        <item>Зеркало</item>
+        <item>Карандаш</item>
+        <item>Цвет</item>
+    </string-array>
+    <string-array name="item_rewind">
+        <item>Старт</item>
+        <item>Демо</item>
+    </string-array>
+    <string-array name="item_haha_mirror">
+        <item>Воронка</item>
+        <item>Волна</item>
+        <item>Сфера</item>
+        <item>Море</item>
+    </string-array>
+    <string-array name="item_diary">
+        <item>Виртуальный-F</item>
+        <item>Мягкий-F</item>
+        <item>Ломо</item>
+        <item>Ретро</item>
+    </string-array>
+    <string-array name="item_strengthen">
+        <item>Серия</item>
+        <item>Панорама</item>
+    </string-array>
+</resources>
