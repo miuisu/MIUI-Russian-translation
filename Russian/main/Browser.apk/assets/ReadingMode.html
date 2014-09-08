@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; minimum-scale=1; maximum-scale=1"/>
+
+<base href=""/>
+
+<style type="text/css">
+
+<!--
+body {
+	margin: 0;
+	padding: 0;
+	background: #eeeeee;
+}
+
+.page {
+    font-size: 19px;
+    margin: 0 0 0 0;
+    width: auto;
+    line-height: 24px;
+    background: #eeeeee;
+    color: #333333;
+    padding: 10px 10px 0 10px;
+	word-wrap:break-word; 
+}
+
+.page h1{
+    font-size: 23px;
+    line-height: 25px;
+    text-align:center;
+    font-weight: bold;
+    color: #000000;
+}
+
+.footer{
+    background: #eeeeee;
+    color: #333333;
+}
+
+.page img{    
+    border:1px solid #d1d1d1;
+}
+
+.comments{
+	font-size:17px;
+	margin: 0 0 0 0;
+	padding:10px 10px 0 10px;
+	background: #e5f0f8;
+    color: #333333;
+	border-top:1px solid #bdd7eb;
+}
+
+#loading img{
+	border:0;
+}
+
+-->
+
+</style>
+
+<script type="text/javascript">
+  var pageNum = 0;
+  var firstPageNum = -1;
+  var requesting = false;
+  
+  window.onscroll = _onscroll;
+  
+  function onBodyClick(e){
+	  var screenHeight = window.innerHeight;
+	  var y = e.screenY;	  
+	  if (y < screenHeight / 2){
+	      window.controller.pageUp();
+	  }else{
+	      window.controller.pageDown();
+	  }	
+	  return false;	      
+  }
+  
+  function appendPage(){
+      pageNum ++;
+      var nextDiv = document.getElementById("next");
+      if (pageNum == 1){
+          // this is the first page, hide the loading div and show the next div
+          var loadingDiv = document.getElementById("loading");
+          if (loadingDiv != null){
+          	document.body.removeChild(loadingDiv);   
+          }else{
+          	console.log('the loading div is null!');
+          }
+          if (nextDiv != null) {     
+          	nextDiv.style.display = "block";
+          }
+          else{
+          	console.log('the next div is null!');
+          }
+          
+          document.body.addEventListener('click', onBodyClick, false);
+      }
+      else{
+          var separator = document.createElement("img");
+          var isNightMode = window.controller.getIsNightMode();
+          if (isNightMode == 'true')
+              separator.setAttribute('src', 'file:///android_asset/images/reading_separator_night.png');
+          else
+              separator.setAttribute('src', 'file:///android_asset/images/reading_separator.png');
+          separator.style.width = '100%';
+          separator.style.height = '24px';
+          document.body.insertBefore(separator, nextDiv); 
+      }
+      var pageDiv = document.createElement("div");
+      pageDiv.setAttribute('id', ("page" + pageNum));
+      pageDiv.setAttribute('class', 'page');
+      pageDiv.innerHTML = "<h1 id='title" + pageNum + "'></h1><div id='content" + pageNum + "'></div>";
+      document.body.insertBefore(pageDiv, nextDiv); 
+      
+      if (document.body.scrollHeight <= window.screen.availHeight){
+          window.controller.queryNextPage();
+          requesting = true;
+      }
+      else{
+          requesting = false; 
+      }
+  }
+  
+  function onImgLoaded(imgEle){
+	var screenWidth = window.screen.availWidth - 20;
+	if (imgEle.width > screenWidth){
+		var height = screenWidth * imgEle.height / imgEle.width; 
+		imgEle.width = screenWidth;	
+		imgEle.height = height;
+	}
+  }
+  
+  function setBaseUrl(url){
+      var baseTag = document.all.tags("base");
+      baseTag[0].href = url;
+  }
+  
+  function setContent(contentHTML){
+      var content = document.getElementById("content" + pageNum);      
+      content.innerHTML = contentHTML;
+  }
+  
+  function setTitle(titleHTML){
+      var title = document.getElementById("title" + pageNum);
+      title.innerHTML = titleHTML;
+  }
+
+  function setComments(commentsHTML){
+      var content = document.getElementById("content" + pageNum);
+	  var commentsDiv = document.createElement("div");
+	  commentsDiv.setAttribute("class", "comments");
+	  commentsDiv.innerHTML = commentsHTML;
+	  document.body.appendChild(commentsDiv);
+  }
+  
+  function _onscroll(){
+      if (!requesting && pageNum > -1)
+      {
+          var top = document.body.scrollTop;
+          var screenHeight = window.screen.availHeight;
+          var currentPage = document.getElementById("page" + pageNum);
+
+          if (currentPage != null && top >= currentPage.offsetTop - screenHeight){             
+              window.controller.queryNextPage();
+              requesting = true;
+          }
+      } 
+  }
+  
+  function hideLoading(){
+      document.getElementById("next").style.display = "none";
+  }
+  
+  function setTextSize(size){
+      var cssRules = document.styleSheets[0].cssRules;
+      if (size == 'normal'){
+  	      cssRules[1].style.fontSize = '19px';
+  	      cssRules[1].style.lineHeight = '24px';
+  	      cssRules[2].style.fontSize = '23px';
+  	      cssRules[2].style.lineHeight = '25px';
+  	      cssRules[5].style.fontSize = '17px';
+  	      cssRules[5].style.lineHeight = '22px';
+  	  }
+  	  else if (size == 'large'){
+  	      cssRules[1].style.fontSize = '22px';
+  	      cssRules[1].style.lineHeight = '27px';
+  	      cssRules[2].style.fontSize = '26px';
+  	      cssRules[2].style.lineHeight = '28px';
+  	      cssRules[5].style.fontSize = '20px';
+  	      cssRules[5].style.lineHeight = '25px';
+  	  } 
+  	  else if (size == 'largest'){
+  	      cssRules[1].style.fontSize = '25px';
+  	      cssRules[1].style.lineHeight = '30px';
+  	      cssRules[2].style.fontSize = '29px';
+  	      cssRules[2].style.lineHeight = '31px';
+  	      cssRules[5].style.fontSize = '23px';
+  	      cssRules[5].style.lineHeight = '28px';
+  	  }
+  	  else{
+  	  	  cssRules[1].style.fontSize = '16px';
+  	      cssRules[1].style.lineHeight = '21px';
+  	      cssRules[2].style.fontSize = '20px';
+  	      cssRules[2].style.lineHeight = '22px';
+  	      cssRules[5].style.fontSize = '14px';
+  	      cssRules[5].style.lineHeight = '19px';
+  	  }
+  }
+
+  function replaceImgFile(oldfilename, newfilename) {
+    var targetelement = "img";
+    var targetattr = "src";
+
+    var allLinks=document.getElementsByTagName(targetelement);
+    for (var i=0; i<allLinks.length; ++i) {
+      if (allLinks[i] && allLinks[i].getAttribute(targetattr)!=null
+        && allLinks[i].getAttribute(targetattr).indexOf(oldfilename)!=-1)
+      {
+        allLinks[i].setAttribute(targetattr, newfilename);
+      }
+    }
+  }
+  
+  function setNightMode(enabled){
+      var cssRules = document.styleSheets[0].cssRules;
+      if (enabled == 'true'){
+          console.log('night mode is on');
+		  cssRules[0].style.background = '#222222';
+  	      cssRules[1].style.background = '#222222';
+  	      cssRules[1].style.color = '#999999';
+  	      cssRules[2].style.background = '#222222';
+  	      cssRules[2].style.color = '#999999';
+  	      cssRules[3].style.background = '#222222';
+  	      cssRules[3].style.color = '#999999';
+  	      cssRules[5].style.background = '#242424';
+  	      cssRules[5].style.color = '#999999';
+  	      replaceImgFile('file:///android_asset/images/reading_separator.png', 'file:///android_asset/images/reading_separator_night.png');
+  	  }
+  	  else{
+          console.log('night mode is off');
+  	      cssRules[0].style.background = '#eeeeee';
+  	      cssRules[1].style.background = '#eeeeee';
+  	      cssRules[1].style.color = '#333333';
+  	      cssRules[2].style.background = '#eeeeee';
+  	      cssRules[2].style.color = '#000000';
+  	      cssRules[3].style.background = '#eeeeee';
+  	      cssRules[3].style.color = '#333333';
+  	      cssRules[5].style.background = '#e5f0f8';
+  	      cssRules[5].style.color = '#333333';
+  	      replaceImgFile('file:///android_asset/images/reading_separator_night.png', 'file:///android_asset/images/reading_separator.png');
+  	  }
+  }
+  
+  function showRetry(){
+      document.getElementById("next").style.display = "none";
+  	  document.getElementById("retry").style.display = "block";
+  }
+  
+  function retry(){
+  	  window.controller.queryNextPage();
+  	  document.getElementById("retry").style.display = "none";
+  	  document.getElementById("next").style.display = "block";
+  }
+
+  var isNightMode = window.controller.getIsNightMode();
+  setNightMode(isNightMode);
+</script>
+</head>
+<body>
+	<div id="loading" style="position:absolute; width:100%; height:100%;" class="footer" align="center">
+	<img src="file:///android_asset/images/loading.gif" style="margin-top:100px"/>
+		<p style="margin-top:40px">
+			Идет загрузка, пожалуйста, подождите…
+		</p>
+	</div>
+	<div id="next" style="width:100%; height: 40px; display:none;" class="footer" align="center">
+		<image src="file:///android_asset/images/loading.gif" style="margin-top:5px; margin-bottom:5px"/>
+	</div>
+	<div id="retry" style="width:100%; margin-top:0; padding-bottom: 70px; display:none;" class="footer" align="center">
+	    <img src="file:///android_asset/images/reading_separator.png" style="width:100%; height:24px;"/>
+		<p style="margin-top:20px">
+			Не удалось загрузить страницу. Нажмите "Обновить" или повторите попытку позже.
+		</p>
+		<a onclick="retry()"><img src="file:///android_asset/images/retry_button.png" style="width:25%"></img></a>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+  var isNightMode = window.controller.getIsNightMode();
+  setNightMode(isNightMode);
+</script>
+
+

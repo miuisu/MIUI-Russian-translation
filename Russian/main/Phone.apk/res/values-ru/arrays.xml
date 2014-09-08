@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>По умолчанию</item>
+        <item>Скрыть номер</item>
+        <item>Показать номер</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Авто режим)</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+        <item>GSM/WCDA (WCDMA предпочтительно)</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Только домашний</item>
+        <item>Автоматически</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Только домашняя сеть</item>
+        <item>Связанные сети</item>
+        <item>Любая сеть</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>CDMA only</item>
+        <item>EvDo only</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Нормальный</item>
+        <item>Длинный</item>
+    </string-array>
+</resources>

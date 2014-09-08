@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nsongs">
+        <item quantity="other">Треков: %d</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">Альбомов: %d</item>
+        <item quantity="one">1 альбом</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Удалить трек: %d.</item>
+        <item quantity="one">Удалить 1 трек.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Треков добавлено в плейлист: %d.</item>
+        <item quantity="one">1 трек добавлен в плейлист.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="other">Треков добавлено в избранный лист: %d.</item>
+        <item quantity="one">1 трек добавлен в избранный лист.</item>
+</plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">Всего треков: %1$d, из них новых: %2$d</item>
+    </plurals>
+</resources>

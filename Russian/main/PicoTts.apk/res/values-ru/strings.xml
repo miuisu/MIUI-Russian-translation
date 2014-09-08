@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pico TTS</string>
+    <string name="eng_usa_sample">Это пример синтеза речи на английском языке c Pico.</string>
+    <string name="eng_gbr_sample">Это пример синтеза речи на английском языке c Pico.</string>
+    <string name="installed">Установлено</string>
+    <string name="not_installed">Не установлено</string>
+</resources>

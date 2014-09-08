@@ -1,0 +1,577 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=0.99; minimum-scale=0.99; maximum-scale=0.99"/>
+<base href=""/>
+<link href="file:///android_asset/css/forum_base.css" rel="stylesheet" type="text/css" />
+<script type="text/jscript">
+	var currentCategory;
+	var subforumUl;
+	var stickUl, normalUl;
+	var articleDetailUl;
+	var loggingDiv;
+	var fastPostDiv;
+	var footerDiv;
+	var fastLoginDiv;
+	var searchResultUl;
+	var searchResultBar;
+  
+	function setBaseUrl(url){
+		var baseTag = document.all.tags("base");
+		baseTag[0].href = url;
+	}
+
+	function processLinks(htmlText){
+		var links = htmlText.split("<a");
+		var finalHTML = links[0];
+		for (var i = 1; i < links.length; i++){			
+			finalHTML += "<a onclick=\"return navigate(this)\"";
+			finalHTML += links[i];		
+		}
+		return finalHTML;
+	}
+
+	function filterLinks(htmlText){
+		var links = htmlText.split("<a");
+		var finalHTML = links[0];
+		for (var i = 1; i < links.length; i++){			
+			finalHTML += "<a onclick=\"return false\"";
+			finalHTML += links[i];			
+		}
+		return finalHTML;	
+	}
+
+	var onselectionchange = function(event){
+		var e = event || window.event;
+		var obj = e.target || e.srcElement;
+		window.forum.onForumNavigate(obj.value);
+	}
+
+	function processPaging(pagingHTML){
+		var div = document.createElement('div');
+		div.innerHTML = pagingHTML;
+	  	appendContentChild(div);
+		var sel = document.createElement('select');
+        var prev = null;
+		var next = null;
+		var selectionDiv = document.createElement('div');
+		sel.setAttribute("onchange" ,"onselectionchange()");		
+
+		for(var i = 0; i < div.childNodes.length; i++){		
+            if(div.childNodes[i].className == 'prev'){
+                prev = document.createElement('a')				
+		       	prev.href = div.childNodes[i].href;
+				prev.setAttribute("onclick", "return navigate(this)");
+				prev.innerHTML = "上页";				
+		    } else if (div.childNodes[i].className =='next' || div.childNodes[i].className =='nxt') {
+		        next = document.createElement('a');				
+		      	next.href  = div.childNodes[i].href;
+				next.setAttribute("onclick", "return navigate(this)");
+				next.innerHTML = "下页";				
+		    } else {	
+				var option = new Option(div.childNodes[i].firstChild.nodeValue, div.childNodes[i].href);				
+		        
+		        if(div.childNodes[i].nodeName == 'STRONG') {
+		            option.setAttribute("selected", "true");
+		            option.value = '#';
+		        }
+		      	sel.options.add(option);
+		      	}
+		}		
+		div.parentNode.removeChild(div);
+		if(prev!=null)
+			selectionDiv.appendChild(prev);
+		if(next!=null)
+			selectionDiv.appendChild(next);
+		selectionDiv.appendChild(sel);
+		
+		return selectionDiv;
+	}
+
+	// page navigation functions
+	function navigate(ele){
+		// 目前没有注册页面的论坛模式，直接用原生网页的注册
+		if (ele.href.indexOf("register.php") != -1){
+			return true;		
+		}
+		window.forum.onForumNavigate(ele.href);
+		return false;
+	}
+
+	// show feed back
+	function feedback(){
+		window.forum.showFeedback();
+		return false;
+	}
+
+	function enterPost(ele){
+		window.forum.onEnterPost(ele.href);
+		return false;	
+	}
+
+	function appendContentChild(childEle){
+	    var ele = document.getElementById('loading');
+	    
+	    if (ele != null)
+			ele.style.display = "none";
+		
+		ele = document.getElementById('content');
+		
+		if (ele != null)
+			ele.appendChild(childEle);	
+	}
+	// category page
+	function addCategory(title){
+		var categoryDiv = document.createElement("div");
+		categoryDiv.setAttribute("class", "title-bar");
+		categoryDiv.innerHTML = title;
+	  	appendContentChild(categoryDiv);
+
+		var categoryContainer = document.createElement("ul");
+		categoryContainer.setAttribute("class", "ul-list");
+	  	appendContentChild(categoryContainer);			
+		currentCategory = categoryContainer;
+	}
+	
+	function addForum(title, link, icon, todayNum){
+		if (currentCategory != null && currentCategory != 'undefined'){
+			var liEle = document.createElement("li");	
+			var innerHTML =	"";
+			if (icon != ""){
+				innerHTML = '<div class="icon"><img src="' + icon +
+				'" /></div>';
+			}		
+			innerHTML +=  '<a href="'+ link + 
+				'" onclick="return navigate(this)">' + title +
+				'</a><span class="todayNum">' + todayNum + 
+				'</span>';
+			liEle.innerHTML = innerHTML;
+			currentCategory.appendChild(liEle);	
+		}	
+	}
+	
+	// article list page
+	function setArticleListCommonData(paging, newThread){
+		if (paging != "" || newThread != ""){		
+			var top3Div = document.createElement("div");
+			top3Div.setAttribute("class", "accessbar");
+		}
+		var bottom = document.getElementById("bottom");
+		if (paging != ""){
+			var pagingEle = processPaging(paging);			
+			pagingEle.setAttribute("class", "r");			
+			top3Div.appendChild(pagingEle);			
+			var pagingEle2 = pagingEle.cloneNode(true);
+			if (footerDiv == null){
+				footerDiv = document.createElement("div");
+				footerDiv.setAttribute("class", "accessbar");		
+			}
+			footerDiv.appendChild(pagingEle2);	
+			bottom.appendChild(footerDiv);
+		}
+		var feedbackDiv = document.createElement("div");
+		feedbackDiv.setAttribute("class", "feedback");
+		if (paging != "")
+			feedbackDiv.innerHTML = '<p>欢迎使用论坛模式，<a onclick="return feedback()">有问题请反馈>></a></p>';
+		else
+			feedbackDiv.innerHTML = '<div class="devider"></div><p>欢迎使用论坛模式，<a onclick="return feedback()">有问题请反馈>></a></p>';
+		bottom.appendChild(feedbackDiv);
+		if (newThread != "")
+		{
+			var newThreadDiv = document.createElement("div");
+			newThreadDiv.setAttribute("class", "newBtn");
+			var newThreadLink = document.createElement("a");
+			newThreadLink.innerHTML = "发帖";
+			newThreadLink.setAttribute("href", newThread);
+			newThreadLink.setAttribute("onclick", "return navigate(this)");			
+			newThreadDiv.appendChild(newThreadLink);   
+			top3Div.appendChild(newThreadDiv);
+
+			var newThreadDiv2 = newThreadDiv.cloneNode(true);
+			if (footerDiv == null){
+				footerDiv = document.createElement("div");
+				footerDiv.setAttribute("class", "accessbar");		
+			}
+			footerDiv.appendChild(newThreadDiv2);
+		}
+		if (paging != "" || newThread != ""){		
+	  		appendContentChild(top3Div);	
+		}		
+	}
+
+	function addSubforum(title, link, todayNum){
+		if (subforumUl == null){
+			var subforumDiv = document.createElement("div");
+			subforumDiv.setAttribute("class", "title-bar");
+			subforumDiv.innerHTML = "子版块";
+			document.getElementById("content").appendChild(subforumDiv);
+			
+			subforumUl = document.createElement("ul");
+			subforumUl.setAttribute("class", "ul-list");
+			document.getElementById("content").appendChild(subforumUl);
+		}
+
+		var subforumEle = document.createElement("li");
+		subforumEle.innerHTML = '<a onclick="return navigate(this)" href="' + link +
+			'">' + title + 
+			'</a><span class="todayNum">' + todayNum + 
+				'</span>';
+		subforumUl.appendChild(subforumEle);
+	}	
+
+	function addStickThread(title, link, icon, author, nums, lastpost){		
+		if (stickUl == null){			
+			var stickDiv = document.createElement("div");
+			stickDiv.setAttribute("class", "title-bar");
+			stickDiv.innerHTML = "置顶";
+			appendContentChild(stickDiv);
+
+			stickUl = document.createElement("ul");
+			stickUl.setAttribute("class", "ul-list");
+	  		appendContentChild(stickUl);					
+		}
+		var threadEle = document.createElement("li");
+		var innerHTML = "";
+		author = filterLinks(author);
+		if (icon != ""){
+			innerHTML = '<div class="icon"><img src="' + icon +
+				'" /></div>';		
+		}
+		innerHTML += '<a href="'+ 
+			link + 
+			'" onclick="return navigate(this)">' + 
+			title +
+			'</a><span class="gray">(</span><span class="orange">' + 
+			nums + 
+			'</span><span class="gray">)</span>  <div class="info"><div class="r"><span class="gray">' + 
+			lastpost + 
+			'</span></div><span class="gray">' + 
+			author + 
+			'</span></div>';
+		threadEle.innerHTML = innerHTML;
+		stickUl.appendChild(threadEle);		
+	}
+
+	function addNormalThread(title, link, icon, author, nums, lastpost){
+		if (normalUl == null){
+			var normalDiv = document.createElement("div");
+			normalDiv.setAttribute("class", "title-bar");
+			normalDiv.innerHTML = "主题";
+	  		appendContentChild(normalDiv);			
+
+			normalUl = document.createElement("ul");
+			normalUl.setAttribute("class", "ul-list");
+	  		appendContentChild(normalUl);					
+		}
+		var threadEle = document.createElement("li");
+		var innerHTML = "";
+		author = filterLinks(author);
+		if (icon != ""){
+			innerHTML = '<div class="icon"><img src="' + icon +
+				'" /></div>';		
+		}
+		innerHTML += '<a href="'+ 
+			link + 
+			'" onclick="return navigate(this)">' + 
+			title +
+			'</a><span class="gray">(</span><span class="orange">' + 
+			nums + '</span><span class="gray">)</span>  <div class="info"><div class="r"><span class="gray">' + 
+			lastpost + 
+			'</span></div><span class="gray">' + 
+			author + 
+			'</span></div>';
+		threadEle.innerHTML = innerHTML;
+		normalUl.appendChild(threadEle);	
+	}
+
+	// article detail page
+	function setArticleDetailCommonData(paging, replyBtn){
+		if (paging != "" || replyBtn != ""){			
+			var top3Div = document.createElement("div");
+			top3Div.setAttribute("class", "accessbar");
+		}
+		var bottom = document.getElementById("bottom");
+		if (paging != ""){
+			var pagingEle = processPaging(paging);			
+			pagingEle.setAttribute("class", "r");			
+			top3Div.appendChild(pagingEle);			
+			
+			var pagingEle2 = pagingEle.cloneNode(true);			
+			if (footerDiv == null){
+				footerDiv = document.createElement("div");
+				footerDiv.setAttribute("class", "accessbar");		
+			}
+			footerDiv.appendChild(pagingEle2);	
+			bottom.appendChild(footerDiv);			
+		}
+		var feedbackDiv = document.createElement("div");
+		feedbackDiv.setAttribute("class", "feedback");
+		if (paging != "")
+			feedbackDiv.innerHTML = '<p>欢迎使用论坛模式，<a onclick="return feedback()">有问题请反馈>></a></p>';
+		else
+			feedbackDiv.innerHTML = '<div class="devider"></div><p>欢迎使用论坛模式，<a onclick="return feedback()">有问题请反馈>></a></p>';
+		bottom.appendChild(feedbackDiv);
+
+		if (replyBtn != "")
+		{
+			var replyDiv = document.createElement("div");
+			replyDiv.setAttribute("class", "replyBtn");
+			var replyLink = document.createElement("a");
+			replyLink.innerHTML = "回复";
+			replyLink.setAttribute("href", replyBtn);
+			replyLink.setAttribute("onclick", "return navigate(this)");			
+			replyDiv.appendChild(replyLink); 			
+			top3Div.appendChild(replyDiv);			
+		}
+		if (paging != "" || replyBtn != ""){		
+	  		appendContentChild(top3Div);	
+		}	
+	}
+
+	function setCommonData(userMenu, navBar, searchBtn){
+		var userMenuEle = document.createElement("div");
+		userMenuEle.setAttribute("class", "top");
+		var searchLink = "";
+		if (searchBtn != null && searchBtn != ""){
+			 searchLink = '<span class="search_btn"><a href="' + searchBtn + '" onclick="return navigate(this)">搜索</a></span>';		
+		}
+		userMenuEle.innerHTML = processLinks(userMenu) + searchLink;
+	  	appendContentChild(userMenuEle);
+		if (navBar != ""){
+			var navBarEle = document.createElement("div");
+			navBarEle.setAttribute("class", "top2");
+			navBarEle.innerHTML = processLinks(navBar);
+	  		appendContentChild(navBarEle);
+		}
+	}
+
+	function showFastLogin(){		
+		if (fastLoginDiv == null){
+			fastLoginDiv = document.createElement("div");
+			fastLoginDiv.setAttribute("class", "fast_login");
+			fastLoginDiv.innerHTML = '<span>用户名:</span><input type="text" id="fl_account" value="" />' + 
+								'<span>密码:</span><input type="password" id="fl_password" value="" />' +
+								'<button onclick="doFastLogin()">登录</button><button onclick="showFastLoginDiv()">取消</button>';			
+		}		
+
+		var userMenuEle = document.createElement("div");
+		userMenuEle.setAttribute("class", "top");
+		userMenuEle.innerHTML = '<button onclick="showFastLoginDiv()">登录</button>';
+	  	appendContentChild(userMenuEle);
+		appendContentChild(fastLoginDiv);
+	}
+
+	function showFastLoginDiv(){
+		if (fastLoginDiv.style.display == "block")		
+			fastLoginDiv.style.display = "none";	
+		else
+			fastLoginDiv.style.display = "block";
+	}
+
+	function doFastLogin(){
+		var userName = document.getElementById("fl_account").value;
+		var password = document.getElementById("fl_password").value;
+		window.forum.doFastLogin(userName, password);
+		fastLoginDiv.style.display = "none";
+	}
+
+	function addPost(content, authorID, authorIcon, authorIconOnError, authorTitle, floorNum, postTime, fastReply){
+		if (articleDetailUl == null){
+			articleDetailUl = document.createElement("ul");
+			articleDetailUl.setAttribute("class", "bbscon");
+	  		appendContentChild(articleDetailUl);	
+		}		
+		var postEle = document.createElement("li");		
+		var innerHTML = '<div class="userbar">' + 
+      		// '<div class="photo"><img onerror=\'' + authorIconOnError + '\' src="' + authorIcon + '" width="66" height="66"/></div>' +   // 在彩板中打开      		
+      		'<div class="username"><span class="floor">' + floorNum + '</span><span class="uid">' + authorID + '</span><span>' + postTime +'</span></div>' + 
+        	// '<div class="userlevel">' + authorTitle + '</div>' + 																		// 在彩板中打开      		
+    		'</div>' + 
+    		'<div class="con-body">' +
+			content +
+   			'</div> <div class="relay">';
+		if (fastReply != "") {
+    		innerHTML += '<a href="' + fastReply + '" onclick="return navigate(this)">回复</a>'
+		}
+		innerHTML += '</div>';	
+		postEle.innerHTML = innerHTML;	
+		articleDetailUl.appendChild(postEle);
+	}
+
+	function showFastPost(){
+		if (fastPostDiv == null){
+			var fastPostDiv = document.createElement("div");
+			fastPostDiv.setAttribute("class", "fastpost");			
+			appendContentChild(fastPostDiv);
+		}
+		fastPostDiv.innerHTML = '<textarea id="fastposttext">' +
+								'</textarea>' + 
+								'<button class="fastpostBtn" onclick="doFastPosting()">发表</button>';
+	}
+
+	function doFastPosting(){
+		var content = document.getElementById("fastposttext").value;
+		window.forum.doFastPosting(content);	
+	}
+
+	function showLogging(message){		
+		if (loggingDiv == null){
+		 	loggingDiv = document.createElement("div");
+			loggingDiv.setAttribute("class", "login");
+	  		appendContentChild(loggingDiv);
+		}
+		var logingHTML = "";
+		
+		if (message != ""){
+			logingHTML = '<div class="alert">' + message + '</div>';		
+		}
+		logingHTML += '<div class="login-box"><span>用户名:</span><input type="text" id="account" value="" />' + 
+							   '<span>密码:</span><input type="password" id="password" value="" /></div>' +
+							   '<button class="loginBtn" onclick="doLogin()" >登录</button>';	
+		loggingDiv.innerHTML = logingHTML;
+		
+	}
+
+	function doLogin(){		
+		var userName = document.getElementById("account").value;
+		var password = document.getElementById("password").value;
+		window.forum.doLogging(userName, password);	
+	}
+
+	function setLoginMessage(message){		
+		if (loggingDiv == null){
+		 	loggingDiv = document.createElement("div");
+			loggingDiv.setAttribute("class", "loginMsg");
+	  		appendContentChild(loggingDiv);	
+		}
+		message = processLinks(message);
+		loggingDiv.innerHTML = message;		
+	}
+
+	function doPosting(){
+		var subject = document.getElementById("subject").value;
+		var content = document.getElementById("postcontent").value;
+		window.forum.doPosting(subject, content);	
+	}	
+
+	function showPosting(resultMessage, subject, content){
+		var postingDiv = document.createElement("div");
+		postingDiv.setAttribute("class", "posting");
+	  	appendContentChild(postingDiv);
+	  	var innerhtml = resultMessage;
+
+		if(subject!=null && content!=null) {
+			innerhtml += '<span>标题</span><input type="text" id="subject" value="' + subject + '" />' + 
+							   '<span>内容</span><textarea id="postcontent">' + content + '</textarea>' +
+							   '<button class="postingBtn" onclick="doPosting()">发表</button>';
+		}
+		postingDiv.innerHTML = innerhtml;
+	}
+
+	function showSearchForm(){
+		var searchDiv = document.createElement("div");
+		searchDiv.setAttribute("class", "search");
+		searchDiv.innerHTML = '<input type="text" id="keyword"/><button onclick="doSearch()">搜索</button>';
+		appendContentChild(searchDiv);	
+	}
+
+	function doSearch(){
+		var keyword = document.getElementById("keyword").value;
+		window.forum.doSearch(keyword);	
+	}
+
+	function showSearchResultString(resultString, paging){
+		var resultDiv = document.createElement("div");
+		resultDiv.setAttribute("class", "search_result");
+		var resultStringDiv = document.createElement("div");
+		resultStringDiv.setAttribute("class", "result_string");
+		resultStringDiv.innerHTML = resultString;
+		resultDiv.appendChild(resultStringDiv);
+		appendContentChild(resultDiv);
+
+		if (paging != ""){
+			if (searchResultBar == null){
+				searchResultBar = document.createElement("div");
+				searchResultBar.setAttribute("class", "title-bar");
+				searchResultBar.innerHTML = "搜索结果：";
+		  		appendContentChild(searchResultBar);
+				var pagingEle = processPaging(paging);	
+				pagingEle.setAttribute("class", "r");
+				searchResultBar.appendChild(pagingEle);	
+				var pagingEle2 = pagingEle.cloneNode(true);			
+				if (footerDiv == null){
+					footerDiv = document.createElement("div");
+					footerDiv.setAttribute("class", "accessbar");		
+				}
+				footerDiv.appendChild(pagingEle2);	
+				document.getElementById('bottom').appendChild(footerDiv);			
+			}
+		}
+	}
+
+	function addOneSearchResult(title, link, author, nums, lastpost){
+		if (searchResultBar == null){
+			searchResultBar = document.createElement("div");
+			searchResultBar.setAttribute("class", "title-bar");
+			searchResultBar.innerHTML = "搜索结果：";
+	  		appendContentChild(searchResultBar);			
+		}
+		if (searchResultUl == null){
+			searchResultUl = document.createElement("ul");
+			searchResultUl.setAttribute("class", "ul-list");
+	  		appendContentChild(searchResultUl);
+
+			var feedbackDiv = document.createElement("div");
+			feedbackDiv.setAttribute("class", "feedback");
+			if (footerDiv != null)
+				feedbackDiv.innerHTML = '<p>欢迎使用论坛模式，<a onclick="return feedback()">有问题请反馈>></a></p>';
+			else
+				feedbackDiv.innerHTML = '<div class="devider"></div><p>欢迎使用论坛模式，<a onclick="return feedback()">有问题请反馈>></a></p>';
+			document.getElementById('bottom').appendChild(feedbackDiv);
+		}
+		var oneResultEle = document.createElement("li");
+		var innerHTML = "";
+		author = filterLinks(author);
+		innerHTML += '<a href="'+ 
+			link + 
+			'" onclick="return navigate(this)">' + 
+			title +
+			'</a><span class="gray">(</span><span class="orange">' + 
+			nums + '</span><span class="gray">)</span>  <div class="info"><div class="r"><span class="gray">' + 
+			lastpost + 
+			'</span></div><span class="gray">' + 
+			author + 
+			'</span></div>';
+		oneResultEle.innerHTML = innerHTML;
+		searchResultUl.appendChild(oneResultEle);
+	}
+
+	function clearAllData(){		
+		document.getElementById("content").innerHTML = '';
+		currentCategory = null;
+		stickUl = null;
+		normalUl = null;
+		articleDetailUl = null;
+		loggingDiv = null;
+		fastPostDiv = null;
+		fastLoginDiv = null;
+		searchResultUl = null;
+		searchResultBar = null;
+		document.getElementById("bottom").innerHTML = '';
+		footerDiv = null;
+	}
+
+</script>
+</head>
+<body>
+<div id="loading" style="position:absolute; width:100%; height:100%;" class="footer" align="center">
+<image src="file:///android_asset/images/loading.gif" style="margin-top:100px"/>
+	<p style="margin-top:40px">
+		Идет загрузка, пожалуйста, подождите…
+	</p>
+</div>
+<div id="content"></div>
+<div id="bottom"></div>
+</body>
+</html>
