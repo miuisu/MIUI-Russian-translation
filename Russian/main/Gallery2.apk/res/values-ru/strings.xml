@@ -193,9 +193,6 @@
 	<string name="setting_off">Выкл</string>
 	<string name="setting_on">Вкл</string>
 	<string name="pref_video_quality_title">Качество видео</string>
-	<string name="pref_video_quality_entry_1080p">1080p</string>
-	<string name="pref_video_quality_entry_720p">720p</string>
-	<string name="pref_video_quality_entry_480p">480p</string>
 	<string name="pref_video_quality_entry_high">Высокое</string>
 	<string name="pref_video_quality_entry_low">Низкое</string>
 	<string name="pref_video_time_lapse_frame_interval_title">Замедление</string>
@@ -227,9 +224,6 @@
 	<string name="pref_exposure_title">Экспозиция</string>
 	<string name="dialog_ok">OK</string>
 	<string name="spaceIsLow_content">Место на вашей SD карте заканчивается. Измените настройки качества или удалите ненужные изображения и другие файлы.</string>
-	<string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
-	<string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
-	<string name="pano_file_name_format">"'PANO'_yyyyMMdd_HHmmss"</string>
 	<string name="video_reach_size_limit">Достигнут предельный размер видео.</string>
 	<string name="pano_too_fast_prompt">Слишком быстро</string>
 	<string name="pano_dialog_prepare_preview">Обработка…</string>
@@ -331,10 +325,7 @@
 Другие приложения смогут получить доступ к этой информации, если у них будет доступ к снимкам."</string>
 	<string name="remember_location_no">Нет, спасибо</string>
 	<string name="remember_location_yes">Да</string>
-	<string name="settings_feedback_email">moblynx.us@gmail.com</string>
 	<string name="gadget_title">Фоторамка</string>
-	<string name="details_ms">%1$02d:%2$02d</string>
-	<string name="details_hms">%1$d:%2$02d:%3$02d</string>
 	<string name="movie_view_label">Видео плеер</string>
 	<string name="loading_video">Загрузка видео…</string>
 	<string name="loading_image">Загрузка изображения…</string>
@@ -492,7 +483,6 @@
 	<string name="trim_too_short">Невозможно обрезать: выбранное видео слишком короткое</string>
 	<string name="pano_progress_text">Обработка панорамы</string>
 	<string name="save">Сохранить</string>
-<!-- MX2 -->
     <string name="recommend">Рейтинг</string>
     <string name="channel">Канал</string>
     <string name="episodesvarietylatest">Позже</string>
@@ -763,7 +753,7 @@
     <string name="pref_camera_focus_entry_infinit">Бесконечно</string>
     <string name="no_storage_title">Нет накопителя</string>
     <string name="no_storage_message">Внешний накопитель отсутствует.</string>
-    <string name="pref_camera_autoexposure_entry_focus_ae_af_separation">AE/AF Separation</string>
+    <string name="pref_camera_autoexposure_entry_focus_ae_af_separation">AE/AF Разделение</string>
     <string name="pref_camera_videoencoder_title">Формат видео</string>
     <string name="pref_camera_videoencoder_dialogtitle">Формат видео</string>
     <string name="pref_camera_audioencoder_title">Формат аудио</string>
