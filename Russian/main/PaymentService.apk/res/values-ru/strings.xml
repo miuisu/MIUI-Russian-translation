@@ -92,7 +92,6 @@
 	<string name="mibi_license_message">Нажимая клавишу \"ОК\", вы соглашаетесь соблюдать %1$s.</string>
 	<string name="mibi_license_message_span">пользовательское соглашение MiCredit</string>
 	<string name="mibi_license_title">Пользовательское соглашение</string>
-	<string name="mili_center">MiCredit</string>
 	<string name="msg_send_no_net_error">Ошибка отправки сообщения: не удается подключиться к мобильной сети.</string>
 	<string name="msg_send_no_sim_error">Ошибка отправки сообщения, попробуйте еще раз.</string>
 	<string name="msg_send_send_fail_error">Ошибка отправки сообщения</string>

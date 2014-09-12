@@ -380,7 +380,7 @@
     <string name="current_account">Текущий аккаунт</string>
     <string name="my_xiaomi_account">Аккаунт Xiaomi</string>
 	<string name="micloud_intro_01_part_01">Экономьте на мобильном интернете</string>
-	<string name="micloud_intro_01_part_02">Облачные сообщения позволят Вам отправлять бесплатные сообщения через интернет.</string>
+	<string name="micloud_intro_01_part_02">Облачные сообщения позволят Вам отправлять бесплатные сообщения MIUI пользователям через интернет.</string>
 	<string name="micloud_intro_02_part_01">Переносите данные без усилий</string>
 	<string name="micloud_intro_02_part_02">Синхронизируйте контакты, сообщения, фото и прочее между другими устройствами.</string>
 	<string name="micloud_intro_03_part_01">Доступ из любого места</string>
@@ -557,6 +557,30 @@
 	<string name="error_device_id">Не удается получить IMEI</string>
 	<string name="bank_cards">Банковские карты</string>
 	<string name="error_login">Ошибка авторизации</string>
-	<string name="relogin_notice">Необходимо авторизироваться повторно</string>
+	<string name="relogin_notice">Необходимо авторизоваться повторно</string>
 	<string name="barcode_add_account_prompt">Чтобы добавить аккаунт, сканируете QR-код снова после авторизации.</string>
+	<string name="activate">Активировать</string>
+	<string name="all_cloud_service_dspt">"Выберите, какие из сервисов Mi Cloud services вы хотите использовать.
+В любое время можно включить/выключить этот сервис в настройках."</string>
+	<string name="cloud_message_notice">"Облачные сообщения позволят Вам отправлять бесплатные сообщения MIUI пользователям через интернет.
+
+В любое время можно включить/выключить этот сервис в настройках."</string>
+	<string name="cloud_messaging_dspt">Включить Облачные сообщения</string>
+	<string name="error_ssl_hand_shake">Проблемы при подключению к серверу. Попробуйте изменить системное время на более раннее.</string>
+	<string name="find_device_additional_alert">При замене SIM карты, будет отправлено сообщение для дальнейшего отслеживания местоположения телефона.</string>
+	<string name="find_device_dspt_in_all_setting_1">"Определите местоположение, заблокируйте или удалите данные с устройства на "</string>
+	<string name="find_device_notice_1">"Посетите "</string>
+	<string name="find_device_notice_3">" для поиска, блокировки или сброса всех данных на устройстве.
+
+В любое время можно включить/выключить этот сервис в настройках."</string>
+	<string name="mx_dspt_in_all_setting">Отправлять бесплатно сообщения по интернету между MIUI устройствами</string>
+	<string name="sms_prompt_cloud_messaging">Облачные сообщения</string>
+	<string name="sms_prompt_cloud_service">Сервис MiCloud</string>
+	<string name="sms_prompt_find_device">Найти устройство</string>
+	<string name="sms_prompt_set_all">эти устройства</string>
+	<string name="sms_prompt_set_single">это устройство</string>
+	<string name="sms_prompt_sync">синхронизация</string>
+	<string name="sync_dspt_in_all_setting">Синхронизация фото, сообщений, заметок и прочего между вашими Mi устройствами</string>
+	<string name="user_agreement_p6">"Используя этот сервис вы соглашаетесь с "</string>
+	<string name="user_agreement_p7">условиями предоставления услуг Mi Cloud</string>
 </resources>

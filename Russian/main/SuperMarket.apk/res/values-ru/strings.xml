@@ -415,4 +415,6 @@
     <string name="expansion_confirm_message">Это приложение с пакетом расширений, установка займет больше времени. Продолжить установку?</string>
     <string name="expansion_main_download_name">%1$s пакет 1</string>
     <string name="expansion_append_download_name">%1$s пакет 2</string>
+    <string name="enable_gps_message">Mi Market запрашивает информацию о местоположению. Зайти в настройки чтобы включить?</string>
+    <string name="enable_gps_title">Доступ к местоположению</string>
 </resources>

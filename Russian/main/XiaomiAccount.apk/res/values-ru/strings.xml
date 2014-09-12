@@ -230,7 +230,7 @@
     <string name="btn_return">Назад</string>
     <string name="re_register">Повторная регистрация</string>
     <string name="skip_register">Пропустить регистрацию</string>
-    <string name="error_ssl_hand_shake">Проблемы при обращению к серверу. Попробуйте изменить системное время на более раннее.</string>
+    <string name="error_ssl_hand_shake">Проблемы при подключению к серверу. Попробуйте изменить системное время на более раннее.</string>
     <string name="quick_login_dialog_title">Подтверждение пароля</string>
     <string name="quick_login_dialog_step2_title">2х-этапная верификация</string>
     <string name="email_reg_success_summary">"%1$s привязан к вашему аккаунту.
