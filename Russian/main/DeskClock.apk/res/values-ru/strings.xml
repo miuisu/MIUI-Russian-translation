@@ -103,8 +103,8 @@
     <string name="stopwatch_lap_empty_text">Ни одного круга</string>
 	<string name="timer_got_it">ОК</string>
 	<string name="timer_start_alarm">Время вышло!</string>
-	<string name="dialog_confirm_abort">Отменить изменения?</string>
-    <string name="confirm_abort">Отменить</string> 
+	<string name="dialog_confirm_abort">Выйти без сохранения?</string>
+    <string name="confirm_abort">ОК</string> 
 	<string name="remind_ringtone">Мелодия</string>
 	<string name="keep_screen_on">Оставить экран включенным</string>
 	<string name="start_up">Пуск</string>
