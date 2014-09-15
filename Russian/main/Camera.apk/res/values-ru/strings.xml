@@ -578,7 +578,7 @@
     <string name="import_contact">Импорт контакта</string>
     <string name="secure_access_web_url">Безопасный доступ</string>
     <string name="download_by_browser">Скачать</string>
-    <string name="launch_market">Открыть маркет</string>
+    <string name="launch_market">Открыть Mi Маркет</string>
     <string name="see_app_details">Информация о приложении</string>
     <string name="copy_text">Копировать текст</string>
     <string name="copy_text_success">Скопировано</string>
@@ -616,7 +616,7 @@
     <string name="visit_cloud_album">Посетить облачный альбом</string>
     <string name="find_cloud_album">Найти облачный альбом с помощью QR кода</string>
     <string name="wifi_connecting">Соединение…</string>
-    <string name="wifi_open_fail">Невозможно открыть Wi-Fi</string>
+    <string name="wifi_open_fail">Не удалось открыть сеть Wi-Fi</string>
     <string name="wifi_connect_fail">Время ожидания вышло</string>
     <string name="wifi_connect_success">Подключено</string>
     <string name="pref_scan_qrcode_title">Сканер QR кода</string>
@@ -1020,13 +1020,13 @@
 	<string name="cannot_move_warning_message">При съемке не двигайте устройство</string>
 	<string name="ubifocus_capture_warning_message">Для получения лучшего качества фото используйте 2 объекта для фокусировки: первый расположите на расстоянии менее 1 метра от объектива, второй - вдали</string>
 	<string name="pref_camera_auto_capture_when_stable_title">Автосъемка при фокусе</string>
-	<string name="ubi_focus_capture_fail">Ошибка съемки</string>
+	<string name="ubi_focus_capture_fail">Не удалось сфотографировать</string>
 	<string name="simple_mode_button_text_4kuhd">Отключить режим 4K</string>
 	<string name="pref_video_4kuhd_title_simple_mode">Режим 4K</string>
 	<string name="pref_camera_countdown_title">Таймер</string>
 	<string name="simple_mode_button_text_countdown">Выключить таймер</string>
 	<string name="burst_shoot_exit_button_text">Отключить серийную съемку</string>
 	<string name="pref_burst_shoot_title">Серийная съемка</string>
-	<string name="pref_priority_storage_title">Приоритет сохранения на внешнюю память</string>
+	<string name="pref_priority_storage_title">Сохранять на внешнюю память</string>
     <string name="pref_long_press_shutter_button_focus_title">Долгое нажатие кнопки затвора для фокусировки</string>
 </resources>

@@ -16,7 +16,7 @@
     <string name="micloud_welcome_skip_login"><u>Пропустить этот шаг</u></string>
     <string name="micloud_account_name">Mi Cloud</string>
     <string name="micloud_use_existing">Войти</string>
-    <string name="micloud_reg_new">Создать аккаунт</string>
+    <string name="micloud_reg_new">Создать Mi аккаунт</string>
     <string name="micloud_error_empty_username">Введите логин</string>
     <string name="micloud_error_empty_pwd">Введите пароль</string>
     <string name="micloud_error_illegal_pwd">Неверный пароль</string>

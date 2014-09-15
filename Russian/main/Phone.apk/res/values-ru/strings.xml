@@ -294,9 +294,9 @@
 	<string name="enable_disable_multi_category">Подборка из нескольких категорий</string>
 	<string name="multi_category_enable">Подборка из нескольких категорий включена</string>
 	<string name="multi_category_disable">Подборка из нескольких категорий выключена</string>
-	<string name="gsm_umts_network_preferences_title">Настройки GSM/UMTS</string>
+	<string name="gsm_umts_network_preferences_title">Режим сети</string>
 	<string name="gsm_umts_network_preferneces_summary">Еще не указано!</string>
-	<string name="gsm_umts_network_preferences_dialogtitle">Настройки GSM/UMTS</string>
+	<string name="gsm_umts_network_preferences_dialogtitle">Режим сети</string>
 	<string name="prefer_2g">Только сети 2G</string>
 	<string name="prefer_2g_summary">Использовать сети 2G для экономии заряда батареи</string>
 	<string name="cdma_system_select_title">Выбор системы</string>
@@ -1393,7 +1393,7 @@
     <string name="lable_call_barring">Запрет вызова</string>
     <string name="lable_all_outgoing">Все исходящие вызовы</string>
     <string name="lable_all_outgoing_international">Исх.международные вызовы</string>
-    <string name="lable_all_out_except">Исх.междун.вызовы,кроме НМСОП</string>
+    <string name="lable_all_out_except">Исх.междун.вызовы,кроме PLMN</string>
     <string name="lable_all_incoming">Все входящие вызовы</string>
     <string name="lable_incoming_calls_except">Входящие вызовы в роуминге</string>
     <string name="deactivate_all">Отменить все</string>
@@ -1405,10 +1405,10 @@
     <string name="new_password_label">Новый пароль (4 символа)</string>
     <string name="invalid_password">Введите пароль (4 символа)</string>
     <string name="confirm_password_label">Подтвердите пароль</string>
-    <string name="mismatch_password">Пароли не совпадают. Попробуйте еще раз.</string>
+    <string name="mismatch_password">Введенные пароли не совпадают</string>
     <string name="password_changed">Пароль изменен</string>
     <string name="enter_callbarring_password">Введите пароль запрета вызовов (4 символа)</string>
-    <string name="wrong_password">Ошибка пароль</string>
+    <string name="wrong_password">Ошибка пароля</string>
     <string name="error_title">Ошибка</string>
     <string name="cell_broadcast">Cell broadcast</string>
     <string name="cell_broadcast_settings">Настройки Cell broadcast</string>

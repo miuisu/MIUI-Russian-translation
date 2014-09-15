@@ -201,12 +201,12 @@
   <string name="cit_vibrator_short">Короткая</string>
   <string name="cit_vibrator_show_advanced">Расширенные параметры</string>
   <string name="cit_wifi_address_check_summary">Информация о сети Wi-Fi</string>
-  <string name="cit_wifi_address_check_title">Сеть Wi-Fi</string>
+  <string name="cit_wifi_address_check_title">Адрес Wi-Fi</string>
   <string name="cit_wifi_address_error">Не удается получить адрес Wi-Fi. Пожалуйста, убедитесь, что вы подключены к точке доступа Wi-Fi.</string>
   <string name="cit_wifi_ap_scan_check_summary">Информация о Wi-Fi</string>
-  <string name="cit_wifi_ap_scan_check_title">Сканирование Wi-Fi</string>
-  <string name="cit_wifi_ap_scan_retry">Сканирование</string>
-  <string name="cit_wifi_ap_scanning">Сканирование AP…</string>
+  <string name="cit_wifi_ap_scan_check_title">Сканирование ТД Wi-Fi</string>
+  <string name="cit_wifi_ap_scan_retry">Повторное сканирование…</string>
+  <string name="cit_wifi_ap_scanning">Сканирование точек доступа…</string>
   <string name="cit_wifi_fail_to_scan">Не удается выполнить сканирование сети</string>
   <string name="cit_wifi_state_refresh">обновление</string>
   <string name="cit_OTG_plugin_check_title">OTG (подключение)</string>

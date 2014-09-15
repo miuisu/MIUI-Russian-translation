@@ -14,7 +14,7 @@
 	<string name="err_type_force_close">Принудительное закрытие</string>
 	<string name="err_type_network">Сеть</string>
 	<string name="err_type_others">Другие</string>
-	<string name="err_type_power_consuming">Потребление батареи</string>
+	<string name="err_type_power_consuming">Энергопотребление</string>
 	<string name="err_type_reboot">Перезагрузка</string>
 	<string name="err_type_suggestion">Предложения</string>
 	<string name="menu_attach_screenshot">Присоединить скриншот</string>
@@ -30,9 +30,9 @@
 	<string name="section_description">Описание</string>
 	<string name="section_err_type">Тип отчета</string>
 	<string name="section_screenshot">Скриншот</string>
-	<string name="status_msg_collecting_log">Сбор логов</string>
-	<string name="status_msg_pending_upload">%d отчетов загружаются…</string>
-	<string name="toast_description_required">Отзыв пользователя не может быть пустым</string>
+	<string name="status_msg_collecting_log">Сохранение логов…</string>
+	<string name="status_msg_pending_upload">Отчетов загружается: %d…</string>
+	<string name="toast_description_required">Отзыв не может быть пустым</string>
 	<string name="toast_feedback_pending_wlan">Ваш отчет будет отправлен при подключении к сети Wi-Fi</string>
 	<string name="toast_feedback_submitted">Ваш отчет успешно отправлен</string>
 	<string name="toast_pending_log_collection">Сбор логов…</string>
@@ -41,8 +41,8 @@
 	<string name="toast_report_sent_succeed">Отчет был успешно отправлен</string>
 	<string name="user_feedback">Отчеты</string>
 	<string name="wlan_unavailable_dialog_button_ok">ОК</string>
-	<string name="wlan_unavailable_dialog_button_sent">Отправить сейсас</string>
-	<string name="wlan_unavailable_dialog_content">%s требуется мобильная сеть, нажмите \"ОК\" для отправки только с помощью сетей Wi-Fi.</string>
+	<string name="wlan_unavailable_dialog_button_sent">Отправить</string>
+	<string name="wlan_unavailable_dialog_content">Отправка отчета использует мобильного трафика: %s. Вы можете отправить его сейчас или подождать сеть Wi-Fi.</string>
 	<string name="wlan_unavailable_dialog_title">Сеть Wi-Fi отсутствует</string>
 	<string name="action_cancel">Отмена</string>
 	<string name="action_confirm">Выбрать</string>
@@ -54,9 +54,9 @@
 	<string name="bluetooth_problem4">Не удается получить файлы</string>
 	<string name="camera_problem1">Плохое качество фото</string>
 	<string name="camera_problem2">Не удается подключиться к камере с USB</string>
-	<string name="camera_problem3">Камеры закрывается с ошибкой</string>
+	<string name="camera_problem3">Камера закрывается с ошибкой</string>
 	<string name="camera_problem4">Не удается переключиться между основной и фронтальной камерами</string>
-	<string name="camera_problem5">Камера перестает работать</string>
+	<string name="camera_problem5">Камера перестала работать</string>
 	<string name="err_type_bluetooth">Bluetooth</string>
 	<string name="err_type_camera">Камера</string>
 	<string name="err_type_nonsystemapp">Сторонние приложения</string>
@@ -66,10 +66,10 @@
 	<string name="hot_problem">Показать известные ошибки</string>
 	<string name="loading_apps">Загрузка списка приложений…</string>
 	<string name="loading_hot_problem">Загрузка…</string>
-	<string name="network_err">Не удается подключиться к сети</string>
-	<string name="no_userbook_toast">Приложение \"Read Me\" отсутствует</string>
+	<string name="network_err">Не удается подключиться к сети. Проверьте подключение и повторите попытку.</string>
+	<string name="no_userbook_toast">Приложение \"Инструкция\" отсутствует</string>
 	<string name="non_system_app_select">Сторонние приложения</string>
-	<string name="nonsystemapp_description">Введите текст</string>
+	<string name="nonsystemapp_description">Опишите проблему (на английском)</string>
 	<string name="power_consuming_problem1">Увеличенное энергопотребление после обновления</string>
 	<string name="power_consuming_problem2">При использовании этого приложения быстро разряжается батарея</string>
 	<string name="power_consuming_problem3">Высокое энергопотребление в режиме ожидания</string>
@@ -79,15 +79,15 @@
 	<string name="screen_lock">Блокировка экрана</string>
 	<string name="signal_problem1">Нет сигнала</string>
 	<string name="signal_problem2">Слабый сигнал</string>
-	<string name="suggestion_description">Введите текст</string>
+	<string name="suggestion_description">Напишите предложение (на английском)</string>
 	<string name="suggestion_problem1">Подробно опишите предложение…</string>
 	<string name="system_app_select">Системные приложения</string>
 	<string name="systemui">Панель уведомлений</string>
 	<string name="title_hot_problem">Известные ошибки</string>
-	<string name="toast_feedbackservice_in_submit">Отправка предыдущих отчетов…</string>
+	<string name="toast_feedbackservice_in_submit">Отправка предыдущего отчета…</string>
 	<string name="userbook_name">Инструкция</string>
 	<string name="wifi_problem1">Не удается подключиться к сети Wi-Fi</string>
 	<string name="wifi_problem2">Слабый сигнал сети Wi-Fi</string>
-	<string name="wifi_problem3">Сеть Wi-Fi отключается неожиданно</string>
+	<string name="wifi_problem3">Сеть Wi-Fi неожиданно отключается</string>
 	<string name="wifi_problem4">Не удается подключиться к сети</string>
 </resources>

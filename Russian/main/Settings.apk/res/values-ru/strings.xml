@@ -3954,7 +3954,7 @@ Android File Transfer
     <string name="miracast_sink_ready_to_connect">Готов к использованию</string>
     <string name="miracast_sink_busy">Используется</string>
     <string name="miracast_error_already_streaming">Уже идет вещание на один дисплей</string>
-    <string name="miracast_error_connection_in_progress">Идет подключение. Подождите.</string>
+    <string name="miracast_error_connection_in_progress">Подключение…</string>
     <string name="miracast_cancelconnect_dialog">Отмена подключения</string>
     <string name="miracast_error_cancelconnect">Подключение уже используется</string>
     <string name="miracast_search_for_displays">Поиск беспроводных дисплеев…</string>

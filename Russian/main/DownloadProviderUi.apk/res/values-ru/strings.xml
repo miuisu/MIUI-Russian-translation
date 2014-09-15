@@ -109,8 +109,8 @@
 	<string name="dredge_xunlei_account">Открыть аккаунт Xunlei</string>
 	<string name="experience_xunlei_account_speed">Аккаунт сервиса Xunlei</string>
 	<string name="free_high_speed_channel">Бесплатное ускорение</string>
-	<string name="get_account_dialog_msg">Получить информацию аккаунта</string>
-	<string name="get_order_dialog_msg">Получить информацию о заказе</string>
+	<string name="get_account_dialog_msg">Получение информацию аккаунта</string>
+	<string name="get_order_dialog_msg">Получение информацию о заказе</string>
 	<string name="get_order_fail_msg">Не удалось получить информацию о заказе</string>
 	<string name="high_speed_channel">Высокоскоростной канал данных</string>
 	<string name="immediately_a_renewal">Обновление</string>
@@ -120,7 +120,6 @@
 	<string name="mi_money">Mi Деньги</string>
 	<string name="one_month">Один месяц</string>
 	<string name="open_xunlei_speed_service">Включить сервис загрузки Xunlei</string>
-	<string name="original_price">(Начальная цена</string>
 	<string name="period_of_validity">"Срок действия: "</string>
 	<string name="turn_off_xunlei_tips">Ускорение загрузки Xunlei выключено</string>
 	<string name="xunlei_member_annual_fee">Аккаунт Xunlei на год (платиновый)</string>
@@ -128,6 +127,6 @@
 	<string name="xunlei_speed_service">Ускорение загрузки Xunlei</string>
 	<string name="add_flow_fail_haveget_msg">Вы уже получили бесплатное ускорение Xunlei в этом месяце</string>
 	<string name="add_flow_fail_vip_msg">Ускорение загрузки Xunlei получено</string>
-	<string name="add_flow_success_msg">Ускорение на 300Мб успешно получено</string>
+	<string name="add_flow_success_msg">Ускорение на 300 Мб успешно получено</string>
 	<string name="display_expire_netiv1">Месячное пользование</string>
 </resources>

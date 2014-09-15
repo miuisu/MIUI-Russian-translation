@@ -73,7 +73,7 @@
 	<string name="task_finished">Резервное копирование завершено</string>
 	<string name="task_canceled">Резервное копирование отменено</string>
 	<string name="task_failed">Ошибка</string>
-	<string name="task_canceled_local">Отменено заданий: %s</string>
+	<string name="task_canceled_local">Отменено (%s завершено)</string>
 	<string name="task_canceled_all_local">Отмена</string>
 	<string name="task_failed_local">Не удалось завершить: %s</string>
 	<string name="task_failed_all_local">Задание не завершено</string>
