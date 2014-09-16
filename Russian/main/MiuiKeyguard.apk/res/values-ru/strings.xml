@@ -33,7 +33,7 @@
     <string name="unlock_string">ОК</string>
     <string name="open_wifi_settings">Открыть сетевые подключения</string>
     <string name="lock_screen_date">EE, d MMMM yyyy</string>
-    <string name="lockscreen_glogin_instructions">Введите аккаунт Xiaomi для разблокировки</string>
+    <string name="lockscreen_glogin_instructions">Войдите в Mi аккаунт для разблокировки</string>
     <string name="lockscreen_glogin_password_hint">Пароль</string>
     <string name="lockscreen_glogin_checking_password">Проверка…</string>
     <string name="login_website_in_case_forget_password">Для сброса пароля посетите i.mi.com.</string>
@@ -65,7 +65,7 @@
     <string name="lockscreen_access_pattern_cleared">Ключ очищен</string>
     <string name="lockscreen_access_pattern_cell_added">Оператор добавлен</string>
     <string name="lockscreen_access_pattern_detected">Конец ключа</string>
-    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Вы ввели пароль неверно %d раз(а). После %d неверных попыток ввода вам будет предложено разблокировать телефон с помощью аккаунта Xiaomi.
+    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Вы ввели пароль неверно %d раз(а). После %d неверных попыток ввода вам будет предложено разблокировать телефон с помощью Mi аккаунта.
 
  Повторите попытку через %d сек."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Вы ввели пароль неверно %d раз(а). После %d неверных попыток все данные будут очищены и восстановлены заводские настройки.</string>

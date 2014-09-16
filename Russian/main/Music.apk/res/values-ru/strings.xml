@@ -224,7 +224,7 @@
 	<string name="project_device_mobile">Мобильный телефон</string>
 	<string name="queue">Текущий плейлист</string>
 	<string name="quit_player">Выход</string>
-	<string name="quit_warining">Автоотключение через %d мин.</string>
+	<string name="quit_warining">Автовыключение через %d мин.</string>
 	<string name="recentlyadded_title">Новые</string>
 	<string name="recentlyplayed_title">Недавние</string>
 	<string name="recommend">Новые</string>
@@ -295,7 +295,7 @@
 	<string name="spectrogram_display_summary">Может негативно влиять на производительность</string>
 	<string name="account_setting">Аккаунт</string>
 	<string name="account_and_synchronization">Аккаунт и синхронизация</string>
-	<string name="xiaomi_account_setting">Аккаунт Xiaomi</string>
+	<string name="xiaomi_account_setting">Mi аккаунт</string>
  	<string name="bind_baidu_account_setting">Аккаунт Baidu</string>
 	<string name="bind_baidu_account_summary">Загрузите плейлист из своего аккаунта Baidu music</string>
  	<string name="synchronize_playlist_setting">Синхронизировать плейлист</string>
@@ -325,7 +325,7 @@
     <string name="ultra_high_quality">Наивысшее качество</string>
     <string name="high_quality">Высокое качество</string>
     <string name="normal_quality">Хорошее качество</string>
-    <string name="login_first">Необходимо авторизироваться в аккаунте Xiaomi</string>
+    <string name="login_first">Необходимо авторизироваться в Mi аккаунте</string>
     <string name="login">Вход</string>
     <string name="payment_success">Оплата завершена</string>
     <string name="payment_fail">Ошибка оплаты</string>

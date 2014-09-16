@@ -34,7 +34,7 @@
     <string name="tag_history">История</string>
     <string name="alarm_config_12h">Будильник в 8:00</string>
     <string name="alarm_config_24h">Будильник в 20:00</string>
-    <string name="open_xiaomi_web">Посетите Xiaomi.com</string>
+    <string name="open_xiaomi_web">Посетите xiaomi.com</string>
     <string name="phone_to_tag">Для редактирования ярлыка,</string>
     <string name="edit_tag_content">прислоните его к задней части вашего телефона</string>
     <string name="bump_start">"Для того, чтобы начать
@@ -59,7 +59,7 @@
     <string name="failed_install">Установка не удалась</string>
     <string name="unavailable_net">Установка не удалась: нет подключения к сети</string>
     <string name="unavailable_storage">Установка не удалась: не удалось использовать SD карту</string>
-    <string name="no_available_xiaomi_shop">Не удалось открыть маркет Xiaomi</string>
+    <string name="no_available_xiaomi_shop">Не удалось открыть Mi маркет</string>
     <string name="task">Триггер задачи</string>
     <string name="null_task">Нет задач</string>
     <string name="create_configs_prompt">Для добавления задачи, нажмите Добавить</string>

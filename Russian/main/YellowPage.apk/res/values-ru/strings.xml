@@ -319,7 +319,7 @@
     <string name="account_order">Мои заказы</string>
     <string name="account_address">Мои адреса</string>
     <string name="account_title">Профиль</string>
-    <string name="account_type_name">Аккаунт Xiaomi</string>
+    <string name="account_type_name">Mi аккаунт</string>
     <string name="account_verify_password">Для безопасного использования сервисов необходимо проверить пароль аккаунта</string>
     <string name="account_updating_device">Загрузка сервисов…</string>
     <string name="account_updating_device_failed">Ошибка авторизации</string>

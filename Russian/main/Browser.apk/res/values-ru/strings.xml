@@ -35,7 +35,7 @@
 	<string name="add_to_bookmarks_menu_option">Закладки</string>
 	<string name="add_to_homescreen_menu_option">Главный экран</string>
 	<string name="add_to_other_folder_menu_option">Другая папка</string>
-	<string name="add_xiaomi_account_warning">Войдите в аккаунт Xiaomi</string>
+	<string name="add_xiaomi_account_warning">Войдите в Mi аккаунт</string>
 	<string name="added_to_bookmarks">Добавлено в закладки</string>
 	<string name="alert_tips">Этот сайт может представлять риск для безопасности</string>
 	<string name="allow">Разрешить</string>

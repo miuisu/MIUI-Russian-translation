@@ -594,7 +594,7 @@
     <string name="sim_contact_search_error">Произошла ошибка при поиске на SIM карте</string>
     <string name="contacts_unavailable_add_xiaomi_account">Синхронизация контактов Xiaomi</string>
     <string name="noContactHelpTextAccountsInfo">Синхронизация контактов Xiaomi, Google и Exchange</string>
-    <string name="noContactHelpTextImportXiaomiAccountInfo">Восстановление данных с помощью аккаунта Xiaomi</string>
+    <string name="noContactHelpTextImportXiaomiAccountInfo">Восстановление данных с помощью Mi аккаунта</string>
     <string name="group_name_contacts">Контакты</string>
     <string name="group_name_friends">Друзья</string>
     <string name="group_name_family">Семья</string>
@@ -1056,7 +1056,7 @@
     <string name="resource_comment_edit_text_default">Написать комментарий</string>
     <string name="resource_comment_publish">Отправить</string>
     <string name="resource_comment_name_default">Пользователь %1$s</string>
-    <string name="resource_comment_account_need_activitied">Активируйте аккаунт Xiaomi</string>
+    <string name="resource_comment_account_need_activitied">Активируйте Mi аккаунт</string>
     <string name="resource_comment_rate">Оценка:</string>
     <string name="resource_comment_entry_tips">Показать комментарии</string>
     <string name="fail_to_add_account">Не удалось добавить аккаунт</string>

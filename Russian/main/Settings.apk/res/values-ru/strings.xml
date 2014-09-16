@@ -535,7 +535,7 @@
 	<string name="wifi_share_action_turn_off">Остановить доступ к сети</string>
     <string name="wifi_share_list_empty">Невозможно найти публичную сеть</string>
 	<string name="wifi_share_action_turn_on">Поделиться Wi-Fi</string>
-	<string name="wifi_share_action_turn_on_summary">Сначала войдите в аккаунт Xiaomi.</string>
+	<string name="wifi_share_action_turn_on_summary">Сначала войдите в Mi аккаунт.</string>
 	<string name="wifi_share_add">Добавить публичную сеть Wi-Fi</string>
 	<string name="wifi_share_add_summary">Когда вы делитесь своей сетью Wi-Fi,\nвы можете использовать сети других пользователей.</string>
 	<string name="wifi_share_connect">Подключиться</string>
@@ -2197,7 +2197,7 @@
     <string name="available_size">%s доступно</string>
     <string name="total_size">%s всего</string>
     <string name="memory_title">Доступно %1$s из %2$s</string>
-    <string name="xiaomi_account">Аккаунт Xiaomi</string>
+    <string name="xiaomi_account">Mi аккаунт</string>
     <string name="sync_settings">Синхронизация</string>
     <string name="sms_received_sound_title">Входящее SMS</string>
     <string name="sms_delivered_sound_title">Доставленное SMS</string>
@@ -2213,7 +2213,7 @@
     <string name="ac_privacy_mode_sum">Для отключения режима гостя потребуется ввести пароль</string>
     <string name="access_control_password_title">Использовать пароль</string>
     <string name="access_control_need_to_unlock">Введите пароль</string>
-    <string name="access_control_reset_by_account">Войдите в аккаунт Xiaomi для восстановления пароля</string>
+    <string name="access_control_reset_by_account">Войдите в Mi аккаунт для восстановления пароля</string>
     <string name="access_control_need_password">Приложение %s защищено\n</string>
     <string name="access_control_no_back_footer">Нажмите [icon] для выхода</string>
     <string name="access_control_recording_intro_header">Задайте графический ключ</string>
@@ -2662,7 +2662,7 @@ Android File Transfer
     <string name="mdb_restore_mode">Режим восстановления</string>
     <string name="mdb_entering">Вход</string>
     <string name="private_sms_need_to_unlock">Введите пароль</string>
-    <string name="private_sms_reset_by_account">Войдите в аккаунт Xiaomi для восстановления пароля</string>
+    <string name="private_sms_reset_by_account">Войдите в Mi аккаунт для восстановления пароля</string>
     <string name="private_sms_recording_intro_header">Нарисуйте графический ключ</string>
     <string name="cancel_alert">Отменить изменения?</string>
     <string name="android_beam_witch_label">Включить Android Beam</string>
@@ -4259,7 +4259,7 @@ Android File Transfer
     <string name="account_list">Все</string>
     <string name="account_add">Добавить</string>
     <string name="private_gallery_need_to_unlock">Введите пароль:</string>
-    <string name="private_gallery_reset_by_account">Чтобы сбросить пароль, войдите в аккаунт Xiaomi.</string>
+    <string name="private_gallery_reset_by_account">Чтобы сбросить пароль, войдите в Mi аккаунт.</string>
     <string name="private_gallery_recording_intro_header">Нарисуйте ключ блокировки</string>
     <string name="system_app_settings">Системные приложения</string>
     <string name="connect_to_internet">Подключение к интернету</string>

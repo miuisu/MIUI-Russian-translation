@@ -129,7 +129,7 @@
 	<string name="resource_comment_description">%1$s комментарий к %2$s %3$s %4$s</string>
 	<string name="resource_comment_count">%1$s оценок %2$s общее колличество комментариев (%3$s версия)</string>
 	<string name="resource_comment_name_default">Пользователь %1$s</string>
-	<string name="resource_comment_account_need_activitied">Активируйте аккаунт Xiaomi</string>
+	<string name="resource_comment_account_need_activitied">Активируйте Mi аккаунт</string>
 	<string name="resource_comment_rate">Оценка:</string>
 	<string name="resource_comment_entry_tips">Показать комментарии</string>
 	<string name="fail_to_add_account">Не удалось добавить аккаунт</string>

@@ -35,9 +35,9 @@
 	<string name="menu_sort_by_time">Дата</string>
 	<string name="menu_sort_by_size">Размер</string>
 	<string name="hot_subject">Коллекции</string>
-    <string name="login_first_install_title">Вход в аккаунт Xiaomi</string>
+    <string name="login_first_install_title">Вход в Mi аккаунт</string>
     <string name="login_active_title">Активировать ваш аккаунт?</string>
-    <string name="login_download_title">Вход в аккаунт Xiaomi</string>
+    <string name="login_download_title">Вход в Mi аккаунт</string>
     <string name="login_skip">Пропустить</string>
     <string name="login_ok">Вход</string>
     <string name="login_active">Активир.</string>
@@ -249,9 +249,9 @@
     <string name="password">Пароль</string>
     <string name="password_hint_text">6~16 символов</string>
     <string name="bad_authentication">Ошибка аутентификации. Неправильный логин или пароль.</string>
-    <string name="micloud_welcome_banner">Аккаунт Xiaomi</string>
-    <string name="micloud_account_name">Аккаунт Xiaomi</string>
-    <string name="micloud_log_prompt">Войти в аккаунт Xiaomi</string>
+    <string name="micloud_welcome_banner">Mi аккаунт</string>
+    <string name="micloud_account_name">Mi аккаунт</string>
+    <string name="micloud_log_prompt">Войти в Mi аккаунт</string>
     <string name="micloud_use_existing">Существующий</string>
     <string name="micloud_reg_new">Новый</string>
     <string name="micloud_error_empty_username">Введите логин</string>
@@ -265,19 +265,19 @@
     <string name="micloud_password_error_inconsistent">Пароли не совпадают</string>
     <string name="micloud_val_sms_alert">Для проверки номера будет отправлено SMS. Продолжить?</string>
     <string name="micloud_error_email">Неправильный email</string>
-    <string name="micloud_account">Аккаунт Xiaomi</string>
+    <string name="micloud_account">Mi аккаунт</string>
     <string name="micloud_active_email_sent_1">Мы отправили ссылку для активации на ваш email</string>
     <string name="micloud_click_email">"Перейдите по ссылке из вашего email для активации
- Аккаунта Xiaomi"</string>
+ Mi аккаунта"</string>
     <string name="micloud_active_sms_sent">Проверочное сообщение отправлено</string>
     <string name="micloud_active_sms_status_wait">Подождите минутку…</string>
     <string name="micloud_active_sms_status_fail">Сбой регистрации</string>
     <string name="micloud_active_sms_status_network">Нет сети</string>
     <string name="micloud_active_sms_status_success">Регистрация прошла успешно</string>
     <string name="completed">Завершить</string>
-    <string name="title_login">Войти в аккаунт Xiaomi</string>
-    <string name="title_reg">Создать аккаунт Xiaomi</string>
-    <string name="title_activate">Активировать ваш Xiaomi аккаунт</string>
+    <string name="title_login">Войти в Mi аккаунт</string>
+    <string name="title_reg">Создать Mi аккаунт</string>
+    <string name="title_activate">Активировать ваш Mi аккаунт</string>
     <string name="micloud_account_label">Аккаунт: %1$s</string>
     <string name="reg_by_email_failure">Сбой регистрации:%1$s</string>
     <string name="reg_failed">Сбой регистрации</string>
@@ -388,7 +388,7 @@
 	<string name="holding">Удерживание…</string>
 	<string name="tab_download_history">История</string>
 	<string name="no_download_history">Нет загруженных приложений</string>
-	<string name="download_history_login_hint">Войдите в аккаунт Xiaomi для просмотра истории установленных приложений.</string>
+	<string name="download_history_login_hint">Войдите в Mi аккаунт для просмотра истории установленных приложений.</string>
 	<string name="guess_tag">Предложения</string>
     <string name="search_tag">Поиск</string>
     <string name="searchview_hint">Поиск предложений</string>

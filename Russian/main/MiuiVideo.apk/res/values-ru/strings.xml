@@ -118,7 +118,7 @@
      <string name="loading_tv">" "<CDATA>Загрузка…</CDATA>" "</string>
      <string name="loading_video">" "<CDATA>Загрузка видео…</CDATA>" "</string>
      <string name="local_count_ji">Сделано в КНР. Эпизод: %d.</string>
-     <string name="login_tip_content">Авторизируйтесь с помощью аккаунта Xiaomi для синхронизации и обновления ваших подписок.</string>
+     <string name="login_tip_content">Авторизируйтесь с помощью Mi аккаунта для синхронизации и обновления ваших подписок.</string>
      <string name="login_tip_title">Авторизация</string>
      <string name="mediaset">Серии</string>
      <string name="mediasetupdated">Серии обновлены</string>
@@ -133,7 +133,7 @@
      <string name="no_comment_tip">Нельзя отправить пустой комм</string>
      <string name="no_favorite">Пусто</string>
      <string name="no_filter_media">Нет результатов поиска</string>
-     <string name="no_login_xiaomi_account">Войдите в Xiaomi аккаунт прежде чем комментировать</string>
+     <string name="no_login_xiaomi_account">Войдите в Mi аккаунта прежде чем комментировать</string>
      <string name="no_media">Нет видео</string>
      <string name="no_myfavorite">Пусто</string>
      <string name="no_myfavorite_advice">Избранное</string>
@@ -205,8 +205,8 @@
     <string name="waitfornewset_tip_content">You will be notified when a new episode or additional content becomes available.</string>
     <string name="will_live_status">Live</string>
     <string name="write_comment">Добавить</string>
-    <string name="xiaomi_account_type_unsupported">Ваша система не поддерживает аккаунт Xiaomi</string>
-    <string name="xiaomi_user">Аккаунт Xiaomi</string>
+    <string name="xiaomi_account_type_unsupported">Ваша система не поддерживает Mi аккаунта</string>
+    <string name="xiaomi_user">Mi аккаунта</string>
     <string name="year">.</string>
     <string name="yestorday">Вчера</string>
     <string name="youku">Youku</string>
@@ -274,10 +274,8 @@
     <string name="loading_video_netplay_label_v5">Загрузка видео…</string>
     <string name="buffering_video_netplay_label_v5">Буферизация видео…</string>
     <string name="to_be_play_label_v5">Воспроизведение</string>
-    <string name="episode_prefix" />
     <string name="about_version_label">Версия</string>
     <string name="about_developer_label">Разработчик</string>
-    <string name="about_developer_name">Xiaomi</string>
     <string name="nowifi_alert_dialog_title">Предупреждение</string>
     <string name="nowifi_alert_dialog_message">Продолжить воспроизведение видео?</string>
     <string name="nowifi_alert_dialog_continue">ОК</string>

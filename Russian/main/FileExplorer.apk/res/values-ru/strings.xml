@@ -124,10 +124,10 @@
 	<string name="create_kuaipan_shortcut_pref">Отправить на рабочий стол</string>
     <string name="login_reg_content0">Используйте KuaiPan из любого места.</string>
     <string name="login_reg_content">KuaiPan позволяет хранить файлы и синхронизировать их с другими устройствами</string>
-    <string name="login_reg_login_xiaomi">Вход в аккаунт Xiaomi</string>
+    <string name="login_reg_login_xiaomi">Вход в Mi аккаунт</string>
     <string name="start_use_xiaomi_account">Начните использовать KuaiPan</string>
     <string name="pan_settting">Настройки KuaiPan</string>
-    <string name="xiaomi_account">Аккаунт Xiaomi</string>
+    <string name="xiaomi_account">Mi аккаунт</string>
     <string name="space_usage">Использовано места</string>
     <string name="start_cleanup">Очистка</string>
     <string name="local_cache">Локальный кэш</string>
@@ -257,9 +257,9 @@
     <string name="storage_sd_card">SD карта</string>
     <string name="storage_usb">USB накопитель</string>    
     <string name="bind_account">Синхр. существующий аккаунт</string>
-    <string name="bind_account_summary">Синхронизировать аккаунт Kuaipan с аккаунтом Xiaomi</string>
+    <string name="bind_account_summary">Синхронизировать аккаунт Kuaipan с Mi аккаунтом</string>
     <string name="binded_accout_title">Аккаунты синхронизированы</string>
-    <string name="binded_accout_description">Аккаунт Xiaomi синхронизирован с аккаунтом KuaiPan. Для входа в KuaiPan Вы можете использовать аккаунт Xiaomi.</string>
+    <string name="binded_accout_description">Mi аккаунт синхронизирован с аккаунтом KuaiPan. Для входа в KuaiPan Вы можете использовать Mi аккаунт.</string>
     <string name="scanning_on_going">Сканирование…</string>
     <string name="scanning" formatted="false">Сканирование приложения %d… (Всего: %d)</string>
     <string name="sys_size_title">Всего места</string>
@@ -309,7 +309,7 @@
     <string name="garbage_item_name_format" formatted="false">%s (%s)</string>
     <string name="account_bind_prompt">Перемещение пользовательских данных… Это может занять несколько минут.</string>
     <string name="migrate_announcement_title">Перемещение завершено.</string>
-    <string name="migrate_announcement_msg">Синхронизируйте ваш аккаунт KuaiPan с аккаунтом Xiaomi в настройках аккаунта KuaiPan.</string>
+    <string name="migrate_announcement_msg">Синхронизируйте ваш аккаунт KuaiPan с Mi аккаунтом в настройках аккаунта KuaiPan.</string>
     <string name="query_bind_state">Подключение к KuaiPan…</string>
     <string name="operation_deleting_detail">Удаление (%1$d/%2$d)</string>
     <string name="operation_moving_detail">Перемещение (%1$d/%2$d)</string>

@@ -85,8 +85,8 @@
 	<string name="snippet_image_stub">[Изображение]</string>
 	<string name="snippet_image_template">[Изображение %1$s]</string>
 	<string name="select_account_prompt">Вкл.синхронизацию заметок</string>
-	<string name="enable_sync_desc">Синхронизировать заметки с вашим аккаунтом Xiaomi \"%1$s\"?</string>
-	<string name="add_account_desc">Заметки можно синхронизировать с вашим аккаунтом Xiaomi. Войти и синхронизировать сейчас?</string>
+	<string name="enable_sync_desc">Синхронизировать заметки с вашим Mi аккаунтом \"%1$s\"?</string>
+	<string name="add_account_desc">Заметки можно синхронизировать с вашим Mi аккаунтом. Войти и синхронизировать сейчас?</string>
 	<string name="not_now">Не сейчас</string>
 	<string name="enable_sync">Синхронизировать</string>
 	<string name="login_sync">Вход и синхронизация</string>
