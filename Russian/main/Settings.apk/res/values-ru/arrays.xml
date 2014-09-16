@@ -269,6 +269,7 @@
     <string-array name="multi_sim_entries">
         <item>Подписка 1</item>
         <item>Подписка 2</item>
+        <item>Подписка 3</item>
     </string-array>
     <string-array name="multi_sim_summaries">
         <item>Подписка 1</item>
@@ -422,9 +423,11 @@
         <item>Linux</item>
     </string-array>
     <string-array name="msd_pc_system_install_start_summary">
-        <item>Для Windows XP и ранних версий,\nдрайвер следует установить вручную</item>
-        <item>Для Windows Vista или версий новее,\nмузыкальный проигрыватель появится на вашем компьютере автоматически</item>
-        <item>Для Mac OS X,\nдрайвер следует установить вручную</item>
+        <item>"Для Windows XP и ранних версий,
+драйвер следует установить вручную"</item>
+        <item>@string/msd_pc_system_install_start_summary_vista</item>
+        <item>"Для Mac OS X,
+драйвер следует установить вручную"</item>
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_install_step_1_summary">
@@ -440,9 +443,10 @@
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_install_finish_summary">
-        <item>Если вы установите этот драйвер, память телефона появится на компьютере</item>
-        <item>В Windows Vista или версях новее, музыкальный проигрыватель появится на вашем компьютере автоматически</item>
-        <item>Если вы установите этот драйвер компьютер автоматически откроет и прочитает память телефона</item>
+        <item>@string/msd_pc_system_install_finish_summary_xp</item>
+        <item>@string/msd_pc_system_install_finish_summary_vista</item>
+        <item>"Если вы установите этот драйвер
+компьютер автоматически откроет и прочитает память телефона"</item>
         <item></item>
     </string-array>
     <string-array name="msd_install_status">
@@ -571,9 +575,11 @@
     </string-array>
 	<string-array name="app_ops_categories">
         <item>Местоположение</item>
-        <item>Личность</item>
+        <item>Личные данные</item>
         <item>Обмен сообщениями</item>
+        <item>Медиа</item>
         <item>Устройство</item>
+        <item>Загрузка</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>неточное определение местоположения</item>
@@ -591,7 +597,7 @@
         <item>поиск сети</item>
         <item>вызов</item>
         <item>чтение сообщений</item>
-        <item>изменение сообщений</item>
+        <item>написание сообщений</item>
         <item>получение сообщений</item>
         <item>получение экстренных сообщений</item>
         <item>получение MMS</item>
@@ -600,13 +606,32 @@
         <item>чтение ICC SMS</item>
         <item>изменение ICC SMS</item>
         <item>изменение настроек</item>
-        <item>рисунок сверху</item>
+        <item>всплывающие уведомления</item>
         <item>доступ к уведомлениям</item>
         <item>камера</item>
         <item>запись аудио</item>
         <item>воспроизведение аудио</item>
         <item>чтение буфера обмена</item>
         <item>изменение буфера обмена</item>
+        <item>медиа клавиши</item>
+        <item>аудио фокус</item>
+        <item>общая громкость</item>
+        <item>громкость голоса</item>
+        <item>громкость мелодии</item>
+        <item>громкость медиа</item>
+        <item>громкость будильника</item>
+        <item>громкость уведомлений</item>
+        <item>громкость bluetooth</item>
+        <item>режим активности</item>
+        <item>контроль местоположения</item>
+        <item>контроль точного местоположения</item>
+        <item>изменение wi-fi</item>
+        <item>изменение bluetooth</item>
+        <item>изменение передачи данных</item>
+        <item>отправка MMS</item>
+        <item>чтение сообщений</item>
+        <item>написание MMS</item>
+        <item>автозапуск</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Местоположение</item>
@@ -623,23 +648,42 @@
         <item>Уведомления</item>
         <item>Местоположение</item>
         <item>Вызов</item>
-        <item>Получение SMS/MMS</item>
-        <item>Отправка SMS/MMS</item>
-        <item>Получение SMS/MMS</item>
-        <item>Получение SMS/MMS</item>
-        <item>Получение SMS/MMS</item>
-        <item>Получение SMS/MMS</item>
-        <item>Отправка SMS/MMS</item>
-        <item>Получение SMS/MMS</item>
-        <item>Отправка SMS/MMS</item>
+        <item>Получение сообщений</item>
+        <item>Отправка сообщений</item>
+        <item>Получение сообщений</item>
+        <item>Получение сообщений</item>
+        <item>Получение сообщений</item>
+        <item>Получение сообщений</item>
+        <item>Отправка сообщений</item>
+        <item>Получение сообщений</item>
+        <item>Написание сообщений</item>
         <item>Изменение настроек</item>
-        <item>Рисунок сверху</item>
-        <item>Уведомления</item>
+        <item>Всплывающее уведомление</item>
+        <item>Доступ к уведомлениям</item>
         <item>Камера</item>
         <item>Запись аудио</item>
         <item>Воспроизведение аудио</item>
-        <item>Чтение буфера</item>
-        <item>Изменение буфера</item>
+        <item>Чтение буфера обмена</item>
+        <item>Изменение буфера обмена</item>
+        <item>Медиа клавиши</item>
+        <item>Аудио фокус</item>
+        <item>Общая громкость</item>
+        <item>Громкость голоса</item>
+        <item>Громкость мелодии</item>
+        <item>Громкость медиа</item>
+        <item>Громкость будильника</item>
+        <item>Громкость уведомлений</item>
+        <item>Громкость bluetooth</item>
+        <item>Режим активности</item>
+        <item>Местоположение</item>
+        <item>Местоположение</item>
+        <item>Изменение Wi-Fi</item>
+        <item>Изменение Bluetooth</item>
+        <item>Изменение передачи данных</item>
+        <item>Отправка MMS</item>
+        <item>Чтение сообщений</item>
+        <item>Написание MMS</item>
+        <item>Автозапуск</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Ничего</item>
@@ -650,8 +694,11 @@
     <string-array name="overlay_display_devices_entries">
         <item>Ничего</item>
         <item>720x480 mdpi</item>
+        <item>720x480 mdpi (безопасное)</item>
         <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (безопасное)</item>
         <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (безопасное)</item>
         <item>1280x720 tvdpi и 1920x1080 xhdpi</item>
     </string-array>
 	<string-array name="miracast_policies">

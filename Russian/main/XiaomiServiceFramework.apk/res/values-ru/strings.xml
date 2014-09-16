@@ -73,7 +73,7 @@
 	<string name="recharge_bankcall_title">Банковская карта</string>
     <string name="account_name">Аккаунт: %1$s</string>
     <string name="input_password_hint">Введите пароль</string>
-    <string name="confirm">Подтвердить</string>
+    <string name="confirm">ОК</string>
     <string name="alert_title_remove_account">Удалить синхронизированные данные?</string>
     <string name="remove_account_notice">Что бы вы хотели сделать с ранее синхронизированными с Mi аккаунтом сообщениями, контактами, журналами вызовов и заметками на устройстве?</string>
     <string name="data_keep_in_phone">Оставить на этом устройстве</string>
@@ -132,7 +132,7 @@
     <string name="account_dspt">Войдите в существующий аккаунт или создайте новый.</string>
     <string name="remove_unactivated_account_notice">Ваш аккаунт еще не активирован.</string>
     <string name="remove_confirm">Выйти</string>
-    <string name="find_password_on_web_msg">Посетите account.xiaomi.com для восстановления пароля.</string>
+    <string name="find_password_on_web_msg">Посетите account.mi.com для восстановления пароля.</string>
     <string name="relogin">Войти заново</string>
     <string name="skip_login">Пропустить вход</string>
     <string name="removing_account">Выход…</string>
