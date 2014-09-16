@@ -509,7 +509,7 @@
     <string name="wifi_notify_open_networks_summary">Сообщать при обнаружении открытой сети</string>
     <string name="wifi_enable_watchdog_service">Игнорировать сети с плохим сигналом</string>
     <string name="wifi_poor_network_detection">Избегать плохих соединений</string>
-    <string name="wifi_poor_network_detection_summary">Не использовать Wi-Fi соединение, если есть хорошее соединение по мобильной сети.</string>
+    <string name="wifi_poor_network_detection_summary">Не использовать Wi-Fi соединение, если есть хорошее соединение по мобильной сети</string>
     <string name="wifi_setting_sleep_policy_title">Wi-Fi в спящем режиме</string>
     <string name="wifi_setting_sleep_policy_error">Не удалось изменить этот параметр</string>
     <string name="wifi_suspend_optimizations">Wi-Fi оптимизация</string>
@@ -530,7 +530,7 @@
     <string name="wifi_other_network">Прочие сети…</string>
     <string name="wifi_more">Дополнительно</string>
     <string name="wifi_setup_wps">Автонастройка (WPS)</string>
-    <string name="wifi_required_info_text">Для завершения установки планшета необходим доступ к беспроводной сети. После установки, вы можете переключаться между мобильной передачей данных и Wi-Fi.</string>
+    <string name="wifi_required_info_text">Для завершения установки необходим доступ к Wi-Fi. После установки, вы можете переключаться между мобильной передачей данных и Wi-Fi.</string>
 	<string name="wifi_share">Поделиться Wi-Fi</string>
 	<string name="wifi_share_action_turn_off">Остановить доступ к сети</string>
     <string name="wifi_share_list_empty">Невозможно найти публичную сеть</string>
@@ -2552,32 +2552,32 @@
     <string name="msd_install">Переустановить драйвер?</string>
     <string name="msd_install_finish">ОК</string>
     <string name="msd_install_windows_xp_step_2_1">Следуйте указаниям Мастера Настройки для завершения установки.</string>
-    <string name="msd_install_retry_windows_xp">"Если компьютер не обнаружит телефон,
+    <string name="msd_install_retry_windows_xp">"Если компьютер не обнаружит устройство,
 попробуйте следующее:
 "<li>1) Отключить и подключить USB кабель заново.</li>"
 "<li>2) Переустановить драйвера.</li></string>
-    <string name="msd_install_retry_windows_vista">"Если компьютер не обнаружит телефон,
+    <string name="msd_install_retry_windows_vista">"Если компьютер не обнаружит устройство,
 попробуйте отключить и подключить USB кабель заново."</string>
-    <string name="msd_install_retry_mac">"Если компьютер не обнаружит телефон,
+    <string name="msd_install_retry_mac">"Если компьютер не обнаружит устройство,
 попробуйте следующее:
-"<li>"Введите в поиске
+"<li>"1) Введите в поиске
 Android File Transfer
 и запустите программу."</li>"
-"<li>Отключить и подключить USB кабель заново.</li>"
-"<li>Переустановить драйвера.</li></string>
-    <string name="msd_install_retry_linux">"Если компьютер не обнаружит телефон,
+"<li>2) Отключить и подключить USB кабель заново.</li>"
+"<li>3) Переустановить драйвера.</li></string>
+    <string name="msd_install_retry_linux">"Если компьютер не обнаружит устройство,
 попробуйте следующее:
 1) Используйте команду \"sudo aptitude install mtpfs libfuse-dev libmad0-dev\"
 2) Создайте папку \"mkdir /media/mtp\"
 3) Подтвердите права доступа для пользовательской группы в текущей fuse user group
 4) Войдите заново
-5) Дайте доступ устройству mtpfs /media/mtp через Файл менеджер; так же как к локальным папкам
+5) Дайте доступ устройству mtpfs /media/mtp через Файл менеджер (так же как к локальным папкам)
 6) Удалите устройство fusermount -u /media/mtp
- Примечание: для Ubuntu 8.04 environment"</string>
+ Примечание: для Ubuntu 8.04"</string>
     <string name="msd_install_status_done">Драйвер установлен</string>
     <string name="msd_driver_download">Загрузить драйвер</string>
-    <string name="msd_driver_windows_xp_download">Скачайте на ваш ПК драйвера и запустите Setup.exe.\nСкачать: http://miui.com/win</string>
-    <string name="msd_driver_mac_download">Скачайте на ваш MAC драйвера и запустите AndroidFileTransfer.dmg\nСкачать: http://miui.com/mac</string>
+    <string name="msd_driver_windows_xp_download">Windows: Скачайте драйвер и запустите Setup.exe.\nСкачать: http://miui.com/win</string>
+    <string name="msd_driver_mac_download">OSX: Скачайте драйвер и установите AndroidFileTransfer.dmg.\nСкачать: http://miui.com/mac</string>
     <string name="msd_install_status_undo">Установка драйвера</string>
     <string name="password_guard">Защита</string>
     <string name="vpn_safe">Безопасность</string>
@@ -2601,7 +2601,7 @@ Android File Transfer
 	<string name="open_wifi_connect_title">Подключение к сети %1$s</string>
     <string name="device_edit_title">Имя устройства</string>
     <string name="device_name_input_hint">Введите имя устройства</string>
-    <string name="device_name_usage_point">Имя вашего устройства, которое будет отображаться при различных соединениях.</string>
+    <string name="device_name_usage_point">Имя вашего устройства, которое будет отображаться при различных соединениях</string>
     <string name="drive_mode">Режим \"За рулем\"</string>
     <string name="enable_drive_mode">Режим \"За рулем\"</string>
     <string name="drive_mode_title">Режим \"За рулем\"</string>
@@ -4334,7 +4334,7 @@ Android File Transfer
     <string name="dialog_message_auto_start_tips">Некоторые приложения могут работать в фоне некорректно без автозапуска. Вы можете добавить необходимые приложения вручную в список автозапуска.</string>
     <string name="button_text_known">ОК</string>
 	<string name="translation_contributors_title">Авторы перевода</string>
-	<string name="security_keyguard_category_name">Блокировка экрана</string>
+	<string name="security_keyguard_category_name">Экран блокировки</string>
     <string name="security_password_category_name">Пароль</string>
     <string name="bluetooth_unlock_title">Разблокировка Bluetooth устройством</string>
     <string name="bluetooth_unlock_turned_off">Выключено</string>
@@ -4351,10 +4351,10 @@ Android File Transfer
     <string name="bluetooth_unlock_delete_device_confirm_msg">Удалить устройство?</string>
     <string name="bluetooth_unlock_change_device_confirm_msg">Старое устройство будет заменено на текущее.</string>
 	<string name="wifi_type_approval_title">Подтверждение типа</string>
-	<string name="manage_xiaomi_router">Управление роутером Xiaomi</string>
-    <string name="xiaomi_router_notif_title">Уведомлять о роутере Xiaomi</string>
-    <string name="xiaomi_router_notif_summary">Сообщать при обнаружении роутера Xiaomi</string>
-    <string name="xiaomi_router_available_notif_title">Доступен роутер Xiaomi</string>
+	<string name="manage_xiaomi_router">Управление Mi роутером</string>
+    <string name="xiaomi_router_notif_title">Уведомлять о Mi роутере</string>
+    <string name="xiaomi_router_notif_summary">Сообщать при обнаружении Mi роутера</string>
+    <string name="xiaomi_router_available_notif_title">Доступен Mi роутер</string>
     <string name="xiaomi_router_available_notif_summary">Нажмите для просмотра</string>
 	<string name="bugreport_tool_log">Записать отчет</string>
     <string name="modem_tool_log">Записать отчет модема</string>
@@ -4362,7 +4362,7 @@ Android File Transfer
     <string name="modem_tool_log_stop">Остановить запись</string>
     <string name="modem_tool_log_start_toast">Начать запись отчета модема в %s</string>
     <string name="modem_tool_log_stop_toast">Остановить запись отчета модема из %s</string>
-	<string name="app_feedback">Отчеты</string>
+	<string name="app_feedback">Отчет в MIUI</string>
     <string name="app_backup">Бэкап</string>
     <string name="google_backup_section_title">Бэкап и восстановление Google</string>
     <string name="system_backup_section_title">Бэкап системы</string>
@@ -4410,10 +4410,10 @@ Android File Transfer
 	<string name="cta_dialog_title">Разрешить приложению доступ к сети?</string>
 	<string name="cta_settings">Разрешить доступ к сети</string>
 	<string name="accessibility_service_no_apps_confirm">ОК</string>
-	<string name="accessibility_service_no_apps_prompt">Бесплатное приложение TalkBack дает голосовое описание элементов интерфейса для пользователей с нарушением зрения.</string>
+	<string name="accessibility_service_no_apps_prompt">Бесплатное приложение TalkBack дает голосовое описание элементов интерфейса для пользователей с нарушением зрения. Загрузите бесплатно в Play Маркете.</string>
 	<string name="bluetooth_preference_connected_devices">Подключенные устройства</string>
-	<string name="priority_storage_app_settings">Данные будут сохранены во %1$s</string>
-	<string name="priority_storage_settings_summary">Когда SD карта не подключена, данные будут автоматически сохраняться во внутреннюю память устройства.</string>
+	<string name="priority_storage_app_settings">Данные будут сохранены в %1$s</string>
+	<string name="priority_storage_settings_summary">Когда накопитель не подключен, данные будут автоматически сохраняться во внутреннюю память устройства</string>
 	<string name="priority_storage_summary">Выберите память по умолчанию для сохранения данных</string>
 	<string name="priority_storage_title">Настройки памяти</string>
 	<string name="high_performance_notif_summary">Высокое потребление батареи</string>

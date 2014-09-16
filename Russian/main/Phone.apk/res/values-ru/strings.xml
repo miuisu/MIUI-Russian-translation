@@ -364,10 +364,10 @@
 	<string name="fdn_invalid_number">Номер ограниченного набора не обновлен: он не должен содержать больше 20 цифр.</string>
 	<string name="pin2_or_fdn_invalid">Детский контроль не включен. PIN2 введен не верно или отклонен номер телефона.</string>
 	<string name="fdn_failed">Активация услуги \"Детский контроль\" не удалась.</string>
-	<string name="simContacts_emptyLoading">Считывание с SIM карты…</string>
+	<string name="simContacts_emptyLoading">Загрузка контактов с SIM карты…</string>
 	<string name="exportContacts">Экспорт контактов на SIM карту…</string>
 	<string name="simContacts_empty">Нет контактов на SIM карте</string>
-	<string name="simContacts_title">Управление контактами SIM</string>
+	<string name="simContacts_title">Контакты на SIM карте</string>
 	<string name="simContacts_airplaneMode">Отключите режим \"В самолете\" для импорта контактов с SIM карты</string>
 	<string name="enable_pin">Включить/выключить запрос PIN SIM карты</string>
 	<string name="change_pin">Изменить PIN SIM карты</string>

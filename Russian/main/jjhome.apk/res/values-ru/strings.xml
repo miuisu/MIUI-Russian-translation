@@ -152,8 +152,8 @@
     <string name="time_list_month_format">d MMMM</string>
     <string name="time_list_12hour_format">hh:mm</string>
     <string name="time_list_24hour_format">HH:mm</string>
-    <string name="simContacts_title">Контакты SIM карты</string>
-    <string name="simContacts_emptyLoading">Загрузка с SIM карты…</string>
+    <string name="simContacts_title">Контакты на SIM карте</string>
+    <string name="simContacts_emptyLoading">Загрузка контактов с SIM карты…</string>
     <string name="place_a_call1">SIM 1</string>
     <string name="place_a_call2">SIM 2</string>
     <string name="cancel_call">Отмена</string>
@@ -162,7 +162,7 @@
     <string name="menu_callNumber">Вызов %s</string>
     <string name="noContact_find">Контакт не найден в #%s</string>
     <string name="imei_invalid">IMEI неверен</string>
-    <string name="sim_contact_search_error">Произошла ошибка при поиске в SIM карте</string>
+    <string name="sim_contact_search_error">Произошла ошибка при поиске на SIM карте</string>
     <string name="sim_no_contact">Нет контактов на SIM карте</string>
     <string name="sim_indexed_contact_not_exist">Позиция \"%1$d\" не существует на вашей SIM карте. Введите положение между %2$d и %3$d.</string>
     <string name="income_calling_hint">Входящий вызов</string>

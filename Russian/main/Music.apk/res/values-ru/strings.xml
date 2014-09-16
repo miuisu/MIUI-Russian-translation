@@ -379,7 +379,7 @@
 	<string name="impunity_declaration_ignore">Запомнить</string>
 	<string name="impunity_declaration_settings">Запрашивать доступ к сети</string>
 	<string name="impunity_declaration_summary">Запрос доступа к сети при каждом запуске проигрывателя</string>
-	<string name="take_effect_afater_restart">Для применения данной функции необходимо перезапустить проигрыватель</string>
+	<string name="take_effect_afater_restart">Для применения данной функции необходимо перезапустить приложение</string>
     <string name="action_item_add">Добавить</string>
     <string name="action_item_send">Отправить</string>
     <string name="action_item_remove">Убрать</string>
@@ -448,6 +448,6 @@
     <string name="online_playlist_is_empty">Онлайн музыка пуста!</string>
     <string name="network_failure">Сбой сети, повторите позже.</string>
     <string name="local_music_is_not_available">Локальная музыка недоступна.</string>
-	<string name="priority_storage">Загрузка во внешний накопитель</string>
+	<string name="priority_storage">Использовать внешний накопитель</string>
 	<string name="priority_storage_summary">Загружать музыку во внешний накопитель, когда он подключен.</string>
 </resources>

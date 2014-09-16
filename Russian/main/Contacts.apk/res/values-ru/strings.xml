@@ -591,7 +591,7 @@
     <string name="date_time_set">Установить</string>
     <string name="sim_no_contact">На SIM карте нет контактов</string>
     <string name="sim_indexed_contact_not_exist">Позиция %1$d на SIM карте отсутствует. Позиция должна быть между %2$d и %3$d.</string>
-    <string name="sim_contact_search_error">Произошла ошибка</string>
+    <string name="sim_contact_search_error">Произошла ошибка при поиске на SIM карте</string>
     <string name="contacts_unavailable_add_xiaomi_account">Синхронизация контактов Xiaomi</string>
     <string name="noContactHelpTextAccountsInfo">Синхронизация контактов Xiaomi, Google и Exchange</string>
     <string name="noContactHelpTextImportXiaomiAccountInfo">Восстановление данных с помощью аккаунта Xiaomi</string>
@@ -1159,7 +1159,7 @@
     <string name="yellowpage_navigation_network_location_enable">Включить</string>
     <string name="yellowpage_navigation_network_location_enable_later">Позже</string>
 	<string name="eventTypeCustom">Пользовательский</string>
-	<string name="pref_key_sim_manage2">Управление SIM2</string>
+	<string name="pref_key_sim_manage2">Контакты SIM карты 2</string>
 	<string name="account_sim2">SIM карта %d</string>
 	<string name="meid_invalid">Недействительный MEID</string>
 	<string name="expand_collapse_name_fields_description">Развернуть или свернуть информацию</string>
