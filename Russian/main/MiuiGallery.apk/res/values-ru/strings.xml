@@ -61,8 +61,8 @@
 	<string name="cannot_send_message_reason">Получатели не указаны</string>
 	<string name="cleaning_cache">Очистка кэша…</string>
 	<string name="clear_thumbnail_cache">Очистить кэш</string>
-	<string name="clear_thumbnail_cache_confirm">Очистить кэш эскизов? \nГалерея пересканирует изображения и заново создаст экскизы.</string>
-	<string name="clear_thumbnail_cache_summary">Очистить эскизы, созданные при просмотре изображений в галерее.</string>
+	<string name="clear_thumbnail_cache_confirm">Все эскизы галереи будут очищены.</string>
+	<string name="clear_thumbnail_cache_summary">Очистить эскизы, созданные при просмотре изображений в галерее</string>
 	<string name="close">Закрыть</string>
 	<string name="cloud_album_more_settings">Облачные альбомы</string>
 	<string name="cloud_album_set_create">Новый</string>
@@ -163,7 +163,7 @@
 	<string name="gallery_cloud_provider_name">Галерея</string>
 	<string name="gallery_setting">Настройки</string>
 	<string name="global_setting">Настройки</string>
-	<string name="error_unknown_host">Сеть не найдена</string>
+	<string name="error_unknown_host">Не удалось подключиться к сети. Проверьте подключение и повторите попытку.</string>
 	<string name="error_album_not_exist">Альбом не существует</string>
 	<string name="error_cloud_not_active">Облачный альбом неактивен</string>
 	<string name="grain">Зернистость</string>
@@ -184,7 +184,7 @@
 	<string name="image_quota_fulfiled">Не удается добавить изображение. Количество изображений в альбоме достигло предела.</string>
 	<string name="import_complete">Импорт завершен</string>
 	<string name="import_fail">Ошибка импорта</string>
-	<string name="initial_cloud_button_text">Начать использование</string>
+	<string name="initial_cloud_button_text">Вход</string>
 	<string name="initial_cloud_text">Создавайте облачные альбомы для синхронизации фото и видео.</string>
 	<string name="initializing_cloud">Загрузка облачного альбома…</string>
 	<string name="input_cloudfolder_name">Название альбома</string>
@@ -194,7 +194,7 @@
 	<string name="invalid_recipient_message">Проверьте адреса получателей</string>
 	<string name="iso">ISO</string>
 	<string name="kick_sharer">Удалить получателя</string>
-	<string name="kick_sharer_failed">Ошибка удаления</string>
+	<string name="kick_sharer_failed">Ошибка удаления пользователя</string>
 	<string name="kick_sharer_successfully">Получатель удален</string>
 	<string name="photo_page_always_rotate">Автоповорот</string>
 	<string name="loading">Загрузка…</string>
@@ -245,7 +245,7 @@
 	<string name="not_auto_create_recent_album">Не создавать избранные альбомы</string>
 	<string name="not_show_hidden_albums">Не показывать скрытые альбомы</string>
 	<string name="fail_to_sync_album">Ошибка синхронизации альбома с сервером. Проверьте параметры сети.</string>
-    <string name="sync_album_in_proecess">Синхронизация альбома с сервером…</string>
+    <string name="sync_album_in_proecess">Синхронизация альбома…</string>
     <string name="retry_to_create_album">Повтор</string>
     <string name="share_current_album">Поделиться альбомом</string>
     <string name="cloud_share_guide_title">Теперь можно обмениваться албомами!</string>
@@ -283,7 +283,7 @@
 	<string name="rename_failed">Не удалось переименовать</string>
 	<string name="rename_failed_duplicated_name">Имя уже существует</string>
 	<string name="request_qr_code_failed">Ошибка получения QR кода</string>
-	<string name="request_sms_url_failed">Не удалось запросить информацию</string>
+	<string name="request_sms_url_failed">Не удалось получить информацию</string>
 	<string name="request_sms_url_msg">Запрос информации…</string>
 	<string name="request_sms_url_title">Предупреждение</string>
 	<string name="rotate">Поворот</string>
@@ -333,7 +333,7 @@
 	<string name="set_screensaver_path_title">Заставка слайдшоу</string>
 	<string name="set_wallpaper">Установка обоев…</string>
 	<string name="settings">Настройки</string>
-	<string name="settings_i_xiaomi_com">Зайдите на сайт i.mi.com, чтобы просмотреть ваши фото и видео с компьютера.</string>
+	<string name="settings_i_xiaomi_com">Зайдите на сайт i.mi.com, чтобы просмотреть ваши фото и видео с компьютера</string>
 	<string name="shadow">Затемнение</string>
 	<string name="share_album">Обмен альбомами</string>
 	<string name="share_album_owner">Владелец</string>
@@ -364,7 +364,7 @@
     <string name="unpublish_succeeded">Общий доступ к альбому закрыт</string>
     <string name="unpublish_failed">Ошибка закрытия доступа</string>
     <string name="send_public_url">Отправить ссылку на альбом</string>
-    <string name="public_url_descript">Любой пользователь может просмотреть ваш альбом, используя эту ссылку.</string>
+    <string name="public_url_descript">Любой пользователь может просмотреть ваш альбом, используя эту ссылку</string>
     <string name="share_public_url_text">Я отправил вам альбом %1$s. Просмотреть можно по ссылке: %2$s</string>
     <string name="unpublishing">Закрытие доступа…</string>
     <string name="operation_too_often">Выполняется слишком много действий, попробуйте позже.</string>
@@ -402,7 +402,7 @@
 	<string name="sync_album_summary">Синхронизировать фото и видео с облачными альбомами. \nПоследняя:</string>
 	<string name="sync_history_power_on">Синхронизация при зарядке</string>
 	<string name="sync_only_in_wifi">Только по Wi-Fi</string>
-	<string name="sync_only_in_wifi_summary">Синхронизировать фото только при активной сети Wi-Fi</string>
+	<string name="sync_only_in_wifi_summary">Галерея будет загружать изображения через мобильный интернет когда эта функция выключена</string>
 	<string name="sync_only_in_wifi_alert">Отключение этой функции может вызвать чрезмерное потребление мобильного трафика. Продолжить?</string>
 	<string name="tab_all_text">На все</string>
 	<string name="tab_lockscreen_text">Экран блокировки</string>
@@ -473,11 +473,11 @@
 	<string name="modify_disallow_hint">Добавление новых изображений в альбом запрещено</string>
 	<string name="file_not_exist_message">Файл не существует</string>
 	<string name="download">Загрузка</string>
-    <string name="confirm_download">Загрузить файл \"%s\"? \nПодсказка больше не будет отображаться.</string>
+    <string name="confirm_download">Загрузить \"%s\"?</string>
     <string name="download_fail">Ошибка загрузки</string>
-    <string name="download_fail_confirm_continue">Ошибка загрузки \"%s\". Продолжить?</string>
+    <string name="download_fail_confirm_continue">Ошибка загрузки \"%s\".</string>
     <string name="make_download_dir_fail">Ошибка создания папки для хранения файлов</string>
-    <string name="delete_smb_file_fail">Ошибка удаления файла smb</string>
+    <string name="delete_smb_file_fail">Ошибка удаления файла SMB</string>
     <string name="new_device_tips">Доступно новое устройство. Нажмите для просмотра.</string>
 	<string name="loading_members">Загрузка пользователей…</string>
 	<string name="loading_video">Загрузка видео…</string>
@@ -512,11 +512,11 @@
 	<string name="confirm_delete_folders_and_pictures">Удалить выбранное? \n\nФайлов: %s</string>
     <string name="local_time">(Локальное)</string>
     <string name="click_to_add_picture">Нажмите, чтобы добавить изображения</string>
-    <string name="sync_in_progress_message">Синхронизация в процессе…</string>
+    <string name="sync_in_progress_message">Синхронизация…</string>
     <string name="alert_init_merged_title">Все ваши фото. Наконец-то вместе.</string>
     <string name="alert_init_merged_message">Теперь фото на вашем устройстве и фото в Mi Cloud будут отображаться вместе.</string>
     <string name="picker_tab_photo">Фото</string>
-    <string name="long_press_to_refocus">Продолжайте нажимать для перефокусировки</string>
+    <string name="long_press_to_refocus">Долгое нажатие для перефокусировки</string>
     <string name="ubifocus_data_missing">Некоторые данные потеряны</string>
     <string name="ubifocus_map_error">Некоторые данные повреждены</string>
     <string name="ubifocus_refocus_fail_tip">Не удалось сделать перефокусировку из за потерянных или поврежденных данных</string>
@@ -547,8 +547,8 @@
 	<string name="ubifocus_refocus_data_missing">Невозможно выполнить перефокусировку из-за утерянных данных</string>
 	<string name="ubifocus_refocus_download_tip">Загрузите данные перед перефокусировкой</string>
 	<string name="ubifocus_refocus_map_error">Невозможно выполнить перефокусировку из-за недействительных данных</string>
-	<string name="priority_storage">Сохранение на SD карту</string>
-	<string name="priority_storage_summary">Автоматически сохранять файлы на SD карту, когда она подключена.</string>
+	<string name="priority_storage">Сохранение на накопитель</string>
+	<string name="priority_storage_summary">Автоматически сохранять файлы на накопитель, когда он подключен.</string>
 	<string name="crop_recognize_text">Распознать</string>
 	<string name="crop_save_text_setas">Применить</string>
 	<string name="recognizing_image">Распознавание изображения…</string>

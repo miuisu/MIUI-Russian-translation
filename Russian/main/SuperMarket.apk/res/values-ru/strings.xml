@@ -237,7 +237,7 @@
     <string name="comment_upload_login_cancel">Отмена</string>
     <string name="comment_upload_account_need_activitied">Активировать аккаунт?</string>
     <string name="comment_upload_account_not_activitied">Ваш аккаунт еще не активирован.</string>
-    <string name="comment_invalid">Коснитесь звезд, чтобы дать оценку</string>
+    <string name="comment_invalid">Коснитесь звезды, для оценки</string>
     <string name="comment_cannot_comment">Для комментирования сначала установите приложение.</string>
     <string name="account">Аккаунт</string>
     <string name="account_hint_text">Email/Номер телефона</string>

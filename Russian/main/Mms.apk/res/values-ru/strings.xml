@@ -570,7 +570,7 @@
     <string name="manage_permission_app_label">Разрешения управления устройством</string>
     <string name="send_message_dlg_title">Управление устройством</string>
     <string name="send_message_dlg_check_hint">Запомнить выбор</string>
-    <string name="send_message_dlg_mgs">Ваше устройство необходимо зарегистрировать на платформе управления устройством для предоставления бесплатных сервисов CMCC. Для регистрации будет отправлена SMS активации. Продолжить?</string>
+    <string name="send_message_dlg_mgs">Ваше устройство необходимо зарегистрировать на платформе управления устройством для предоставления бесплатных сервисов CMCC. Для регистрации будет отправлено SMS активации. Продолжить?</string>
     <string name="confirm_dlg_title">Управление устройством</string>
     <string name="confirm_dlg__msg">Отменить регистрацию?</string>
     <string name="alert_dlg_ok_button">ОК</string>

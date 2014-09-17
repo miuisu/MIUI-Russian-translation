@@ -117,7 +117,7 @@
 	<string name="resource_comment_upload_data_invalid">Некорректный комментарий</string>
 	<string name="resource_comment_upload_not_logined">Сначала войдите в систему</string>
 	<string name="resource_comment_upload_not_bought">Прежде чем оставить комментарий, необходимо применить тему</string>
-	<string name="resource_comment_invalid">Нажмите на звезды, чтобы оценить</string>
+	<string name="resource_comment_invalid">Коснитесь звезды, для оценки</string>
 	<string name="resource_comment_expand_full_text">Развернуть▼</string>
 	<string name="resource_comment_version_name">(Версия %1$s)</string>
 	<string name="resource_comment_title">Комментариев: %1$s</string>
