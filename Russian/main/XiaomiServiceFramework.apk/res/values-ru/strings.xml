@@ -150,7 +150,7 @@
     <string name="button_retry">Повтор</string>
     <string name="button_pay">Подтвердить</string>
     <string name="button_recharge">Пополнить</string>
-    <string name="balance">Баланс: %1$s MiCredits</string>
+    <string name="balance">Баланс: %1$s Mi Credits</string>
     <string name="frozen">(Заморожен)</string>
     <string name="giftcard_acitivity_and_denomination">Подарочная карта на %2$s MiCredit от %1$s</string>
     <string name="giftcard_denom_available">MiCredit доступно</string>
@@ -178,7 +178,7 @@
     <string name="bankcall_hint">Этот сервис авторизован Unionpay и имеет шифрование для обеспечения вашей финансовой безопасности.</string>
     <string name="bankcall_call_hint">Вам позвонят из Union pay (020-96585). \nСледуйте инструкциям для завершения.</string>
     <string name="giftcard_expire">%1$s-%2$s-%3$s истекло</string>
-    <string name="giftcard_hint">Вам будут переведены MiCredits на подарочную карту.</string>
+    <string name="giftcard_hint">Вам будут переведены Mi Credits на подарочную карту.</string>
     <string name="giftcard_record">Мои подарочные карты</string>
     <string name="giftcard_value">(Подарочная карта на %1$s MiCredit)</string>
 	<string name="msg_send_no_net_error">Ошибка отправки сообщения: не удается подключиться к мобильной сети.</string>
@@ -221,7 +221,7 @@
     <string name="error_too_frequent_visits_title">Слишком часто!</string>
     <string name="error_too_frequent_visits_summary">Вы совершаете запрос слишком часто. Пожалуйста, попробуйте еще раз через пять минут.</string>
     <string name="title_recharge">Пополнение счета</string>
-    <string name="title_pay">Оплатить MiCredits</string> 
+    <string name="title_pay">Оплатить Mi Credits</string> 
     <string name="recharge_group_favorite">Используемые способы пополнения</string>
     <string name="recharge_group_others">Другие способы пополнения</string>
 	<string name="recharge_group_1to1">1 юань равен 1 MiCredit</string>
@@ -300,13 +300,13 @@
     <string name="msg_picker_hint_2_1">2. </string>
     <string name="msg_picker_hint_2_2">За каждую  SMS взимается плата, согласно тарифу вашего оператора</string>
     <string name="msg_picker_hint_3_1">3. </string>
-    <string name="msg_picker_hint_3_2">Максимальная сумма пополнения 300 юаней в месяц</string>
+    <string name="msg_picker_hint_3_2">Максимальная сумма пополнения 300 юань в месяц</string>
     <string name="msg_denomination_type">MiCredit</string>
     <string name="msg_error">Ошибка пополнения через SMS</string>
     <string name="progress_msg_creating">Создание SMS для пополнения…</string>
     <string name="progress_submit_title">Запрос принят, идет проверка</string>
-    <string name="progress_submit_recharge_summary">Сумма зачисления: %1$s MiCredits</string>
-    <string name="progress_submit_pay_summary">Сумма к оплате: %1$s MiCredits</string>
+    <string name="progress_submit_recharge_summary">Сумма зачисления: %1$s Mi Credits</string>
+    <string name="progress_submit_pay_summary">Сумма к оплате: %1$s Mi Credits</string>
     <string name="progress_submit_summary">Сумма зачисления: %1$s CNY</string>
     <string name="progress_submit_hint">Зачисление будет произведено в течение 3-х минут.</string>
     <string name="btn_count_down_auto">Запрос через %1$s сек.</string>
@@ -316,7 +316,7 @@
     <string name="progress_querying">Обрабатываю запрос подтверждения платежа…</string>
     <string name="progress_success_recharge_title">Операция платежа выполнена успешно.</string>
     <string name="progress_success_pay_title">Оплата завершена</string>
-    <string name="progress_success_recharge_summary">Баланс: %1$s MiCredits</string>
+    <string name="progress_success_recharge_summary">Баланс: %1$s Mi Credits</string>
     <string name="progress_success_pay_summary">Ваш заказ был успешно оплачен!</string>
     <string name="progress_error_recharge_title">Не удалось пополнить счет</string>
     <string name="progress_error_pay_title">Оплата не выполнена</string> 
@@ -327,7 +327,7 @@
     <string name="btn_recharge_other">Пополнить</string>
     <string name="btn_call">Позвонить</string>
     <string name="recharge_notification">Пополнение MiCredit: %1$s</string>
-    <string name="title_mili_center">MiCredits</string>
+    <string name="title_mili_center">Mi Credits</string>
     <string name="title_recharge_record">Зачисления</string>
     <string name="title_pay_record">%1$s: платежи</string>
     <string name="recharge_record">Отчеты по зачислениям</string>
@@ -558,7 +558,7 @@
 	<string name="bank_cards">Банковские карты</string>
 	<string name="error_login">Ошибка авторизации</string>
 	<string name="relogin_notice">Необходимо авторизоваться повторно</string>
-	<string name="barcode_add_account_prompt">Чтобы добавить аккаунт, сканируете QR-код снова после авторизации.</string>
+	<string name="barcode_add_account_prompt">Чтобы добавить аккаунт, сканируете QR код снова после авторизации.</string>
 	<string name="activate">Активировать</string>
 	<string name="all_cloud_service_dspt">"Выберите, какие из сервисов Mi Cloud services вы хотите использовать.
 В любое время можно включить/выключить этот сервис в настройках."</string>

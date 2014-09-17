@@ -75,7 +75,7 @@
 	<string name="error_user_id_mismatch_title">Ошибка аутентификации!</string>
 	<string name="error_verify_summary">Приложение не имеет разрешения на запрос этого сервиса</string>
 	<string name="error_verify_title">Нет доступа</string>
-	<string name="fee">MiCredits: %1$s</string>
+	<string name="fee">Mi Credits: %1$s</string>
 	<string name="frozen">(заморожен)</string>
 	<string name="giftcard_acitivity_and_denomination">Подарочная карта на %2$s MiCredit от %1$s</string>
 	<string name="giftcard_denom">MiCredit</string>
@@ -83,7 +83,7 @@
 	<string name="giftcard_denom_frozen">Карта MiCredit заморожена</string>
 	<string name="giftcard_empty">Нет подарочной карты</string>
 	<string name="giftcard_expire">%1$s-%2$s-%3$s истекло</string>
-	<string name="giftcard_hint">На подарочную карту будут переведены MiCredits. Через определенный срок они будут недействительны.</string>
+	<string name="giftcard_hint">На подарочную карту будут переведены Mi Credits. Через определенный срок они будут недействительны.</string>
 	<string name="giftcard_record">Мои подарочные карты</string>
 	<string name="giftcard_value">(Подарочная карта на %1$s MiCredit)</string>
 	<string name="label_order_name">"Продукт: "</string>
@@ -126,7 +126,7 @@
 	<string name="prepaid_picker_hint_1_2">Поддерживается только разовая плата</string>
 	<string name="prepaid_picker_hint_2_1">2.</string>
 	<string name="prepaid_picker_hint_2_2_a">Выбранная номинальной стоимость должна быть равна стоимости предоплаченной карты, в противном случае это приведет к потере денег.</string>
-	<string name="prepaid_picker_hint_2_2_b">Если номинальная стоимость карты составляет %1$s юаней, это приведет к потере денег</string>
+	<string name="prepaid_picker_hint_2_2_b">Если номинальная стоимость карты составляет %1$s юань, это приведет к потере денег</string>
 	<string name="prepaid_picker_title_default">Выберите сумму пополнения</string>
 	<string name="prepaid_picker_title_selected">сумма пополнения</string>
 	<string name="progress_bankcall_card_creating">Создание заказа…</string>
@@ -155,7 +155,7 @@
 	<string name="msg_picker_hint_2_1">2. </string>
 	<string name="msg_picker_hint_2_2">За каждую  SMS взимается плата, согласно тарифу вашего оператора</string>
 	<string name="msg_picker_hint_3_1">3. </string>
-	<string name="msg_picker_hint_3_2">Максимальная сумма пополнения 300 юаней в месяц</string>
+	<string name="msg_picker_hint_3_2">Максимальная сумма пополнения 300 юань в месяц</string>
 	<string name="msg_denomination_type">MiCredit</string>
 	<string name="msg_error">Ошибка пополнения через SMS</string>
 	<string name="progress_msg_creating">Создание SMS для пополнения…</string>
@@ -217,7 +217,7 @@
 	<string name="btn_next">Далее</string>
 	<string name="voucher_error_password">Неверный код</string>
 	<string name="progress_error_recharge_summary">Ошибка платежа. Пожалуйста, попробуйте позже.</string>
-	<string name="progress_error_pay_summary">%1$s MiCredits пополнены, но платеж не произведен.</string>
+	<string name="progress_error_pay_summary">%1$s Mi Credits пополнены, но платеж не произведен.</string>
 	<string name="security_setting">Настройки безопасности</string>
     <string name="lockscreen_forgot_pattern_button_text"><u>Ключ для напоминания пароля</u></string>
     <string name="lockpattern_recording_intro_header">Создайте ключ разблокировки:</string>
@@ -247,7 +247,7 @@
     <string name="title_gesture">Графический ключ</string>
     <string name="title_lockpattern">Требуется графический ключ</string>
     <string name="title_visible_pattern">Отображать ключ</string>
-    <string name="summary_lockpattern">Запрос ввода графического ключа для MiCredits</string>
+    <string name="summary_lockpattern">Запрос ввода графического ключа для Mi Credits</string>
     <string name="title_change_lockpattern">Настройки графического ключа</string>
     <string name="title_password">Пароль</string>
     <string name="title_nopassword">Не запрашивать при небольших платежах</string>
@@ -276,9 +276,9 @@
 	<string name="detail_recharge_title">Записи поплнения</string>
 	<string name="scan_prompt_number">Сканировать номер карты %1$s</string>
 	<string name="scan_prompt_password">Сканировать пароль карты %1$s</string>
-	<string name="scan_prompt_voucher">Сканировать пароль MiCredits</string>
+	<string name="scan_prompt_voucher">Сканировать пароль Mi Credits</string>
 	<string name="password_forget">Вспомнить</string>
-	<string name="balance_no_giftcard_payment">%1$s MiCredits (невозможно использовать подарочную карту MiCredit для этого заказа)</string>
+	<string name="balance_no_giftcard_payment">%1$s Mi Credits (невозможно использовать подарочную карту MiCredit для этого заказа)</string>
 	<string name="format_time">d MMMM yyyy hh:mmaa</string>
     <string name="format_date">d MMMM yyyy</string>
 	<string name="error_cert_date_summary">Ошибка данных сертификата. \nПроверьте локальные данные и повторите попытку.</string>
@@ -291,7 +291,7 @@
 	<string name="prepaid_grid_carrier_hint">Выберите оператора</string>
 	<string name="prepaid_grid_denomination_hint">Выбор суммы</string>
 	<string name="giftcard_expire_notification_prime_title">Срок действия вашей подарочной карты истек</string>
-	<string name="giftcard_expire_notification_sub_title">Срок действия подарочной карты MiCredits: %1$s</string>
+	<string name="giftcard_expire_notification_sub_title">Срок действия подарочной карты Mi Credits: %1$s</string>
 	<string name="btn_agree">ОК</string>
     <string name="payment_actionbar_title">Подтвердить</string>
     <string name="balance_title">Баланс</string>

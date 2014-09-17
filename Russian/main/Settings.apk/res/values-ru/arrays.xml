@@ -50,11 +50,7 @@
         <item>Медленная</item>
         <item>Нормальная</item>
         <item>Быстрая</item>
-        <item>Быстрее</item>
         <item>Очень быстрая</item>
-        <item>Скоростная</item>
-        <item>Очень скоростная</item>
-        <item>Самая быстрая</item>
     </string-array>
     <string-array name="change_security_lock_picker">
 		<item>Фейсконтроль</item>

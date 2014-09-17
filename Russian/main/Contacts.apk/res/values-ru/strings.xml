@@ -1191,7 +1191,7 @@
     <string name="menu_show_outgoing_only">Показывать только исходящие</string>
     <string name="menu_show_incoming_only">Показывать только входящие</string>
     <string name="menu_show_missed_only">Показывать только пропущенные</string>
-	<string name="yellowpage_navigation_search_result_average_price">В среднем %d юаней</string>
+	<string name="yellowpage_navigation_search_result_average_price">В среднем %d юань</string>
     <string name="vcard_import_failed_v2">Импорт не удался</string>
     <string name="inner_version_info">Информация о версии:</string>
     <string name="cta_version_dialog_title">Внешняя версия</string>

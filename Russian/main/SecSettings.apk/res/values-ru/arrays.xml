@@ -102,7 +102,18 @@
         <item>Сбой</item>
         <item>Подключено</item>
         <item>Временно избегать плохого соединения</item>
-    </string-array>
+        <item>Подключено</item>
+        <item>CW отключено</item>
+        <item>CW регистрация</item>
+        <item>CW зарегистрировано</item>
+        <item>CW ошибка регистрации</item>
+        <item>CW PPP настройка</item>
+        <item>CW PPP ошибка</item>
+        <item>CW Deiniting</item>
+        <item>CW готово</item>
+        <item>CW остановка WLAN</item>
+        <item>Подключено. CW ошибка регистрации.</item>
+        <item>Подключено. CW PPP ошибка.</item>
     <string-array name="wifi_status_with_ssid">
         <item></item>
         <item>Сканирование…</item>

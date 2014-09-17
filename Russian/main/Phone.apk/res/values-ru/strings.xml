@@ -1392,8 +1392,8 @@
     <string name="call_reject_no_name">Нет имени</string>
     <string name="lable_call_barring">Запрет вызова</string>
     <string name="lable_all_outgoing">Все исходящие вызовы</string>
-    <string name="lable_all_outgoing_international">Исх.международные вызовы</string>
-    <string name="lable_all_out_except">Исх.междун.вызовы,кроме PLMN</string>
+    <string name="lable_all_outgoing_international">Исходящие международные вызовы</string>
+    <string name="lable_all_out_except">Исходящие международные вызовы кроме PLMN</string>
     <string name="lable_all_incoming">Все входящие вызовы</string>
     <string name="lable_incoming_calls_except">Входящие вызовы в роуминге</string>
     <string name="deactivate_all">Отменить все</string>
@@ -1408,7 +1408,7 @@
     <string name="mismatch_password">Введенные пароли не совпадают</string>
     <string name="password_changed">Пароль изменен</string>
     <string name="enter_callbarring_password">Введите пароль запрета вызовов (4 символа)</string>
-    <string name="wrong_password">Ошибка пароля</string>
+    <string name="wrong_password">Неверный пароль</string>
     <string name="error_title">Ошибка</string>
     <string name="cell_broadcast">Cell broadcast</string>
     <string name="cell_broadcast_settings">Настройки Cell broadcast</string>

@@ -2524,9 +2524,9 @@
     <string name="dolby_dialogue_enhancer">Улучшение речи</string>
     <string name="dolby_surround_virtualizer">Объемный звук</string>
     <string name="dirac_mode_off">Dirac выключен</string>
-    <string name="dirac_mode_earbuds">Гарнитура</string>
-    <string name="dirac_mode_in_ear">Вкладыши Xiaomi</string>
-	<string name="dirac_mode_piston_100">Пистоны Xiaomi</string>
+    <string name="dirac_mode_earbuds">Mi наушники</string>
+    <string name="dirac_mode_in_ear">Mi вкладыши</string>
+	<string name="dirac_mode_piston_100">Mi пистоны-1</string>
     <string name="equalizer">Эквалайзер</string>
     <string name="dialog_title_entryvalues_dolby_control">Настройки Dolby Mobile</string>
     <string name="wifi_menu_wfd">Wi-Fi дисплей</string>
