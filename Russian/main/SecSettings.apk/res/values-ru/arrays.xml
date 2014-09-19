@@ -114,6 +114,7 @@
         <item>CW остановка WLAN</item>
         <item>Подключено. CW ошибка регистрации.</item>
         <item>Подключено. CW PPP ошибка.</item>
+    </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
         <item>Сканирование…</item>
