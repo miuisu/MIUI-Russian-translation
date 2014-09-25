@@ -583,4 +583,7 @@
 	<string name="sync_dspt_in_all_setting">Синхронизация фото, сообщений, заметок и прочего между вашими Mi устройствами</string>
 	<string name="user_agreement_p6">"Используя этот сервис вы соглашаетесь с "</string>
 	<string name="user_agreement_p7">условиями предоставления услуг Mi Cloud</string>
+	<string name="error_data_in_transfer">Синхронизация завершится через %s ч.</string>
+	<string name="error_data_in_transfer_title">Mi Cloud недоступен</string>
+	<string name="reg_title">Создать Mi аккаунт с помощью:</string>
 </resources>

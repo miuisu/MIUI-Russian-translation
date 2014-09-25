@@ -395,4 +395,7 @@
 	<string name="vp_select_video_source">Выбрать источник</string>
 	<string name="vp_support_by">Поддержка: %1$s</string>
 	<string name="vp_unknown_source">Неизвестный источник</string>
+	<string name="vp_closedialog">ОК</string>
+	<string name="vp_hint">Предупреждение</string>
+	<string name="vp_maintitlearea">Наслаждайтесь звуком высокой четкости, высокой скоростью загрузки и множеством видео онлайн! Загрузить плагин?</string>
 </resources>
