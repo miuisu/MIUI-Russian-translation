@@ -32,7 +32,7 @@
     <string name="dlg_retore">Восстановить в сообщения?</string>
     <string name="dlg_retore_ok">ОК</string>
     <string name="fw_blocked">Черный список</string>
-    <string name="fw_blocked_count" formatted="false">"Заблокировано "</string>
+    <string name="fw_blocked_count">"Заблокировано "</string>
     <string name="marked_by_others">"%d пользователи отметили как "</string>
     <string name="marked_by_user">"вы отметили как "</string>
     <string name="menu_add">Добавить</string>
