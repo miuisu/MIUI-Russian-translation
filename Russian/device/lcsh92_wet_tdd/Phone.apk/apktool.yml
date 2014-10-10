@@ -1,0 +1,18 @@
+version: 2.0.2-BZ
+apkFileName: Phone.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 2
+  - 6
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  rename-manifest-package: com.android.phone
+  forced-package-id: '6'
+versionInfo:
+  versionCode: '17'
+  versionName: 4.2.2-JHDCNBE23.0
+compressionType: false
