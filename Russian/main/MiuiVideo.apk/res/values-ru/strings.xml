@@ -398,4 +398,13 @@
 	<string name="vp_closedialog">ОК</string>
 	<string name="vp_hint">Предупреждение</string>
 	<string name="vp_maintitlearea">Наслаждайтесь звуком высокой четкости, высокой скоростью загрузки и множеством видео онлайн! Загрузить плагин?</string>
+	<string name="mipush_setting">Уведомления</string>
+	<string name="receive_mipush">Push уведомления</string>
+	<string name="forecast">Погода</string>
+	<string name="forecast_empty_hint">Прогноз не загружен</string>
+	<string name="forecasts">Погода</string>
+	<string name="userdata_alert_content">При воспроизведении видео через мобильный интернет может взиматься дополнительная плата оператором</string>
+	<string name="search_result_empty_text">Ничего не найдено</string>
+	<string name="ad_countdown">Реклама закончится через %s сек.</string>
+	<string name="vp_toast_downloadapk">Загрузка приложения в фоне…</string>
 </resources>

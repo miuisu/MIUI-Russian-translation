@@ -286,4 +286,5 @@
 	<string name="roaming_not_start_title">Международный роуминг</string>
 	<string name="roaming_start_body">Разрешить приложениям из списка исключений использовать интернет в международном роуминге</string>
 	<string name="roaming_start_title">Международный роуминг</string>
+	<string name="input_used_max_hint">Предел трафика (не более %s)</string>
 </resources>
