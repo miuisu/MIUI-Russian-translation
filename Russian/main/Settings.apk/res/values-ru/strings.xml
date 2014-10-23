@@ -4427,4 +4427,14 @@ Android File Transfer
 	<string name="empty_content_size">Неизвестно</string>
 	<string name="large_file_sort_type_item_name">По названию</string>
 	<string name="large_file_sort_type_item_size">По размеру</string>
+	<string name="button_antivirus">ОК</string>
+    <string name="button_optimizer">ОК</string>
+    <string name="header_antivirus">При использовании сервиса антивируса вы соглашаетесь с <a href="http://misc.3g.qq.com/g/agreement/index.jsp?id=7">условиями пользования</a> от Tencent</string>
+    <string name="header_optimizer">При использовании сервиса очистки вы соглашаетесь с <a href="http://www.cmcm.com/about/privacy_zh.html?p=cm">условиями пользования</a> от Clean Master</string>
+    <string name="summary_antivirus">Загружать названия неизвестных файлов и приложений на сервер и проверять на наличие вирусов</string>
+    <string name="summary_optimizer">Загружать названия неизвестных файлов и приложений на сервер и проверять на наличие мусора</string>
+    <string name="text_antivirus">Использовать сервис антивируса онлайн</string>
+    <string name="text_optimizer">Использовать сервис очистки онлайн</string>
+    <string name="title_antivirus">Предупреждение</string>
+    <string name="title_optimizer">Предупреждение</string>
 </resources>

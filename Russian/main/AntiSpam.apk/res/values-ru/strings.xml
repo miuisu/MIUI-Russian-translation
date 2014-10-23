@@ -311,4 +311,6 @@
 	<string name="st_title_markednumber_group">Отмеченные номера</string>
 	<string name="st_title_not_sim">Пусто</string>
 	<string name="sim_not_ready">SIM карта не готова</string>
+	<string name="SMS_SERVICE">Служба черного списка</string>
+    <string name="st_antispam_title_service_sms">Служба уведомлений</string>
 </resources>

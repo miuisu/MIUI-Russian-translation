@@ -997,4 +997,13 @@
 	<string name="network_not_available">Сеть недоступна</string>
 	<string name="tryrefreshing">Попытка обновления…</string>
 	<string name="no_contacts">Нет контактов</string>
+	<string name="load_from_remote">Продолжить поиск на сервере</string>
+	<string name="loading_from_remote">Поиск на сервере…</string>
+	<string name="local_search_result">Сообщений в телефоне найдено: %s</string>
+	<string name="perference_change_pw">Обновить пароль</string>
+	<string name="perference_change_pw_notnull_tips">Введите пароль</string>
+	<string name="perference_change_pw_ok_tips">Пароль обновлен</string>
+	<string name="prefetched_got_it">ОК</string>
+	<string name="remote_search">Все сообщения на сервере</string>
+	<string name="remote_search_result">Сообщений на сервере найдено: %s</string>
 </resources>

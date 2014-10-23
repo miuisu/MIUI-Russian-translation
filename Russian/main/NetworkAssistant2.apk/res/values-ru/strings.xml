@@ -287,4 +287,6 @@
 	<string name="roaming_start_body">Разрешить приложениям из списка исключений использовать интернет в международном роуминге</string>
 	<string name="roaming_start_title">Международный роуминг</string>
 	<string name="input_used_max_hint">Предел трафика (не более %s)</string>
+	<string name="privacy_declare_dialog_message">При использовании этого сервиса, вы соглашаетесь с &lt;a href=http://max.oupeng.com/eula.html&gt;условиями пользования&lt;/a&gt; компании Opera.</string>
+    <string name="privacy_declare_dialog_title">Предупреждение</string>
 </resources>
