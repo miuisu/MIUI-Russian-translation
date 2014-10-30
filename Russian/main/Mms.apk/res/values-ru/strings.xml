@@ -588,8 +588,8 @@
 	<string name="file_title">Имя:</string>
 	<string name="file_width_height">Размер:</string>
 	<string name="share_img">Отправить</string>
-	<string name="mx_on_sim_1">Облачные сообщения на SIM %s</string>
-	<string name="mx_on_sim_2">Облачные сообщения на SIM %s</string>
+	<string name="mx_on_sim_1">Облачные сообщения на SIM 1</string>
+	<string name="mx_on_sim_2">Облачные сообщения на SIM 2</string>
 	<string name="festival_continue">ОК</string>
 	<string name="festival_networking_desc">Для использования этой функции необходимо подключение к интернету</string>
 	<string name="festival_never_remind">Запомнить</string>

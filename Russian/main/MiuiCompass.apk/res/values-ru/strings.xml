@@ -31,4 +31,5 @@
 	<string name="direction_north_west">СЗ</string>
 	<string name="direction_south_east">ЮВ</string>
 	<string name="direction_south_west">ЮЗ</string>
+	<string name="calibrate_failed">Ошибка калибровки высоты</string>
 </resources>

@@ -341,4 +341,7 @@
 	<string name="choose_upload">Выберите файл для загрузки</string>
 	<string name="group_name_management">Управление</string>
 	<string name="uploads_disabled">Загрузка файлов отключена</string>
+	<string name="remember_preference">Запомнить</string>
+	<string name="allow">Разрешить</string>
+	<string name="web_permission_message">%1$s запрашивает доступ к %2$s</string>
 </resources>

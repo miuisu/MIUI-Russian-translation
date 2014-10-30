@@ -485,4 +485,6 @@
     <string name="sync_data_merge_warning_title">Предупреждение</string>
     <string name="softap_notifif_title">Точка доступа \"%s\" включена</string>
     <string name="softap_notifif_summary">Подключено: %d</string>
+	<string name="permdesc_sendSmsNoConfirmation">Позволяет приложению отправлять SMS сообщения. Вредоносные приложения могут использовать это разрешение для отправки сообщений на платные номера.</string>
+    <string name="permlab_sendSmsNoConfirmation">отправлять SMS сообщения без подтверждения</string>
 </resources>
