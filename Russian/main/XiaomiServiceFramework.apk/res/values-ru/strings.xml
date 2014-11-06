@@ -621,4 +621,8 @@
      <string name="upgrade_space_successful">Добавлено: %s Гб</string>
      <string name="upgrade_space_successful_total">Доступно: %s Гб</string>
      <string name="upgrade_space_tb">Тб</string>
+	 <string name="micloud_storage_expires_auto_renewal_sum">Необходимо продлить подписку</string>
+     <string name="micloud_storage_expires_manually_renewal_sum">Необходимо продлить подписку</string>
+     <string name="micloud_storage_expires_soon_title">Срок действия купленного места в Mi Cloud истекает</string>
+     <string name="micloud_storage_expires_very_soon_title">Срок действия купленного места в Mi Cloud истекает</string>
 </resources>

@@ -20,8 +20,8 @@
     <string name="unlocking_sim_card">Разблокировка SIM карты</string>
     <string name="short_pukcode_error_msg">Необходимо ввести не менее 8 цифр</string>
     <string name="short_pincode_error_msg">Введите 4–8 цифр</string>
-    <string name="input_pin_code">Введите PIN код</string>
-    <string name="input_pin_code_to_unlock">Введите PIN код для разблокировки устройства</string>
+    <string name="input_pin_code">Введите PIN</string>
+    <string name="input_pin_code_to_unlock">Введите PIN для разблокировки устройства</string>
     <string name="pincode_set_to_default_msg">Установлен PIN код 1234, вы можете изменить его здесь:</string>
     <string name="incorrect_pukcode_remaining_attempts">Неверный PUK код. Попыток осталось: %d</string>
     <string name="incorrect_pincode_remaining_attempts">Неверный PIN код. Попыток осталось: %d</string>

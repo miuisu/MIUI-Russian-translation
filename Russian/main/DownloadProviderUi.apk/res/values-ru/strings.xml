@@ -135,4 +135,8 @@
 	<string name="valid_in_this_month">только в этом месяце</string>
 	<string name="vip_auto_speedup">VIP ускорение</string>
 	<string name="xunlei_gaosu">Сервис загрузки Xunlei</string>
+	<string name="dialog_confirm_delete_checkbox_message">Удалить также загруженные файлы</string>
+	<string name="dialog_confirm_delete_downloads_message">Удалить выбранные загрузки? \n\nЗагрузок: %d</string>
+	<string name="size_unknown">Неизвестно</string>
+	<string name="dialog_confirm_delete_the_download_item_message">Удалить выбранные загрузки</string>
 </resources>
