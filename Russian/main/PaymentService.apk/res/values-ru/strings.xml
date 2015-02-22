@@ -300,4 +300,26 @@
     <string name="mibi_license_net_prompt_title">Разрешить приложению доступ к сети?</string>
     <string name="mibi_license_net_prompt_message">Для использования Mi Credit требуется доступ к сети.</string>
     <string name="mibi_license_checkbox_prompt">Запомнить</string>
+	<string name="button_bind_phone">Привязать</string>
+     <string name="button_count_down_reget">Получение проверочного кода (%1$s)</string>
+     <string name="button_reget">Получение кода</string>
+     <string name="button_sms_code">Подтвердить</string>
+     <string name="giftcard_define_detail">Используйте эти сертификаты как обычные Mi Credits. \nВы можете получать кредиты после участия в мероприятиях от Xiaomi.</string>
+     <string name="giftcard_title">Сертификаты Mi Credits</string>
+     <string name="illegal_intent">Недопустимый запрос</string>
+     <string name="label_giftcard">Подарочная карта:</string>
+     <string name="mipay_error">Ошибка Mipay</string>
+     <string name="partner_giftcard_payment">%1$s Mi Credits (только для %2$s)</string>
+     <string name="prepaid_card_order_info">%1$s Пополнение карты: %2$s Ұ</string>
+     <string name="prepaid_error_not_choose_carrier">Оператор не выбран</string>
+     <string name="progress_mipay_creating">Создание заказа…</string>
+     <string name="progress_warning_check_with_contact">Оплата на ваш аккаунт еще не поступила. \nПроверка производится в течение двух рабочих дней. \nЦентр обслуживания клиентов: 400-100-5678</string>
+     <string name="sms_code_error">Ошибка проверочного кода</string>
+     <string name="sms_code_hint">Проверочный код номера телефона</string>
+     <string name="summary_bind_phone">Чтобы обеспечить безопасность аккаунту, заполните данные после привязки номера телефона.</string>
+     <string name="summary_sms_code">Чтобы обеспечить безопасность аккаунту, введите проверочный код, полученный на номер %1$s.</string>
+     <string name="title_bind_phone">Привязка номера телефона</string>
+     <string name="title_need_prompt">Уведомлять меня, когда доступно подключение к интернету.</string>
+     <string name="title_prompt">Уведомление</string>
+     <string name="title_sms_code">Введите проверочный код</string>
 </resources>

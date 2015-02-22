@@ -91,4 +91,8 @@
 	<string name="wifi_problem3">Сеть Wi-Fi неожиданно отключается</string>
 	<string name="wifi_problem4">Не удается подключиться к сети</string>
 	<string name="hot_problem_empty">Пусто</string>
+	<string name="submit_dialog_cancel">Отмена</string>
+     <string name="submit_dialog_confirm">Отправить</string>
+     <string name="submit_dialog_content">Ваш отчет со всеми журналами ошибок будет отправлен на сервер Xiaomi</string>
+     <string name="submit_dialog_title">Отправить отчет в Xiaomi</string>
 </resources>

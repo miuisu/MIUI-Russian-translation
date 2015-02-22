@@ -1657,4 +1657,8 @@
     <string name="callFailed_simError_cdma">Нет UIM/SIM, или ошибка UIM/SIM</string>
     <string name="cipher_indication_notification_title">Нет шифрования речи</string>
     <string name="cipher_indication_notification_message">Шифрование речи отключено сетью</string>
+	<string name="international_roaming_setting">Международный роуминг</string>
+     <string name="password">Пароль</string>
+     <string name="port">Порт</string>
+     <string name="transport">Протокол</string>
 </resources>

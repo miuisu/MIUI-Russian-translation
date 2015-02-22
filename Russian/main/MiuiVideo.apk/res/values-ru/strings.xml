@@ -413,4 +413,9 @@
 	<string name="update_size_prefix"><CDATA>Размер:</CDATA></string>
 	<string name="update_title">Предупреждение</string>
 	<string name="update_version_prefix"><CDATA>Мы рекомендуем обновить приложение до новой версии:</CDATA></string>
+	<string name="home_net_content">Разрешить использовать мобильный интернет для воспроизведения видео? Может взиматься дополнительная плата оператором.</string>
+     <string name="home_net_title">Предупреждение</string>
+     <string name="priority_storage">Сохранять на SD карту</string>
+     <string name="priority_storage_summary">Автоматически сохранять видео на SD карту, если она подключена.</string>
+     <string name="suffix_countdown">сек.</string>
 </resources>

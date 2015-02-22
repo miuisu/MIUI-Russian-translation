@@ -6,14 +6,11 @@
         <item>Показывать номер</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
-        <item>LTE/CDMA</item>
-        <item>Только EvDo</item>
-        <item>CDMA без EvDo</item>
-        <item>CDMA/EvDo авто</item>
-        <item>GSM/WCDMA авто</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA/EvDo</item>
         <item>Только WCDMA</item>
         <item>Только GSM</item>
-        <item>GSM/WCDMA предпочтительно</item>
+        <item>Предпочтительно GSM / WCDMA</item>
     </string-array>
     <string-array name="list_language_entries">
         <item>Английский</item>

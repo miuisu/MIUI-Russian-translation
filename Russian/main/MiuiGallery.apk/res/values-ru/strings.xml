@@ -552,4 +552,6 @@
 	<string name="crop_recognize_text">Распознать</string>
 	<string name="crop_save_text_setas">Применить</string>
 	<string name="recognizing_image">Распознавание изображения…</string>
+	<string name="error_share_not_support">Эта функция пока не поддерживается</string>
+
 </resources>

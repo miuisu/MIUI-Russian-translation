@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fw_blocked_count_call">
+        <item quantity="other">Вызовов: %d</item>
+        <item quantity="one">Вызовов: 1</item>
+    </plurals>
+    <plurals name="fw_blocked_count_sms">
+        <item quantity="other">SMS: %d</item>
+        <item quantity="one">SMS: 1</item>
+    </plurals>
+    <plurals name="AD_COUNT">
+        <item quantity="other">Реклама: %d</item>
+        <item quantity="one">Реклама: 1</item>
+    </plurals>
+    <plurals name="AD_TITLE_COUNT">
+        <item quantity="other">Приложений с рекламой: %d</item>
+        <item quantity="one">Приложений с рекламой: 1</item>
+    </plurals>
+</resources>

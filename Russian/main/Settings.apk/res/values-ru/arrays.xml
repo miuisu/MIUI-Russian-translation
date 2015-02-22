@@ -265,7 +265,6 @@
     <string-array name="multi_sim_entries">
         <item>Подписка 1</item>
         <item>Подписка 2</item>
-        <item>Подписка 3</item>
     </string-array>
     <string-array name="multi_sim_summaries">
         <item>Подписка 1</item>
@@ -773,4 +772,9 @@
 		<item>Внутренняя память</item>
 		<item>Внешняя память</item>
 	</string-array>
+	<string-array name="network_speed_slow_summary">
+        <item>Медленная скорость из-за большой нагрузки</item>
+        <item>Медленная скорость из-за слабого сигнала</item>
+        <item>Перемещение…</item>
+     </string-array>
 </resources>

@@ -344,4 +344,5 @@
 	<string name="remember_preference">Запомнить</string>
 	<string name="allow">Разрешить</string>
 	<string name="web_permission_message">%1$s запрашивает доступ к %2$s</string>
+	<string name="select">Выбрать</string>
 </resources>

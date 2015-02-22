@@ -289,4 +289,7 @@
 	<string name="input_used_max_hint">Предел трафика (не более %s)</string>
 	<string name="privacy_declare_dialog_message">При использовании этого сервиса, вы соглашаетесь с &lt;a href=http://max.oupeng.com/eula.html&gt;условиями пользования&lt;/a&gt; компании Opera.</string>
     <string name="privacy_declare_dialog_title">Предупреждение</string>
+	<string name="privacy_prompt_purchase_history_message">Ваш номер телефона и информация об операторе будут загружены на сервер Xiaomi, чтобы получить историю платежей.</string>
+     <string name="privacy_prompt_traffic_adjust_message">Ваш номер телефона и информация об операторе будут загружены на сервер Xiaomi, чтобы обновить шаблон запроса SMS и проверить доступность этой возможности в вашем регионе.</string>
+     <string name="privacy_prompt_traffic_purchase_message">Ваш номер телефона и информация об операторе будут загружены на сервер Xiaomi, чтобы получить информацию о способах оплаты.</string>
 </resources>

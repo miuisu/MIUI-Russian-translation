@@ -4437,4 +4437,15 @@ Android File Transfer
     <string name="text_optimizer">Использовать сервис очистки онлайн</string>
     <string name="title_antivirus">Предупреждение</string>
     <string name="title_optimizer">Предупреждение</string>
+	<string name="android_beam_settings_title">Android Beam</string>
+     <string name="device_cpu2_info">"Два ядра "</string>
+     <string name="device_cpu4_info">"Четыре ядра "</string>
+     <string name="ime_privacy_policy">Политика конфидециальности метода ввода</string>
+     <string name="ime_privacy_policy_no_network">Интернет недоступен. Вы можете просмотреть ее здесь: %s</string>
+     <string name="name_antivirus">показать Политику конфиденциальности</string>
+     <string name="name_optimizer">Политика конфидециальности Cheetah Mobile</string>
+     <string name="pref_title_open_optimizer_cloud_scan">Сервис очистки онлайн</string>
+	 <string name="pref_summary_open_optimizer_cloud_scan">Загружать названия неизвестных файлов и приложений на сервер и проверять на наличие мусора</string>
+     <string name="summary_antivirus_oversea">Автоматическое обновление базы авнтивируса</string>
+     <string name="text_antivirus_oversea">Обновление базы антивируса</string>
 </resources>

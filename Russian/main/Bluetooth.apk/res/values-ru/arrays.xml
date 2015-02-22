@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="numberup">
+        <item>Одна страница на стороне</item>
+        <item>Две страницы на стороне</item>
+        <item>Четыре страницы на стороне</item>
+    </string-array>
+    <string-array name="orientation">
+        <item>Портретный</item>
+        <item>Альбомный</item>
+        <item>Перевернутый альбомный</item>
+        <item>Перевернутый портретный</item>
+    </string-array>
+    <string-array name="sides">
+        <item>Односторонний</item>
+        <item>Двухсторонний с длинным краем</item>
+        <item>Двухсторонний с коротким краем</item>
+    </string-array>
+</resources>

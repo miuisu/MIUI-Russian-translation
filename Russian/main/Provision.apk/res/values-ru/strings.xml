@@ -44,4 +44,5 @@
 	<string name="terms_disagree">Отмена</string>
 	<string name="terms_label">Условия пользования</string>
 	<string name="terms_of_service">Условия предоставления услуг</string>
+	<string name="sim_card_detection_info">Как вставить SIM карту прочитайте в прилагаемой к устройству инструкции</string>
 </resources>

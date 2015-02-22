@@ -47,4 +47,8 @@
     <string name="download_running_percent">В процессе, %d%%</string>
 	<string name="task_already_exist">Задача уже существует</string>
 	<string name="size_unknown">Неизвестно</string>
+	<string name="privacy_button_cancel">Отмена</string>
+     <string name="privacy_button_ok">ОК</string>
+     <string name="privacy_msg_body">Ускорение загрузки с помощью сервиса Xunlei</string>
+     <string name="privacy_tip_title">Использовать ускорение Xunlei?</string>
 </resources>

@@ -868,4 +868,22 @@
 	<string name="show_check_security_url_check_tip_dialog_description">Для защиты вашего интернет-соединения текущий URL будет отправлен на сервер для проверки безопасности</string>
 	<string name="show_check_security_url_check_tip_dialog_title">Проверка безопасности</string>
 	<string name="maximum_input_alert">Максимум 2048 символов</string>
+	<string name="adblock_rules_number_text">Блокировано: %d</string>
+     <string name="adblock_rules_restore">Восстановить</string>
+     <string name="adblock_websites_settings_empyt_hint">Пусто</string>
+     <string name="adblock_websites_settings_title">Заблокированное содержание</string>
+     <string name="block_ads_choice_block">Блокировать</string>
+     <string name="block_ads_choice_continue">Продолжить</string>
+     <string name="block_ads_message">Блокировать рекламу с этого сайта?</string>
+     <string name="block_ads_title">Предупреждение</string>
+     <string name="close_ads_choice_no">Отмена</string>
+     <string name="close_ads_choice_yes">ОК</string>
+     <string name="close_ads_message">Блокировать эту рекламу автоматически? \nЗаблокированное содержание будет отображаться в дополнительных настройках браузера.</string>
+     <string name="close_ads_title">Предупреждение</string>
+     <string name="data_traffic_prompt_change">При воспроизведении видео через мобильный интернет может взиматься дополнительная плата за трафик</string>
+     <string name="data_traffic_prompt_message">При использовании браузера через мобильный интернет может взиматься дополнительная плата за трафик</string>
+     <string name="data_traffic_prompt_title">Предупреждение</string>
+     <string name="video_project_button">Стоп</string>
+     <string name="video_project_msg">Отображение на %s</string>
+     <string name="video_project_title">Внешний экран</string>
 </resources>

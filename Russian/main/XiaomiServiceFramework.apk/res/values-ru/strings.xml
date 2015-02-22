@@ -625,4 +625,6 @@
      <string name="micloud_storage_expires_manually_renewal_sum">Необходимо продлить подписку</string>
      <string name="micloud_storage_expires_soon_title">Срок действия купленного места в Mi Cloud истекает</string>
      <string name="micloud_storage_expires_very_soon_title">Срок действия купленного места в Mi Cloud истекает</string>
+	 <string name="buy_space_expire">Оплата за место в Mi Cloud истекает в %s</string>
+     <string name="loading_hint">Загрузка</string>
 </resources>
