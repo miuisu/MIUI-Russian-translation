@@ -313,4 +313,10 @@
 	<string name="sim_not_ready">SIM карта не готова</string>
 	<string name="SMS_SERVICE">Служба черного списка</string>
     <string name="st_antispam_title_service_sms">Служба уведомлений</string>
+	<string name="ad_update_check_text">Автообновление</string>
+     <string name="ad_update_warn_info">Информация о версии блокировщика рекламы будет загружена на сервер Xiaomi для проверки обновлений</string>
+     <string name="report_warning">Отправить анонимный отчет %1$s по SMS в Xiaomi?</string>
+     <string name="report_warning_title">Отчет SMS</string>
+     <string name="st_title_sim_card">%1$s-SIM %2$s</string>
+     <string name="warning">Предупреждение</string>
 </resources>
